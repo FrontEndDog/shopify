@@ -1,0 +1,1088 @@
+
+{%- liquid
+  assign th_st = settings
+  assign product_style = th_st.product_style
+  assign st = section.settings
+  assign cls = st.collection
+    assign collection = collections[cls]
+     assign more_row = 'more-row'
+       assign container = st.container
+  %}
+  <section id="shopify-section-template--17215344476358__lt_countdown_qL7HHN" class="shopify-section lt-countdown">
+    <style>
+        .content-wapper {
+    display: flex;
+    flex-direction: column;
+}
+       .bls__product-load{
+            margin-bottom:15px;
+            overflow:hidden
+            }
+          @media (min-width: 768px) {
+            .bls__product-load{
+            margin-bottom:30px;
+            }
+          }
+
+      .bls__product-load .tw-card{
+         border-radius: 12px;
+        height:100%;
+      }
+      .bls__product-details{
+        padding:16px;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      @keyframes zsBox {
+        0% {
+          transform: translateY(0)
+        }
+
+        25% {
+          transform: translateY(-12%)
+        }
+
+        50% {
+          transform: translateY(0)
+        }
+
+        75% {
+          transform: translateY(12%)
+        }
+
+        to {
+          transform: translateY(0)
+        }
+      }
+
+      .lt-title .title_container {
+        display: flex;
+        width: 50vw;
+        max-width: 75vw;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+        line-height: 1.17;
+      }
+
+
+      .lt-title .title_container .zs {
+        width: 22px;
+      }
+
+      .lt-title .title_container .zs {
+        width: 32px;
+        object-fit: contain;
+        animation: zsBox 2.2s linear infinite;
+      }
+
+      @media (min-width: 768px) {
+        .lt-title .title_container .zs {
+          width: min(3.8vw, 58px);
+        }
+      }
+
+      .lt-title .title_container h2 {
+        font-size: 22px;
+      }
+
+      .lt-title .title_container h2 {
+        background-image: linear-gradient(0deg, #ffefd5 0%, #f8c079 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: 600;
+      }
+
+      .lt-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        padding-bottom: 80px;
+        font-size: 12px;
+        text-align: center;
+      }
+  @media (max-width: 768px) {
+      .lt-title {
+         padding-bottom: 30px;
+      }
+  }
+      @media (min-width: 768px) {
+        .lt-title .title_container h2 {
+          font-size: 2.5vw;
+        }
+      }
+
+
+      .lt-page p {
+        margin-bottom: 0;
+      }
+
+
+
+      .section-template--17215344476358__lt_countdown_qL7HHN-bg {
+        overflow: hidden;
+        background: var(--s-bg-gradient);
+        background-color: var(--s-bg);
+
+        background-image: url({{st.image | image_url:width:'1920x' }});
+
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      @media (max-width: 991px) {
+        .section-template--17215344476358__lt_countdown_qL7HHN-bg {
+
+          background-image: url({{st.mb_image | image_url:width: '750x' }});
+
+        }
+      }
+
+
+      .clock-wapper {
+        font-size: 0;
+        text-align: center;
+        background-size: cover;
+      }
+
+      @media (max-width: 768px) {
+        .clock-wapper {
+          --scale: 0.558;
+          height: calc(120px * var(--scale) + 60px);
+        }
+      }
+
+      @media (max-width: 480px) {
+        .clock-wapper {
+          height: calc(120px * var(--scale) + 20px);
+        }
+      }
+
+      .clock-container {
+        display: inline-block;
+        background: var(--b-gradient);
+        background-color: var(--b-color);
+        border: 6px solid transparent;
+        border-radius: 10px;
+      }
+
+      @media (max-width: 768px) {
+        .clock-container {
+          transform: scale(var(--scale)) translateX(5%);
+          transform-origin: top left;
+        }
+      }
+
+      .clock-container .clock {
+        display: flex;
+        justify-content: center;
+        padding: 14px 82px 35px;
+        border-radius: 10px;
+        min-width: 600px;
+        background: var(--bg-color);
+      }
+
+      @media only screen and (min-width: 481px) and (max-width: 768px) {
+        .clock-container .clock {
+          padding: 14px 24px 35px;
+        }
+      }
+
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .clock-container .clock {
+          padding: 14px 40px 35px;
+        }
+      }
+
+      .clock-container .flip-clock-wrapper ul li a div div.inn {
+        background: var(--card-bg);
+      }
+
+      .clock-container .flip-clock-wrapper ul li a div div.inn .inn-text {
+        background-image: var(--card-c-gradient);
+      }
+
+      .clock-container .flip-clock-dot {
+        background-image: var(--card-oc-gradient);
+        background-color: var(--card-oc);
+      }
+
+      .clock-container .flip-clock-divider .flip-clock-label {
+        background-image: var(--card-oc-gradient);
+        background-color: var(--card-oc);
+      }
+
+      .lt-bf-24 .countdown-section {
+        background-position: center bottom;
+        background-size: 100% auto;
+        padding-bottom: 11.5vw;
+      }
+
+      .lt-bf-24 .countdown-section {
+        position: relative;
+      }
+
+      .container,
+      .shopify-policy__container.shopify-policy__container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        --container-outer-margin: 0px;
+      }
+
+      .vertical-breather {
+        padding-top: 64px;
+        padding-bottom: 64px;
+      }
+        @media (max-width: 768px) {
+           .vertical-breather {
+        padding-top: 0px;
+        padding-bottom: 50px;
+      }
+        }
+    </style>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <section class="countdown-section section-template--17215344476358__lt_countdown_qL7HHN-bg"
+      style="--s-bg: {{ st.s_bg }};--s-bg-gradient: {{ st.s_bg_gradient }};">
+      <div class="container vertical-breather"
+        style="--bg-color: {{st.bg_color}};
+        --b-color: rgba(0,0,0,0);
+        --b-gradient:{{st.border_bg_gradient}};
+        --card-bg: {{st.size_bg_color}};
+        --card-c-gradient: {{st.size_gradient}};
+        --card-oc: rgba(0,0,0,0);
+        --card-oc-gradient: {{st.size_gradient}};">
+        <div class="lt-title appear-k an-down">
+          <div class="title_container  t4s-justify-content-center">
+            <h2>Countdown</h2>
+          </div>
+          <p>{{ st.title }}</p>
+        </div>
+        <link href="{{ 'flipclock.css'| asset_url }}"
+          rel="stylesheet" type="text/css" media="all">
+        <script type="text/javascript" src="{{ 'flipclock.js' | asset_url }}"></script>
+
+        <div id="clock-wapper" data-time="{{ st.countdown_time }}" class="clock-wapper" style="visibility: visible; --scale: 0.47794117647058826;">
+          <div class="clock-container">
+            <div class="clock flip-clock-wrapper"><span class="flip-clock-divider hours"><span
+                  class="flip-clock-label">HRS</span></span>
+              <ul class="flip ">
+                <li class="flip-clock-before"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">3</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">3</span></div>
+                    </div>
+                  </a></li>
+                <li class="flip-clock-active"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">4</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">4</span></div>
+                    </div>
+                  </a></li>
+              </ul>
+              <ul class="flip ">
+                <li class="flip-clock-before"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">2</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">2</span></div>
+                    </div>
+                  </a></li>
+                <li class="flip-clock-active"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">3</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">3</span></div>
+                    </div>
+                  </a></li>
+              </ul><span class="flip-clock-divider minutes"><span class="flip-clock-label">MINS</span><span
+                  class="flip-clock-dot top"></span><span class="flip-clock-dot bottom"></span></span>
+              <ul class="flip play">
+                <li class="flip-clock-before"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">3</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">3</span></div>
+                    </div>
+                  </a></li>
+                <li class="flip-clock-active"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">2</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">2</span></div>
+                    </div>
+                  </a></li>
+              </ul>
+              <ul class="flip play">
+                <li class="flip-clock-before"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">5</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">5</span></div>
+                    </div>
+                  </a></li>
+                <li class="flip-clock-active"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">4</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">4</span></div>
+                    </div>
+                  </a></li>
+              </ul><span class="flip-clock-divider seconds"><span class="flip-clock-label">SECS</span><span
+                  class="flip-clock-dot top"></span><span class="flip-clock-dot bottom"></span></span>
+              <ul class="flip play">
+                <li class="flip-clock-before"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">3</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">3</span></div>
+                    </div>
+                  </a></li>
+                <li class="flip-clock-active"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">2</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">2</span></div>
+                    </div>
+                  </a></li>
+              </ul>
+              <ul class="flip play">
+                <li class="flip-clock-before"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">5</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">5</span></div>
+                    </div>
+                  </a></li>
+                <li class="flip-clock-active"><a href="#">
+                    <div class="up">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">4</span></div>
+                    </div>
+                    <div class="down">
+                      <div class="shadow"></div>
+                      <div class="inn"><span class="inn-text">4</span></div>
+                    </div>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 引入 dayjs -->
+        <!-- 引入 dayjs -->
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.6/dayjs.min.js"></script>
+        <!-- 引入 dayjs 时区插件 -->
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.6/plugin/utc.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.6/plugin/timezone.js"></script>
+
+        <script type="text/javascript">
+          dayjs.extend(dayjs_plugin_utc);     // 加载 UTC 插件
+          dayjs.extend(dayjs_plugin_timezone); // 加载时区插件
+          console.log(diff); // 打印倒计时剩余秒数
+        </script>
+
+        <script type="text/javascript">
+          (function () {
+            // 设置缩放比例
+            function setScale() {
+              var el = $('#clock-wapper');
+              var containerWidth = el.width();
+              var elWidth = el.find('.clock-container').outerWidth();
+              var scale = containerWidth / elWidth;
+              if (scale > 1) return;
+              el[0].style.setProperty('--scale', scale * 0.9);
+            }
+
+            // 初始化倒计时
+            function init() {
+              setScale();
+const clockElement = document.getElementById("clock-wapper");
+const countdownTime = clockElement.getAttribute("data-time");
+              // 使用 dayjs 计算倒计时
+              let targetDate = dayjs(countdownTime).tz('Asia/Shanghai'); // 设置目标时间
+              let now = dayjs().tz('Asia/Shanghai'); // 获取当前时间
+              let diff = targetDate.diff(now, 'seconds'); // 计算目标时间与当前时间的差值，单位是秒
+
+              // 如果目标时间已经过去，则设置倒计时为 0
+              diff = diff < 0 ? 0 : diff;
+
+              // 使用 FlipClock 创建倒计时
+              clock = $('.clock').FlipClock(diff, {
+                clockFace: 'HourlyCounter',
+                countdown: true,
+                autoStart: true,
+                callbacks: {
+                  start: function () {
+                    $('.lt-countdown .clock-wapper').css('visibility', 'visible'); // 显示倒计时容器
+                  }
+                }
+              });
+            }
+
+            // 初始化倒计时
+            init();
+
+            // 监听窗口大小变化，重新计算缩放比例
+            window.addEventListener('resize', setScale);
+          })();
+        </script>
+      </div>
+    </section>
+  </section>
+  <section class="section-wapper lt-goods t4s-section-inner flash"
+    style="
+    --bg-color: rgba(0,0,0,0);
+    --bg-gradient:{{st.bg_gradient}};;
+    --border-cl: ;--mg-top: ;--mg-right: auto;--mg-bottom: ;
+    --mg-left: auto;
+    --pd-top: 0vw;
+    --pd-right: 0;
+    --pd-bottom: 5.2vw;
+    --pd-left: 0;--mgtb-top:
+    ;--mgtb-right: auto;
+    --mgtb-bottom: ;
+    --mgtb-left: auto;
+    --pdtb-top: 0vw;--pdtb-right: ;
+    --pdtb-bottom: 5.2vw;--pdtb-left: ;
+    --mgmb-top: ;--mgmb-right: auto;
+    --mgmb-bottom: ;--mgmb-left: auto;
+    --pdmb-top: 0vw;--pdmb-right: ;
+    --pdmb-bottom: 40px;--pdmb-left: ;">
+    <div class="section-container"
+      style="background:  {{st.bg_gradient}};">
+
+      <style>
+        .lt-bf-24 {
+          --btn-fz: 10px;
+        }
+
+        .lt-bf-24 .shopify-block.shopify-app-block {
+          padding-inline: 0;
+        }
+
+        .lt-bf-24 .lt-title {
+          --header-bottom: 24px;
+        }
+
+        .lt-bf-24 .lt-title .title_container h2 {
+          font-size: {{ st.pro_title_mb_size }}px;
+        }
+
+        .lt-bf-24 .lt-title p {
+          font-size: {{ st.desc_mb_size }}px;
+        }
+
+        .lt-bf-24 .lt-title .title_container {
+          gap: 12px;
+        }
+
+        .lt-bf-24 .lt-title .title_container .zs {
+          width: 22px;
+        }
+
+        .lt-bf-24 .lt-copy .code {
+          font-size: var(--btn-fz);
+        }
+
+        .lt-bf-24 .lt-copy button {
+          font-size: var(--btn-fz);
+          border-radius: 0 99px 99px 0;
+          color: #391506;
+        }
+
+        .lt-page.lt-bf-24 .lt-featured-collections .section-wapper {
+          --oke-stars-foregroundColor: #f1a057;
+          --lt-text-color: #f1a057;
+        }
+
+        .lt-page.lt-bf-24 .lt-featured-collections .section-wapper .t4s-product-title {
+          --product-title-color: #fee9cd;
+        }
+
+        .lt-page.lt-bf-24 .lt-featured-collections .section-wapper .t4s-product-price {
+          --product-price-color: #ffbb80;
+          --product-price-sale-color: #ffbb80;
+        }
+
+        .lt-page.lt-bf-24 .lt-featured-collections .section-wapper .t4s-product-price del {
+          color: #999;
+        }
+
+        .lt-bf-24 .lt-featured-collections .tabs-nav .tabs-nav__scroller-inner .tabs-nav__item-list {
+          --border-color: 255, 239, 213;
+        }
+
+        .lt-page.lt-bf-24 .lt-match {
+          --text-color: 218, 124, 52;
+        }
+
+        .lt-page.lt-bf-24 .lt-match .list {
+          --oke-stars-foregroundColor: #da7c34;
+        }
+
+        .lt-page.lt-bf-24 .lt-match .list .t4s-product-title {
+          --product-title-color: #1a1a1a;
+        }
+
+        .lt-page.lt-bf-24 .lt-match .list .t4s-product-price {
+          --product-price-color: #712b10;
+          --product-price-sale-color: #712b10;
+        }
+
+        .lt-page.lt-bf-24 .lt-match .list .t4s-product-price del {
+          color: #666;
+        }
+
+        .lt-bf-24 .lt-featured-collections .tabs-nav__item {
+          background-image: linear-gradient(0deg, #ffefd5 0%, #f8c079 100%);
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+          font-weight: 600;
+        }
+
+        .lt-bf-24 .lt-featured-collections .tabs-nav__position {
+          background: linear-gradient(180deg, #ffefd5 0%, #f8c079 100%);
+        }
+
+        .lt-bf-24 .lt-title .title_container {
+          width: unset;
+          max-width: 85vw;
+          padding-top:20px;
+        }
+
+        .lt-bf-24 .lt-title .title_container h2 {
+          background-image: {{st.title_gradient}};
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+          font-weight: 600;
+        }
+
+        .lt-bf-24 .lt-title p {
+         color: {{st.desc_color}};
+        }
+
+        .lt-page.lt-bf-24 .section-wapper {
+          --lt-text-color: #712b10;
+        }
+
+
+        .lt-bf-24 .lt-copy {
+          --lt-copy-btn-color: linear-gradient(0deg, rgba(255, 230, 204, 0.2), rgba(255, 230, 204, 0.2)),
+            linear-gradient(180deg, #ffe6cc 0%, #a74700 144.79%);
+          --lt-copy-text-color: #230200;
+          background-color: #ffefe0;
+        }
+
+        .lt-bf-24 button.lt-shop {
+          font-size: var(--btn-fz);
+          --lt-shop-btn-color: linear-gradient(180deg, #632100 20.83%, #3e1300 100%);
+        }
+
+        .lt-page.lt-bf-24 .lt-goods.flash.section-wapper {
+          background: var(--bg-gradient);
+          padding-top: 36px;
+        }
+
+        .lt-bf-24 .lt-goods .lt-title {
+          --header-bottom: 4.25vw;
+        }
+
+        .lt-bf-24 .lt-goods .card .card-content {
+          border-radius: 0 0 12px 12px;
+          padding: 8px 11px 11px;
+        }
+
+        .lt-bf-24 .lt-goods .card .card-content .content-wapper {
+          gap: 8px;
+        }
+
+        .lt-bf-24 .lt-goods .card .card-content h5 {
+          font-size: 11px;
+          text-align: start;
+          width: 100%;
+        }
+
+        .lt-bf-24 .lt-goods .card .card-content .price {
+          font-size: 18px;
+          justify-content: start;
+        }
+
+        .lt-bf-24 .lt-goods .card .card-content .price .origin {
+          font-size: 12px;
+          color: #a3a3a3;
+          opacity: 1;
+          font-weight: normal;
+        }
+
+        .lt-bf-24 .lt-goods .card .card-content .btns {
+          /* margin-top: 8px; */
+          width: 100%;
+          gap: 8px;
+          flex-direction: column;
+          height: unset;
+        }
+
+        .lt-bf-24 .lt-goods .card .card-content .btns>* {
+          flex-shrink: 0;
+        }
+
+        .lt-bf-24 .lt-goods .card .card-content .btns .lt-copy,
+        .lt-bf-24 .lt-goods .card .card-content .btns .lt-shop {
+          height: 30px;
+        }
+
+        .lt-bf-24 .lt-goods.best-sell .lt-title .title_container h2 {
+          background-image: linear-gradient(180deg, #c5853c 13.28%, #59230e 76.56%);
+        }
+
+        .lt-bf-24 .lt-goods.best-sell.section-wapper {
+          background: url(https://cdn.shopify.com/s/files/1/0559/2321/2486/files/bg_59b41768-d323-4900-8b1c-237efa73cf74.png?v=1730189655) top/cover no-repeat;
+        }
+
+        .lt-bf-24 .lt-star {
+          background: url(https://cdn.shopify.com/s/files/1/0559/2321/2486/files/bg_01.svg?v=1730195692) top/cover no-repeat;
+        }
+
+
+        .lt-bf-24 .countdown-section::after {
+          user-select: none;
+          content: '';
+          position: absolute;
+          bottom: 8vw;
+          left: 34%;
+          width: 20vw;
+          aspect-ratio: 7/5;
+          background: url({{st.icon |image_url}}) top/cover no-repeat;
+        }
+
+        .lt-bf-24 .lt-featured-collections .w__specialPromotion {
+          display: none;
+        }
+
+        .lt-bf-24 .lt-goods .card {
+          --br: 12px;
+        }
+
+        .lt-bf-24 .t4s-product .t4s-product-img {
+          --other-radius: 0;
+        }
+
+        @media (min-width: 768px) {
+          .lt-bf-24 .lt-title {
+            --header-bottom: 5.2vw;
+          }
+
+          .lt-bf-24 .lt-title .title_container h2 {
+            font-size: {{st.pro_title_size}}px;
+          }
+
+          .lt-bf-24 .lt-title p {
+            font-size: {{st.desc_size}}px;
+          }
+
+          .lt-bf-24 .lt-title .title_container {
+            gap: 2.5vw;
+          }
+
+          .lt-bf-24 .lt-title .title_container .zs {
+            width: min(3.8vw, 58px);
+          }
+
+          .lt-bf-24 .countdown-section {
+            padding-bottom: 5.5vw;
+          }
+
+          .lt-bf-24 .countdown-section::after {
+            left: 42%;
+            width: 9vw;
+            max-width: 146px;
+            bottom: 5.2vw;
+          }
+
+          .lt-page.lt-bf-24 .lt-goods.flash.section-wapper {
+            background: url(https://cdn.shopify.com/s/files/1/0559/2321/2486/files/decor_goods_left.png?v=1730186521) left center/200px auto no-repeat,
+              url(https://cdn.shopify.com/s/files/1/0559/2321/2486/files/decor_goods_bottom.png?v=1730187161) bottom 5.2vw right 4.16vw / auto 6.25vw no-repeat,
+              url(https://cdn.shopify.com/s/files/1/0559/2321/2486/files/decor_goods_top.png?v=1730187162) top 9vw right 16vw / auto no-repeat,
+              var(--bg-gradient);
+          }
+
+          .lt-bf-24 .lt-goods .card .card-content .btns {
+            flex-direction: row;
+          }
+
+          .lt-bf-24 .lt-goods .card .card-content .btns .lt-copy,
+          .lt-bf-24 .lt-goods .card .card-content .btns .lt-shop {
+            height: 34px;
+          }
+        }
+
+        @media (min-width: 1024px) {
+          .t4s-wrapper__custom .lt-bf-24 .t4s-container {
+            --wrapper-mw: 1560px;
+          }
+
+          .lt-bf-24 .lt-goods .card {
+            --btn-fz: clamp(12px, 0.8333vw, 16px);
+            font-size: var(--btn-fz);
+          }
+
+          .lt-bf-24 .lt-goods .card .card-content {
+            padding: 1.5em;
+          }
+
+          .lt-bf-24 .lt-goods .card .card-content .content-wapper {
+            gap: 1em;
+          }
+
+          .lt-bf-24 .lt-goods .card .card-content h5 {
+            font-size: 1em;
+          }
+
+          .lt-bf-24 .lt-goods .card .card-content .price {
+            font-size: 1.5em;
+          }
+
+          .lt-bf-24 .lt-goods .card .card-content .price .origin {
+            font-size: 0.75em;
+          }
+
+          .lt-bf-24 .lt-goods .card .card-content .btns {
+            gap: 1.5em;
+          }
+
+          .lt-bf-24 .lt-copy .code {
+            font-size: 1em;
+          }
+        }
+
+        @media (min-width: 1280px) {
+          .lt-bf-24 .lt-title {
+            font-size: 26.18px;
+          }
+
+          .lt-bf-24 .lt-goods .card .card-content .btns .lt-copy,
+          .lt-bf-24 .lt-goods .card .card-content .btns .lt-shop {
+            height: 44px;
+          }
+        }
+      </style>
+
+      <div class="lt-title appear-k an-down">
+        <div class="title_container ">
+          {% if st.left_image != blank %}
+          <img loading="lazy" class="zs left" height="92" width="73" alt=""
+            src="{{ st.left_image | image_url: width: '73'}}"
+            srcset="{{ st.left_image | image_url:width: '73'  }} 73w">
+           {% endif %}
+          <h2>{{ st.pro_title }}</h2>
+           {% if st.right_image != blank %}
+          <img loading="lazy" class="zs " height="92" width="73" alt=""
+            src="{{ st.right_image | image_url:  width: '73'  }}"
+            srcset="{{ st.right_image | image_url: width: '73'  }} 73w">
+           {% endif %}
+        </div>
+        <p>{{ st.pro_desc }}</p>
+      </div>
+
+      <div>
+  <div class=" {{ container }} section-full">
+         <div class="bls__product-with-banner">
+          {%- render 'sale-grid-layout' | st: st | | more_row: more_row -%}
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    #shopify-section-template--17215344476358__lt_countdown_qL7HHN .lt-title .title_container h2 {
+      display: none;
+    }
+
+    /* #shopify-section-template--17215344476358__lt_countdown_qL7HHN .vertical-breather {
+        padding-top: 18px;
+      } */
+  </style>
+
+<!-- Liquid schema -->
+
+
+{% schema %}
+  {
+    "name": "Countdown Activity Block",
+    "class": "lt-page lt-bf-24",
+    "settings": [
+         {
+  "type": "text",
+  "id": "countdown_time",
+  "label": "倒计时结束时间",
+  "default": "2024/12/06 12:59:59",
+  "info":"格式 2024/12/06 12:59:59"
+},
+
+           {
+            "type": "color",
+            "id": "s_bg",
+            "label": "倒计时块背景色",
+           "default": "#1a0b04"      
+          },
+           {
+            "type": "color_background",
+            "id": "s_bg_gradient",
+            "label": "倒计时块背景色",
+           "default": "#linear-gradient(180deg, rgba(18, 18, 18, 1) 27.3%, rgba(26, 10, 3, 1) 100%)"    
+
+          },
+           {
+            "type": "color",
+            "id": "bg_color",
+            "label": "倒计时文字板块背景色",
+           "default": "#2b2423"      
+          },
+           {
+            "type": "color_background",
+            "id": "border_bg_gradient",
+            "label": "边框背景色",
+           "default": "linear-gradient(90deg, rgba(180, 121, 62, 1), rgba(244, 217, 169, 1) 50%, rgba(160, 88, 36, 1) 100%)"      
+          },
+           {
+            "type": "color_background",
+            "id": "size_gradient",
+            "label": "倒计时字体颜色",
+           "default": "linear-gradient(180deg, rgba(172, 117, 60, 1), rgba(217, 182, 124, 1) 100%)"      
+          },
+           {
+            "type": "color",
+            "id": "size_bg_color",
+            "label": "倒计时字体背景颜色",
+           "default": "#2d2726"      
+          },
+          
+     {
+            "type": "color_background",
+            "id": "bg_gradient",
+            "label": "产品板块渐变背景色",
+            "info": "t:settings_schema.colors.settings.background_gradient.info",
+           "default": "linear-gradient(180deg, rgba(18, 18, 18, 1), rgba(26, 10, 3, 1) 100%)"
+       
+          },
+           {
+            "type": "color_background",
+            "id": "title_gradient",
+            "label": "产品块标题颜色",
+           "default": "linear-gradient(0deg, #ffefd5 0%, #f8c079 100%)"      
+          },
+           {
+            "type": "color",
+            "id": "desc_color",
+            "label": "产品块描述颜色",
+           "default": "#f9c98c"      
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "背景图片",
+            "info":"示例图片 https://cdn.shopify.com/s/files/1/0612/6079/2047/files/pc_254e8be8-95d7-40b8-b180-cc700176eea9.png?v=1733450354"
+          },
+          {
+            "type": "image_picker",
+            "id": "mb_image",
+            "label": "手机端背景图片",
+            "info":"示例图片  https://cdn.shopify.com/s/files/1/0612/6079/2047/files/dafdcd033a4d8dd6670c35d671373ae2_5115e10f-1a4a-43e7-8a59-dde9ec2c5623.png?v=1733451268"
+          },
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "钟表图标",
+            "info":"示例图片 https://cdn.shopify.com/s/files/1/0612/6079/2047/files/02cf70f9baeb59e3bf9a25dd946b4681.svg?v=1733450351"
+          },
+          {
+            "type": "image_picker",
+            "id": "left_image",
+            "label": "标题左侧图片",
+            "info":"示例图片 https://cdn.shopify.com/s/files/1/0612/6079/2047/files/icon-l_73x_8aa7fdec-2282-4b3d-b758-d96e3eebd4c6.svg?v=1733450350"
+          },
+          {
+            "type": "image_picker",
+            "id": "right_image",
+            "label": "标题右侧图片",
+            "info":"示例图片 https://cdn.shopify.com/s/files/1/0612/6079/2047/files/icon-r_73x_4a93dade-4e69-4eee-b9ae-2264e20ac5dc.svg?v=1733450350"
+          },
+      {
+      "type": "text",
+      "id": "title",
+      "label": "倒计时标题",
+      "default": "72 hours countdown, time is ticking away!"
+    },
+
+      {
+      "type": "text",
+      "id": "pro_title",
+      "label": "产品板块标题",
+         "default": "Cyber Monday: The Deals Return!"
+    },
+    {
+      "type": "range",
+      "id": "pro_title_size",
+      "label": "电脑端 标题大小",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "pro_title_mb_size",
+      "label": "手机端 标题大小",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 22
+    },
+      {
+      "type": "text",
+      "id": "pro_desc",
+      "label": "产品板块描述",
+         "default": "Don’t miss out! Code: CM2024"
+    },
+    {
+      "type": "range",
+      "id": "desc_size",
+      "label": "电脑端 描述文字大小",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 26
+    },
+    {
+      "type": "range",
+      "id": "desc_mb_size",
+      "label": "手机端 描述文字大小",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+       {
+      "type": "header",
+      "content": "t:sections.all.header.general"
+    },
+    {
+      "type": "select",
+      "id": "container",
+      "label": "t:sections.all.layout.label",
+      "default": "container",
+      "options": [
+        {
+          "value": "container",
+          "label": "t:sections.all.layout.options__1.label"
+        },
+        {
+          "value": "container-fluid",
+          "label": "t:sections.all.layout.options__2.label"
+        },
+        {
+          "value": "strecth-width",
+          "label": "t:sections.all.layout.options__3.label"
+        },
+        {
+          "value": "full-width",
+          "label": "t:sections.all.layout.options__4.label"
+        }
+      ]
+    },
+        {
+      "type": "header",
+      "content": "t:sections.products-grid.Product-settings"
+    },
+       {
+      "id": "collection",
+      "type": "collection",
+      "label": "t:sections.products-grid.settings.collection.label"
+    },
+   {
+      "type": "range",
+      "id": "limit_products",
+      "label": "t:sections.products-grid.settings.limit_products.label",
+      "min": 1,
+      "max": 30,
+      "step": 1,
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "item_desktop",
+      "label": "t:sections.products-grid.settings.item_desktop.label",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "column_gap",
+      "label": "t:sections.products-grid.settings.column_gap.label",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    ],
+     "presets": [
+    {
+      "name": "Countdown Activity Block"
+    }
+  ]
+  }
+{% endschema %}

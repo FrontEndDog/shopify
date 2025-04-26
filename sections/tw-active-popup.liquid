@@ -1,0 +1,426 @@
+
+   <style>
+        .tw-popup {
+              display: none;
+              position: fixed;
+              bottom: 100px;
+              left: 50%;
+              transform: translate(-50%, 100%);
+              color: white;
+              border-radius: 8px;
+              opacity: 0; 
+              animation: slideUp 0.5s ease-out forwards; 
+              z-index:999999;
+          }
+          #tw-popup.hide {
+            animation: slideDown 0.5s ease-out forwards; 
+          }
+        @media screen and (max-width: 768px) { 
+             .tw-popup {
+               width:85%;
+             }
+           .tw-discount_card{ 
+     width:100%;   
+    }
+          }
+          /* 从下到上的动画 */
+          @keyframes slideUp {
+              0% {
+                  transform: translate(-50%, 100%); /* 从页面底部开始 */
+                  opacity: 0;
+              }
+              100% {
+                  transform: translate(-50%, 0%); /* 到达弹出位置 */
+                  opacity: 1;
+              }
+          }
+      @keyframes slideDown {
+              0% {
+                   transform: translate(-50%, 0%); /* 到达弹出位置 */
+                  opacity: 1;
+              }
+              100% {
+
+                  transform: translate(-50%, 100%); /* 从页面底部开始 */
+                  opacity: 0;
+              }
+          }
+        .tw-discount_card{
+          background:var (--bg_color);
+        }
+  </style>
+<style>
+  .tw-discount_card{
+    background: var(--bg_color);
+    background: var(--bg_gradient);
+  }
+    @media screen and (min-width: 900px) {
+    .tw-discount_card{ 
+      min-width:350px      
+    }
+    }
+.tw-card-title{
+  font-size:var(--title_size);
+  color: var(--title_color);
+}
+.tw-card-desc{
+  font-size:var(--desc_size);
+  color:var(--desc_color);
+}
+
+.tw-card-sale{
+  font-size:var(--sale_size);
+  color:var(--sale_color);
+}
+.tw-card-price{
+  font-size:var(--del_size);
+  color:var(--del_color);
+}
+</style>
+
+{%- liquid
+  assign st = section.settings
+  %}
+<div class="tw-popup" id="tw-popup" style="
+--bg_color: {{st.background}};
+--bg_gradient: {{st.background_gradient}};
+--custom-icon: {{st.custom_image}};
+--title_size: {{st.title_size | append: 'px'}};
+--title_color: {{st.title_color}};
+--desc_size: {{st.desc_size | append: 'px'}};
+--desc_color: {{st.desc_color}};
+--sale_size: {{st.sale_size  | append: 'px'}};
+--del_size: {{st.del_size | append: 'px'}};
+--del_color: {{st.del_color}};
+--sale_color: {{st.sale_color}};">
+  <div class="tw-p-4 md:tw-p-5 tw-relative tw-rounded-xl tw-inline-flex tw-items-center tw-gap-2 tw-discount_card" style="background-image:linear-gradient(to right, #9e5455,#b48982);">
+    <div>
+      {% if st.custom_image != blank %}
+        <img src="{{ st.custom_image | image_url: width: '32' }}" width="32" height="32" />
+      {%else %}    
+        <svg t="1733289740204" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7938" width="32" height="32"><path d="M105.13 930.27c0 23.47 6.81 29.91 28.12 29.91h337.44V511.75H105.13z m448.18 29.91h337.44c21.35 0 28.12-6.4 28.12-29.91V511.75h-365.6v448.43z m366.13-692.65H715.72c49.18-11.2 101.12-47.46 107.52-90 7.5-48.57-50.19-122.19-120-112.86C619.77 76.2 558.57 149.87 515.38 207c-42.86-56-98.72-121.47-178.74-140.5-77.5-18.33-130.58 62-129.16 111.72 1.39 42.25 50.24 78.15 100.8 89.31H104.56c-25.18 0-40.74 14.18-40.74 40.75v162.89l407.44 0.08V267.53h81.48v203.72l407.44-0.08V308.28c0-26.57-15.6-40.75-40.74-40.75z m-656.06-74.31c-14.1-15.69-4.56-37 4.28-53.09 16.26-28.36 38.91-45.59 77.49-29.54 53.79 22.45 93.39 69.92 125.66 112.49-68.33 7.54-170.27 10.47-207.43-29.86z m297.27 29.13c33.24-42.62 71.83-85.89 125.24-112.49 56-27.67 107.93 47.1 81.37 83C746.81 220.11 682 222.68 647 224.22a604.36 604.36 0 0 1-86.35-1.87z" fill="#FF716E" p-id="7939"></path><path d="M470.69 511.75H244.15a464.69 464.69 0 0 0-6.06 448.43h232.6zM552.74 287.08v184.17l407.44-0.08v-72.55a465 465 0 0 0-407.44-111.54zM918.87 930.27V511.75h-365.6v448.43h337.48c21.35 0 28.12-6.4 28.12-29.91zM471.26 471.25V312a465.61 465.61 0 0 0-201.09 159.21z" fill="#FF5C64" p-id="7940"></path><path d="M553.27 960.18h337.48c21.35 0 28.12-6.4 28.12-29.91V511.75h-365.6zM364.91 846.47a405.26 405.26 0 0 0 16.19 113.71h89.59V573.55a403.52 403.52 0 0 0-105.78 272.92zM769.92 441.47a403.81 403.81 0 0 0-152.7 29.77l305.24-0.06a403.8 403.8 0 0 0-152.54-29.71z" fill="#FC4956" p-id="7941"></path><path d="M902.36 620.49c-148.68 0-278.65 80.12-349.09 199.54v140.15h337.48c21.35 0 28.12-6.4 28.12-29.91V620.82q-8.22-0.33-16.51-0.33z" fill="#F23D4F" p-id="7942"></path><path d="M299.27 304.25c7.59 11.39-32.34 25.47-74.46 53.53s-70.48 59.5-78.08 48.11 15.7-50.44 57.82-78.51 87.13-34.53 94.72-23.13z" fill="#FFFFFF" p-id="7943"></path></svg>
+   {% endif %}
+    </div>
+    <div>
+        <div class="tw-flex tw-items-center tw-gap-1 md:tw-gap-3 tw-flex-wrap tw-text-white">
+            <div class="tw-text-base tw-card-title">
+              {{st.title  }}          
+            </div>
+            <div class="tw-flex tw-items-baseline tw-gap-2">
+              {% assign original_price = product.price %}
+                {%- liquid
+              assign target = product.selected_or_first_available_variant
+              assign compare_at_price = target.compare_at_price
+              assign price = target.price | default: 1999
+              -%}
+              {% if st.discount_type == "1" %}
+              {% assign sale_p = st.sale_percent %}
+            {% assign discount_factor = sale_p | divided_by: 100.0 %}
+            {% assign percent = 1.0 | minus: discount_factor %}
+            {% assign price = original_price | times: percent %}
+              {%- if compare_at_price > price and compare_at_price != blank -%}
+                
+               {%- assign p = compare_at_price | minus: price -%}
+                    {%- if p > 0 -%}
+                        {%- assign p = p | times: 100.0 | divided_by: compare_at_price | round -%}
+                      {%- endif -%}
+                     <span> {{- p -}} % OFF</span>
+              {%- endif -%}
+                {% elsif st.discount_type == "2" %}
+                  {% assign sale_p = st.sale_price  | times: 100 %}
+                  {% assign price = original_price | minus: sale_p %}
+                {%- if compare_at_price > price and compare_at_price != blank -%}
+               {%- assign p = compare_at_price | minus: price -%}
+                    {%- if p > 0 -%}
+                        {%- assign p = p | times: 100.0 | divided_by: compare_at_price | round -%}
+                      {%- endif -%}
+                     <span> {{- p -}} % OFF</span>
+              {%- endif -%}
+                  {% else %}
+                {%- if compare_at_price > price and compare_at_price != blank -%}
+               {%- assign p = compare_at_price | minus: price -%}
+                    {%- if p > 0 -%}
+                        {%- assign p = p | times: 100.0 | divided_by: compare_at_price | round -%}
+                      {%- endif -%}
+                     <span> {{- p -}} % OFF</span>
+              {%- endif -%}
+
+                {% endif %}
+              
+              
+             {% if product.compare_at_price > product.price %}
+                <del class="tw-font-bold tw-text-sm tw-card-price">{{ product.compare_at_price | money }}</del>
+                <span class="tw-text-lg tw-font-bold tw-card-sale">
+
+{% if st.discount_type == "1" %}
+{% assign sale_p = st.sale_percent %}
+{% assign discount_factor = sale_p | divided_by: 100.0 %}
+{% assign percent = 1.0 | minus: discount_factor %}
+{% assign discounted_price = original_price | times: percent %}
+{{ discounted_price | money }}
+
+{% elsif st.discount_type == "2" %}
+  {% assign sale_p = st.sale_price  | times: 100 %}
+  {% assign discounted_price = original_price | minus: sale_p %}
+  {{ discounted_price | money }}
+{% else %}
+  {{ original_price | money }}
+{% endif %}
+
+                </span>
+               
+              {% else %}
+                <span class="tw-text-lg tw-font-bold">
+                  {{ product.price | money }}
+                </span>
+              {% endif %}
+
+            
+            </div>
+        </div>
+        <p class="tw-text-white tw-text-sm tw-card-desc">{{st.description }}</p>
+    </div>
+  </div>
+</div>
+                
+ <script>
+  // 配置选项
+  const popupConfig = {
+    displayDuration: {{ st.hide_time }},  // 弹框显示时间（单位：秒）
+    showInterval: {{ st.time }},     // 弹框显示间隔（单位：小时）
+    storageKey: 'lastPopupShowTime_{{ section.id }}', // 存储上次显示时间的 localStorage 键名
+    isshowInterval: {{ st.interval }},  // 是否启用时间间隔，false 时每次都显示弹框
+  };
+
+  /**
+   * 获取当前时间戳（毫秒）
+   */
+  function getCurrentTime() {
+    return new Date().getTime();
+  }
+
+  /**
+   * 获取上次弹框显示时间
+   */
+  function getLastPopupShowTime() {
+    const lastShowTime = localStorage.getItem(popupConfig.storageKey);
+    return lastShowTime ? parseInt(lastShowTime, 10) : null;
+  }
+
+  /**
+   * 保存当前时间为弹框显示时间
+   */
+  function setLastPopupShowTime() {
+    localStorage.setItem(popupConfig.storageKey, getCurrentTime());
+  }
+
+  /**
+   * 判断是否已经超出弹框显示间隔时间
+   */
+  function shouldShowPopup() {
+    if (!popupConfig.isshowInterval) {
+      return true; // 如果不启用时间间隔，每次都显示弹框
+    }
+
+    const lastShowTime = getLastPopupShowTime();
+    if (!lastShowTime) return true; // 第一次加载，直接显示弹框
+
+    // 计算间隔时间，判断是否应该重新显示弹框
+    const currentTime = getCurrentTime();
+    const elapsedTime = currentTime - lastShowTime; // 毫秒
+    const intervalTime = popupConfig.showInterval * 60 * 60 * 1000; // 转换为毫秒
+    return elapsedTime >= intervalTime;
+  }
+
+  /**
+   * 显示弹框并设置定时自动关闭
+   */
+  function showPopup() {
+    const popup = document.getElementById('tw-popup');
+    popup.style.display = 'block';  // 显示弹框
+
+    // 设置弹框显示时间，之后自动关闭
+    setTimeout(function () {
+      // popup.style.display = 'none'; // 隐藏弹框
+      popup.classList.add('hide'); // 隐藏弹框
+    }, popupConfig.displayDuration * 1000); // 转换为毫秒
+
+    // 保存当前时间为弹框显示时间
+    setLastPopupShowTime();
+  }
+
+  /**
+   * 初始化弹框显示逻辑
+   */
+  function initPopup() {
+    if (shouldShowPopup()) {
+      showPopup();
+    }
+  }
+
+  // 初始化弹框
+  window.addEventListener('load', initPopup);
+</script>
+
+      
+{% schema %}
+  {
+    "name": "Activity Popup",
+    "settings": [
+      { "type": "checkbox",
+        "id": "interval",
+        "label": "是否启用时间间隔" ,
+         "default": false,
+        "info":"启用之后规定时间内不在弹出, 不启用则每次进入页面弹出"
+      },
+         {
+      "type": "range",
+      "id": "time",
+      "label": "弹出时间间隔",
+      "max": 48,
+      "min": 1,
+      "step": 1,
+      "unit": "hr",
+      "default": 6,
+      "info":"单位小时"
+    },
+       {
+      "type": "range",
+      "id": "hide_time",
+      "label": "默认隐藏时间",
+      "max": 100,
+      "min": 1,
+      "step": 1,
+      "unit": "s",
+      "default": 6,
+      "info":"单位 秒"
+    },
+ {
+            "type": "color",
+            "id": "background",
+            "label": "t:settings_schema.colors.settings.background.label",
+            "default": "#FFFFFF"
+          },
+     {
+            "type": "color_background",
+            "id": "background_gradient",
+            "label": "t:settings_schema.colors.settings.background_gradient.label",
+            "info": "t:settings_schema.colors.settings.background_gradient.info",
+        "default": "linear-gradient(to right, #9e5455,#b48982)"
+       
+          },
+    {
+      "type": "image_picker",
+      "id": "custom_image",
+      "label": "自定义活动图标",
+      "info": "image size 32x32"
+    },
+      {
+  "type": "radio",
+  "id": "discount_type",
+  "label": "折扣类型",
+  "options": [
+    { "value": "0", "label": "无" },
+    { "value": "1", "label": "百分比" },
+    { "value": "2", "label": "金额" }
+  ]
+},
+ {
+      "type": "range",
+      "id": "sale_percent",
+      "label": "折扣百分比",
+      "max": 100,
+      "min": 1,
+      "step": 1,
+      "unit": "%",
+      "default": 20
+    },
+      {
+      "type": "number",
+      "id": "sale_price",
+      "label": "折扣金额",
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "折扣标题",
+      "default":"Limined-Time Sale-Save "
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "折扣标题字体大小",
+      "max": 48,
+      "min": 12,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "折扣标题颜色",
+       "default":"#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "折扣描述",
+       "default":"Save big—hurry, time’s running out!"
+    },
+    {
+      "type": "range",
+      "id": "desc_size",
+      "label": "折扣描述字体大小",
+      "max": 48,
+      "min": 12,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "desc_color",
+      "label": "折扣描述颜色",
+      "default":"#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "sale_size",
+      "label": "活动价格字体大小",
+      "max": 48,
+      "min": 12,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+      {
+      "type": "color",
+      "id": "sale_color",
+      "label": "活动价格颜色",
+      "default":"#dd3327"
+    },
+        {
+      "type": "range",
+      "id": "del_size",
+      "label": "历史价格字体大小",
+      "max": 48,
+      "min": 12,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+      {
+      "type": "color",
+      "id": "del_color",
+      "label": "历史价格颜色",
+      "default":"#ffffff"
+    },
+    ],
+     "presets": [
+    {
+      "name": "Activity Popup"
+    }
+  ]
+  }
+{% endschema %}

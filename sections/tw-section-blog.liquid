@@ -1,0 +1,255 @@
+<style>
+    .wt-block-grid__item{
+  color: inherit;
+    font: inherit;
+    cursor: pointer;
+    text-align: left;
+    -webkit-tap-highlight-color: #0000;
+    -webkit-appearance: none;
+    cursor: pointer;
+    z-index: 10;
+    background: 0 0;
+    border: none;
+    outline: none;
+    max-width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    height: fit-content;
+    transition: box-shadow .3s ease-in-out;
+}
+.wt-block-grid__item::before{
+  position: absolute;
+  content: "";
+    opacity: 0;
+    box-shadow: var(--clg-effect-sem-shadow-elevation-3,0px 1px 3px 0px #0000004d,0px 4px 8px 3px #00000026);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: -1;
+    top: 3px;
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+    border-radius: 18px;
+    transition: opacity .15s ease-out, top .2s cubic-bezier(.345,.115,.135,1.42), bottom .15s ease-out, left .2s cubic-bezier(.345,.115,.135,1.42), right .15s ease-out;
+}
+
+.wt-block-grid__item:hover:before {
+    opacity: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 8;
+}
+
+      .screen-reader-only,
+      .wt-screen-reader-only {
+        clip: rect(0 0 0 0) !important;
+        border: 0 !important;
+        width: 1px !important;
+        height: 1px !important;
+        margin: -1px !important;
+        padding: 0 !important;
+        position: absolute !important;
+        overflow: hidden !important;
+      }
+    
+     .section-{{ section.id }}-block {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-block {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .tw-grid--block {
+    margin: -14px;
+}
+@media screen and (max-width: 768px) {
+ .custom-blog .wt-text-truncate--multi-line {
+    display: none;
+  }
+  .tw-blog-content{
+  padding-top:20px;
+  }
+}
+  </style>
+<div class="section-{{ section.id }}-block">
+  <div class="tw-mx-auto tw-max-w-[1400px] tw-px-1.5">
+    {% if section.settings.title %}
+      <h2 class="tw-text-[27px] tw-leading-[1.3] tw-font-medium tw-mb-[18px]">{{ section.settings.title | escape }}</h2>
+    {% endif %}
+    <ul class="tw-grid tw-grid--block tw-grid-cols-1 md:tw-grid-cols-3 tw-justify-center tw-items-start tw-pt-4 tw-px-1.5">
+      {% for block in section.blocks %}
+        {% assign article = block.settings.article %}
+        {% if article %}
+          <li class="wt-block-grid__item tw-rounded-xl tw-p-2 tw-pb-7 tw-relative" {{ block.shopify_attributes }}>
+            {% if article.url and article.title %}
+              <a
+                data-clg-id="WtCardAction"
+                class="tw-absolute tw-inset-0 tw-z-10"
+                href="{{ article.url }}"
+              >
+                <span class="wt-screen-reader-only">{{ article.title | escape }}</span>
+              </a>
+            {% endif %}
+            <div data-clg-id="WtCard" class="tw-relative tw-w-full tw-h-full">
+              <div
+                data-clg-id="WtCardContent"
+                class="wt-card__inner tw-bg-white tw-rounded-xl tw-overflow-hidden"
+              >
+                <div class="tw-flex tw-flex-wrap tw-relative">
+                  <div class="tw-flex-1 tw-basis-2/5 md:tw-basis-full tw-max-w-full">
+                    <div
+                      class="tw-pt-[100%] tw-rounded-xl tw-overflow-hidden tw-h-full tw-relative"
+                    >
+                      {% if article.image != blank %}
+                        {{ article.image | image_url: width: 600 | image_tag: widths: '200, 600',
+                          class: 'tw-absolute tw-top-0 tw-block tw-h-full tw-w-full tw-object-cover',
+                          loading: 'lazy'
+                        }}
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div
+                    class="tw-flex-1 tw-basis-3/5 md:tw-basis-full tw-max-w-full tw-px-1.5 tw-pt-0 tw-blog-content"
+                  >
+                    {% if block.settings.badge %}
+                      <span
+                        data-clg-id="WtBadge"
+                        class="md:tw-absolute tw-bg-[#eaeaea] tw-z-10 md:tw-ml-3 md:-tw-mt-3 tw-break-words tw-rounded-xl tw-min-w-6 tw-px-2 tw-py-1.5 tw-text-[13px] tw-font-normal tw-leading-none tw-inline-block"
+                      >
+                        {{ block.settings.badge | escape }}
+                      </span>
+                    {% endif %}
+                    {% if article.title %}
+                      <p
+                        class="tw-pt-4 md:tw-pt-7 tw-mb-1.5 tw-text-base md:tw-text-lg tw-font-medium tw-leading-tight tw-tracking-[.09505px]"
+                      >
+                        {{ article.title | escape }}
+                      </p>
+                    {% endif %}
+                    <p class="wt-text-truncate--multi-line tw-mb-5">
+                      <span
+                        class="tw-tracking-[.16px] tw-text-base tw-font-normal tw-leading-[1.4] tw-hidden md:tw-block"
+                      >
+                        {%- if article.excerpt.size > 0 -%}
+                          {{ article.excerpt | strip_html | truncatewords: 15 }}
+                        {%- else -%}
+                          {{ article.content | strip_html | truncatewords: 15 }}
+                        {%- endif -%}
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Custom 精选博客",
+  "class": "custom-blog",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default":"Fresh from the blog"
+    }, {
+      "type": "header",
+      "content": "外边距"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "top",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "bottom",
+      "default": 0
+    }, {
+      "type": "header",
+      "content": "内边距"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "bottom",
+      "default": 80
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Blog Card",
+      "settings": [
+         {
+          "type": "text",
+          "id": "badge",
+          "label": "Badge Text",
+          "default": "Shopping Guides"
+        },
+           {
+      "type": "article",
+      "id": "article",
+      "label": "选择博客"
+    },
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom 精选博客",
+      "blocks": [
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        },
+        {
+          "type": "card"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

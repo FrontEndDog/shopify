@@ -1,0 +1,424 @@
+<style>
+   .wt-btn {
+        background-color: #e6e6e6;
+        box-shadow: 0 0 transparent;
+        transition: transform 0.2s cubic-bezier(0.345, 0.115, 0.135, 1.42),
+          backgroundColor 0.15s ease-out;
+      }
+      .wt-btn:hover {
+        background-color: #c8c8c8;
+        box-shadow: var(
+          --clg-effect-sem-shadow-elevation-3,
+          0px 1px 3px 0px #0000004d,
+          0px 4px 8px 3px #00000026
+        );
+      }
+      .placeholder.placeholder-square:before {
+    padding: 0 0 100%;
+}
+.height-placeholder {
+    padding: 0 0 100%;
+}
+.placeholder:before {
+    content: "";
+    display: block;
+}
+.listing-card-price-badge{
+    display: none;
+    color: #222 !important;
+    z-index: 10;
+    bottom: 0 !important;
+    position: absolute;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    visibility: visible;
+    animation-name: web-toolkit-wt-animated--appear-02;
+    animation-duration: .3s;
+    animation-timing-function: cubic-bezier(.175,.745,.425,1.11);
+}
+@keyframes web-toolkit-wt-animated--appear-02 {
+    0% {
+        opacity: 0;
+        transform: translateY(12px)scale(.98)perspective(1px)
+    }
+
+    99% {
+        opacity: 1;
+        transform: translateY(0)scale(1)perspective(1px)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+.tw-badge{
+    word-break: break-word;
+    border-radius: 12px;
+    min-width: 25px;
+    padding: 6px 8px;
+    font-size: 12.99px;
+    font-weight: 400;
+    line-height: 1;
+    display: inline-block;
+color:#222;
+background:white;
+text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    min-width: 0 !important;
+    overflow: hidden !important;
+
+}
+.js-merch-stash-check-listing:hover .listing-card-price-badge{
+    display: block;
+}
+.js-merch-stash-check-listing:hover .placeholder {
+        box-shadow: var(--clg-effect-sem-shadow-elevation-3, 0px 1px 3px 0px #0000004d, 0px 4px 8px 3px #00000026);
+    }
+
+     .section-{{ section.id }}-block {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-block {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  </style>
+<div class="tw-px-1.5 section-{{ section.id }}-block">
+  <div class="tw-mx-auto tw-max-w-[1400px] tw-px-1.5">
+    <div class="tw-w-full tw-flex tw-flex-wrap">
+      <!-- Text Section -->
+      <div
+        class="tw-flex-1 tw-basis-full md:tw-basis-1/2 tw-max-w-full md:tw-max-w-[50%] tw-px-5 md:tw-pl-10 tw-self-center md:tw-flex md:tw-flex-col tw-justify-end"
+      >
+        {% if section.settings.subtitle %}
+          <p
+            class="tw-text-[#595959] tw-text-base tw-font-normal tw-tracking-[.16px] tw-leading-tight md:tw-leading-normal"
+          >
+            {{ section.settings.subtitle | escape }}
+          </p>
+        {% endif %}
+        {% if section.settings.title %}
+          <h2
+            class="tw-mt-1.5 tw-mb-2.5 md:tw-mbESD-1.5 tw-text-2xl tw-font-medium tw-leading-tight md:tw-text-[27px] md:tw-leading-[1.3] tw-tracking-[.12px] md:tw-tracking-[.13505px] tw-text-[#222] md:tw-pr-10"
+          >
+            {{ section.settings.title | escape }}
+          </h2>
+        {% endif %}
+        {% if section.settings.description %}
+          <p
+            class="md:tw-pr-10 tw-text-[#595959] tw-text-base tw-font-normal tw-tracking-[.16px] tw-leading-tight md:tw-leading-normal tw-pb-6"
+          >
+            {{ section.settings.description | escape }}
+          </p>
+        {% endif %}
+        {% if section.settings.button_link and section.settings.button_text %}
+          <a
+            href="{{ section.settings.button_link | escape }}"
+            class="wt-btn tw-hidden md:tw-inline-block tw-w-fit tw-px-[18px] tw-py-3 tw-text-base tw-font-medium tw-leading-normal tw-rounded-3xl tw-min-h-12 tw-border-none tw-outline-none tw-text-[#222]"
+            title="{{ section.settings.button_text | escape }}"
+          >
+            {{ section.settings.button_text | escape }}
+          </a>
+        {% endif %}
+      </div>
+
+      <!-- Product Cards -->
+      {% for block in section.blocks %}
+        {% if block.settings.product or block.settings.image %}
+          <div class="tw-flex-shrink-0 tw-p-1.5 md:tw-p-2 tw-flex-1 tw-basis-1/2 md:tw-basis-1/4 tw-max-w-[50%] md:tw-max-w-[25%]" {{ block.shopify_attributes }}>
+            <div class="tw-relative tw-rounded-xl tw-w-full js-merch-stash-check-listing">
+              {% if block.settings.product and block.settings.product.url %}
+                <a href="{{ block.settings.product.url }}" class="tw-inline-block tw-w-full">
+              {% else %}
+                <div class="tw-inline-block tw-w-full">
+              {% endif %}
+                <div class="tw-relative tw-rounded-sm">
+                  <div
+                    class="tw-bg-[#ebebeb] tw-relative tw-rounded-xl tw-overflow-hidden tw-h-full placeholder placeholder-square"
+                  >
+                    <div
+                      class="tw-absolute tw-inset-0"
+                      style="background-color: #b7b7b6"
+                    >
+                      <div class="height-placeholder">
+                        {% if block.settings.image != blank %}
+                          {{ block.settings.image | image_url: width: 600 | image_tag: widths: '200, 600',
+                            class: 'tw-absolute tw-block hover:tw-scale-[1.07] tw-max-w-full tw-object-cover tw-h-auto tw-rounded-xl tw-transition-all tw-duration-300',
+                            loading: 'lazy'
+                          }}
+                        {% elsif block.settings.product %}
+                          {%- if block.settings.product.featured_media != blank -%}
+                            {{ block.settings.product.featured_media | image_url: width: 600 | image_tag: widths: '200, 600',
+                              class: 'tw-absolute tw-block hover:tw-scale-[1.07] tw-max-w-full tw-object-cover tw-h-auto tw-rounded-xl tw-transition-all tw-duration-300',
+                              loading: 'lazy'
+                            }}
+                          {% elsif block.settings.product.images[1] %}
+                            {{ block.settings.product.images[1] | image_url: width: 600 | image_tag: widths: '200, 600',
+                              class: 'tw-absolute tw-block hover:tw-scale-[1.07] tw-max-w-full tw-object-cover tw-h-auto tw-rounded-xl tw-transition-all tw-duration-300',
+                              loading: 'lazy'
+                            }}
+                          {% endif %}
+                        {% endif %}
+                        {% if block.settings.product %}
+                          <p class="listing-card-price-badge">
+                            {%- liquid
+                              assign product = block.settings.product
+                              assign product_price = product.price
+                              assign product_compare_at_price = product.compare_at_price
+                            -%}
+                            <span class="tw-badge">{{ product.price | money }}
+                              {% if product_compare_at_price > product_price %}
+                                <del class="tw-font-normal" style="margin-left:4px;">{{ product_compare_at_price | money }}</del>
+                              {% endif %}
+                            </span>
+                          </p>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              {% if block.settings.product and block.settings.product.url %}
+                </a>
+              {% else %}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div><div class="tw-px-1.5 section-{{ section.id }}-block">
+  <div class="tw-mx-auto tw-max-w-[1400px] tw-px-1.5">
+    <div class="tw-w-full tw-flex tw-flex-wrap">
+      <!-- Text Section -->
+      <div
+        class="tw-flex-1 tw-basis-full md:tw-basis-1/2 tw-max-w-full md:tw-max-w-[50%] tw-px-5 md:tw-pl-10 tw-self-center md:tw-flex md:tw-flex-col tw-justify-end"
+      >
+        {% if section.settings.subtitle %}
+          <p
+            class="tw-text-[#595959] tw-text-base tw-font-normal tw-tracking-[.16px] tw-leading-tight md:tw-leading-normal"
+          >
+            {{ section.settings.subtitle | escape }}
+          </p>
+        {% endif %}
+        {% if section.settings.title %}
+          <h2
+            class="tw-mt-1.5 tw-mb-2.5 md:tw-mbESD-1.5 tw-text-2xl tw-font-medium tw-leading-tight md:tw-text-[27px] md:tw-leading-[1.3] tw-tracking-[.12px] md:tw-tracking-[.13505px] tw-text-[#222] md:tw-pr-10"
+          >
+            {{ section.settings.title | escape }}
+          </h2>
+        {% endif %}
+        {% if section.settings.description %}
+          <p
+            class="md:tw-pr-10 tw-text-[#595959] tw-text-base tw-font-normal tw-tracking-[.16px] tw-leading-tight md:tw-leading-normal tw-pb-6"
+          >
+            {{ section.settings.description | escape }}
+          </p>
+        {% endif %}
+        {% if section.settings.button_link and section.settings.button_text %}
+          <a
+            href="{{ section.settings.button_link | escape }}"
+            class="wt-btn tw-hidden md:tw-inline-block tw-w-fit tw-px-[18px] tw-py-3 tw-text-base tw-font-medium tw-leading-normal tw-rounded-3xl tw-min-h-12 tw-border-none tw-outline-none tw-text-[#222]"
+            title="{{ section.settings.button_text | escape }}"
+          >
+            {{ section.settings.button_text | escape }}
+          </a>
+        {% endif %}
+      </div>
+
+      <!-- Product Cards -->
+      {% for block in section.blocks %}
+        {% if block.settings.product or block.settings.image %}
+          <div class="tw-flex-shrink-0 tw-p-1.5 md:tw-p-2 tw-flex-1 tw-basis-1/2 md:tw-basis-1/4 tw-max-w-[50%] md:tw-max-w-[25%]" {{ block.shopify_attributes }}>
+            <div class="tw-relative tw-rounded-xl tw-w-full js-merch-stash-check-listing">
+              {% if block.settings.product and block.settings.product.url %}
+                <a href="{{ block.settings.product.url }}" class="tw-inline-block tw-w-full">
+              {% else %}
+                <div class="tw-inline-block tw-w-full">
+              {% endif %}
+                <div class="tw-relative tw-rounded-sm">
+                  <div
+                    class="tw-bg-[#ebebeb] tw-relative tw-rounded-xl tw-overflow-hidden tw-h-full placeholder placeholder-square"
+                  >
+                    <div
+                      class="tw-absolute tw-inset-0"
+                      style="background-color: #b7b7b6"
+                    >
+                      <div class="height-placeholder">
+                        {% if block.settings.image != blank %}
+                          {{ block.settings.image | image_url: width: 600 | image_tag: widths: '200, 600',
+                            class: 'tw-absolute tw-block hover:tw-scale-[1.07] tw-max-w-full tw-object-cover tw-h-auto tw-rounded-xl tw-transition-all tw-duration-300',
+                            loading: 'lazy'
+                          }}
+                        {% elsif block.settings.product %}
+                          {%- if block.settings.product.featured_media != blank -%}
+                            {{ block.settings.product.featured_media | image_url: width: 600 | image_tag: widths: '200, 600',
+                              class: 'tw-absolute tw-block hover:tw-scale-[1.07] tw-max-w-full tw-object-cover tw-h-auto tw-rounded-xl tw-transition-all tw-duration-300',
+                              loading: 'lazy'
+                            }}
+                          {% elsif block.settings.product.images[1] %}
+                            {{ block.settings.product.images[1] | image_url: width: 600 | image_tag: widths: '200, 600',
+                              class: 'tw-absolute tw-block hover:tw-scale-[1.07] tw-max-w-full tw-object-cover tw-h-auto tw-rounded-xl tw-transition-all tw-duration-300',
+                              loading: 'lazy'
+                            }}
+                          {% endif %}
+                        {% endif %}
+                        {% if block.settings.product %}
+                          <p class="listing-card-price-badge">
+                            {%- liquid
+                              assign product = block.settings.product
+                              assign product_price = product.price
+                              assign product_compare_at_price = product.compare_at_price
+                            -%}
+                            <span class="tw-badge">{{ product.price | money }}
+                              {% if product_compare_at_price > product_price %}
+                                <del class="tw-font-normal" style="margin-left:4px;">{{ product_compare_at_price | money }}</del>
+                              {% endif %}
+                            </span>
+                          </p>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              {% if block.settings.product and block.settings.product.url %}
+                </a>
+              {% else %}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Custom 新品板块",
+  "settings": [
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }, {
+      "type": "header",
+      "content": "外边距"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "top",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "bottom",
+      "default": 0
+    }, {
+      "type": "header",
+      "content": "内边距"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "bottom",
+      "default": 48
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_card",
+      "name": "Product Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info":"image 为空时，默认获取产品图片"
+        },       
+          {
+          "type": "product",
+          "id": "product",
+          "label": "product"
+        }
+       
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom 新品板块",
+      "blocks": [
+        {
+          "type": "product_card"
+        },
+        {
+          "type": "product_card"
+        },
+        {
+          "type": "product_card"
+        },
+        {
+          "type": "product_card"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

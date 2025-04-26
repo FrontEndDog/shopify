@@ -1,0 +1,30 @@
+ <div class="frs" style="width:100%">
+                <div  class="frs" style="margin-right:10px">
+                  <img src="{{ 'icon_gift.png' | asset_url }}" style="width:20px;height:20px;margin-right:10px" alt="Icon">
+                  <span>Women's Day Sale 20% OFF</span>
+                </div>
+   <!-- 初始状态下显示的按钮 -->
+    <button id="copyButton" onclick="copyToClipboard('momo30')">CODE:MOM30</button>
+    <!-- 复制成功后显示的按钮 -->
+    <button id="copiedButton" style="display: none;">Copied</button>
+            </div>
+<script>
+  {% assign isCopy = false %}
+    async function copyToClipboard(text) {
+      try {
+                // 尝试将文本复制到剪贴板
+                await navigator.clipboard.writeText(text);
+                // 隐藏复制按钮
+                document.getElementById('copyButton').style.display = 'none';
+                // 显示已复制按钮
+                document.getElementById('copiedButton').style.display = 'inline-block';
+                // 弹出复制成功提示框
+                alert('Copy Success');
+            } catch (err) {
+                // 若复制失败，在控制台输出错误信息并弹出提示框
+                console.error('复制失败: ', err);
+                alert('Copy Fail');
+            }
+
+  }
+</script>

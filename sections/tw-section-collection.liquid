@@ -1,0 +1,273 @@
+
+
+<style>
+    .updated-category-module__listing:hover img, .updated-category-module__listing:focus img, .updated-category-module__listing:active img {
+    box-shadow: var(--clg-effect-sem-shadow-elevation-3, 0px 1px 3px 0px #0000004d, 0px 4px 8px 3px #00000026);
+}
+     .section-{{ section.id }}-block {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-block {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+   .updated-category-module__listing:after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* background: linear-gradient(to top, rgba(0, 0, 0, 0.753), #0000); */
+                background: linear-gradient(to top, #282828, transparent 60%);
+     border-radius:12px;
+            }
+  .tw-custom_btn{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 9;
+    justify-content: space-between;
+  }
+  .tw-custom_btn .tw-swiper-button{
+   width:40px;
+    height:40px;
+  }
+  </style>
+<div class="tw-px-1.5 section-{{ section.id }}-block">
+  <div class="tw-mx-auto tw-max-w-[1400px] tw-px-1.5">
+    <div class="tw-flex tw-justify-between tw-items-center tw-mb-[18px]">
+      {% if section.settings.title %}
+        <h2 class="tw-text-[27px] tw-leading-[1.3] tw-mb-[18px] tw-font-medium">
+          {{ section.settings.title | escape }}
+        </h2>
+      {% endif %}
+      <div> 
+        <div class="tw-hidden md:tw-flex tw-justify-center tw-items-center tw-gap-3 tw-text-[#222]">
+          <button
+            class="tw-col_swiper-left tw-swiper-button tw-w-12 tw-h-12 tw-rounded-full tw-flex tw-justify-center tw-items-center tw-cursor-pointer tw-shadow-lg">
+            <span class="wt-icon wt-nudge-t-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M16 21.002a1 1 0 0 1-.664-.253L5.5 12.002l9.841-8.748a1 1 0 0 1 1.328 1.494L8.5 12.002l8.159 7.252A1 1 0 0 1 16 21.002">
+                </path> 
+              </svg>
+            </span>
+          </button>
+          <button class="tw-col_swiper-right tw-swiper-button tw-w-12 tw-h-12 tw-rounded-full tw-flex tw-justify-center tw-items-center tw-cursor-pointer tw-shadow-lg">
+            <span class="wt-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M8 21a1 1 0 0 1-.664-1.747l8.164-7.254-8.164-7.252a1 1 0 0 1 1.328-1.494L18.5 12l-9.836 8.747A1 1 0 0 1 8 21">
+                </path>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="collection_swiper swiper tw-justify-center tw-items-start tw-pt-4 tw-px-1.5">
+    {% if section.settings.navigation %}
+       <div class="tw-flex md:tw-hidden tw-justify-center tw-items-center tw-gap-3 tw-text-[#222] tw-custom_btn">
+          <button
+            class="tw-col_swiper-left tw-swiper-button tw-w-12 tw-h-12 tw-rounded-full tw-flex tw-justify-center tw-items-center tw-cursor-pointer tw-shadow-lg">
+            <span class="wt-icon wt-nudge-t-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M16 21.002a1 1 0 0 1-.664-.253L5.5 12.002l9.841-8.748a1 1 0 0 1 1.328 1.494L8.5 12.002l8.159 7.252A1 1 0 0 1 16 21.002">
+                </path> 
+              </svg>
+            </span>
+          </button>
+          <button class="tw-col_swiper-right tw-swiper-button tw-w-12 tw-h-12 tw-rounded-full tw-flex tw-justify-center tw-items-center tw-cursor-pointer tw-shadow-lg">
+            <span class="wt-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M8 21a1 1 0 0 1-.664-1.747l8.164-7.254-8.164-7.252a1 1 0 0 1 1.328-1.494L18.5 12l-9.836 8.747A1 1 0 0 1 8 21">
+                </path>
+              </svg>
+            </span>
+          </button>
+        </div>
+       {% endif %}
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          {% if block.settings.link or block.settings.image or block.settings.title %}
+            <div class="swiper-slide homepage_search_rectangle wt-display-flex-xs tw-flex" {{ block.shopify_attributes }}>
+              <div class="updated-category-module__listing wt-rounded-02 tw-rounded-xl tw-h-fit">
+                {% if block.settings.link %}
+                  <a
+                    href="{{ block.settings.link | escape }}"
+                    class="tw-absolute tw-inset-0 tw-z-10"
+                  ></a>
+                  <a href="{{ block.settings.link | escape }}" class="shopping-window-interior">
+                {% else %}
+                  <div class="shopping-window-interior">
+                {% endif %}
+                  {% if block.settings.image != blank %}
+                    {{ block.settings.image | image_url: width: 600 | image_tag: widths: '200, 300,600',
+                      class: 'tw-object-cover tw-w-full tw-h-full tw-bg-[#eaeaea] tw-mb-1.5 tw-rounded-xl',
+                      loading: 'lazy'
+                    }}
+                  {% endif %}
+                  {% if block.settings.title %}
+                    <p class="tw-absolute tw-text-white tw-w-full tw-m-4 md:tw-m-5 tw-bottom-0 tw-left-0 tw-right-0 tw-z-10 tw-text-base tw-leading-tight tw-text-[#222] first-letter:tw-uppercase" title="">
+                      {{ block.settings.title | escape }}
+                    </p>
+                  {% endif %}
+                {% if block.settings.link %}
+                  </a>
+                {% else %}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+      var collection_swiper = new Swiper(".collection_swiper", {
+            slidesPerView: '2',
+            spaceBetween: 16,  
+          navigation: {
+                nextEl: '.tw-col_swiper-right',
+                prevEl: '.tw-col_swiper-left',
+            },       
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 160,
+                },
+                1024: { // 屏幕宽度 <= 640px
+                    slidesPerView: 4,
+                    spaceBetween: 16,
+                },               
+
+            },
+        });
+</script>
+{% schema %}
+{
+  "name": "Custom 产品分类",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Shop our most popular categories"
+    }, 
+     {
+        "type": "checkbox",
+        "id": "navigation",
+        "label": "手机端前进后退按钮",
+        "default": true
+      },
+    {
+      "type": "header",
+      "content": "外边距"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "top",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "bottom",
+      "default": 0
+    }, {
+      "type": "header",
+      "content": "内边距"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "bottom",
+      "default": 48
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category_card",
+      "name": "Category Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Category Title",
+           "default": "Title"
+      
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom 产品分类",
+      "blocks": [
+        {
+          "type": "category_card"
+        },
+        {
+          "type": "category_card"
+        },
+        {
+          "type": "category_card"
+        },
+        {
+          "type": "category_card"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

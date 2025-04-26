@@ -1,0 +1,358 @@
+<style>
+       .js-merch-stash-check-listing:hover, .js-merch-stash-check-listing:focus , .js-merch-stash-check-listing:active  {
+    box-shadow: var(--clg-effect-sem-shadow-elevation-3, 0px 1px 3px 0px #0000004d, 0px 4px 8px 3px #00000026);
+}
+.js-merch-stash-check-listing{
+  border: 1px solid var(--clg-color-sem-border-divider, #0e0e0e2e) !important;
+  font-size:0;
+}
+     .section-{{ section.id }}-block {
+    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-block {
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+   .tw-swiper-button svg {
+      width: 24px;
+      height: 24px;
+      fill: #000;
+    }
+    .tw-swiper-button{
+      background-color: #fff;
+      opacity: 1;
+      box-shadow: var(--clg-effect-sem-shadow-elevation-3, 0px 1px 3px 0px #0000004d, 0px 4px 8px 3px #00000026);
+       transition: backgroundColor .2s cubic-bezier(.345,.115,.135,1.42), opacity .15s ease-out;
+    }
+    .tw-swiper-button:hover{
+      opacity: 0.8;
+      background-color: #f5f5f5;
+    }
+
+  </style>
+<div class="tw-px-1.5 section-{{ section.id }}-block">
+  <div class="tw-mx-auto tw-max-w-[1400px] tw-px-1.5">
+    <div class="tw-flex tw-justify-between tw-items-center tw-mb-[18px]">
+      {% if section.settings.title %}
+        <h2 class="tw-text-[27px] tw-leading-[1.3] tw-mb-[18px] tw-font-medium">
+          {{ section.settings.title | escape }}
+        </h2>
+      {% endif %}
+      <div> 
+        <div class="tw-hidden md:tw-flex tw-justify-center tw-items-center tw-gap-3 tw-text-[#222]">
+          <button
+            class="tw-pro_swiper-left tw-swiper-button tw-w-12 tw-h-12 tw-rounded-full tw-flex tw-justify-center tw-items-center tw-cursor-pointer tw-shadow-lg">
+            <span class="wt-icon wt-nudge-t-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M16 21.002a1 1 0 0 1-.664-.253L5.5 12.002l9.841-8.748a1 1 0 0 1 1.328 1.494L8.5 12.002l8.159 7.252A1 1 0 0 1 16 21.002">
+                </path> 
+              </svg>
+            </span>
+          </button>
+          <button class="tw-pro_swiper-right tw-swiper-button tw-w-12 tw-h-12 tw-rounded-full tw-flex tw-justify-center tw-items-center tw-cursor-pointer tw-shadow-lg">
+            <span class="wt-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path
+                  d="M8 21a1 1 0 0 1-.664-1.747l8.164-7.254-8.164-7.252a1 1 0 0 1 1.328-1.494L18.5 12l-9.836 8.747A1 1 0 0 1 8 21">
+                </path>
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="product_swiper swiper tw-justify-center tw-items-start tw-pt-4 tw-px-1.5 daily-deals-carousel__inner">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          {% if block.settings.link or block.settings.image or block.settings.product %}
+            <div class="swiper-slide js-merch-stash-check-listing tw-border tw-border-gray-100 tw-rounded-xl tw-overflow-hidden" {{ block.shopify_attributes }}>
+              {% if block.settings.link %}
+                <a href="{{ block.settings.link | escape }}" class="shopping-window-interior">
+              {% else %}
+                <div class="shopping-window-interior">
+              {% endif %}
+                {% if block.settings.image != blank %}
+                  {{ block.settings.image | image_url: width: 600 | image_tag: widths: '200, 600',
+                    class: 'tw-object-cover tw-w-full tw-h-full tw-bg-[#eaeaea] tw-mb-1.5',
+                    loading: 'lazy'
+                  }}
+                {% elsif block.settings.product %}
+                  {%- if block.settings.product.featured_media != blank -%}
+                    {{ block.settings.product.featured_media | image_url: width: 600 | image_tag: widths: '200, 600',
+                      class: 'tw-object-cover tw-w-full tw-h-full tw-bg-[#eaeaea] tw-mb-1.5',
+                      loading: 'lazy'
+                    }}
+                  {% elsif block.settings.product.images[1] %}
+                    {{ block.settings.product.images[1] | image_url: width: 600 | image_tag: widths: '200, 600',
+                      class: 'tw-object-cover tw-w-full tw-h-full tw-bg-[#eaeaea] tw-mb-1.5',
+                      loading: 'lazy'
+                    }}
+                  {% endif %}
+                {% endif %}
+                <div class="tw-px-3">
+                  <div class="tw-flex tw-items-baseline">
+                    <div class="tw-flex-1 tw-basis-2/3 tw-max-w-[66.66%]">
+                      {% if block.settings.product and block.settings.product.title %}
+                        <h3 class="tw-tracking-[.1299px] tw-text-[13px] tw-leading-[1.4] tw-truncate tw-font-normal">
+                          {{ block.settings.product.title | escape }}
+                        </h3>
+                      {% endif %}
+                    </div>
+                    <div class="tw-flex-1 tw-basis-1/3 max-w-[33.33%]">
+                      {% if block.settings.rating %}
+                        <div class="wt-display-flex-xs wt-flex-direction-row inline-title-and-stars-wrap">
+                          <span class="tw-flex tw-items-center tw-gap-1 tw-justify-end">
+                            <span class="tw-text-[13px] tw-tracking-[.1299px] tw-leading-[1.4]">
+                              {{ block.settings.rating | escape }}
+                            </span>
+                            <div
+                              role="img"
+                              aria-label="{{ block.settings.rating }} star rating"
+                              class="wt-align-items-center wt-max-height-full wt-display-flex-xs flex-direction-row-xs wt-text-title-small wt-no-wrap"
+                            >
+                              <span class="tw-text-xs tw-w-4">
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  class="tw-w-4"
+                                  viewBox="0 0 24 24"
+                                  aria-hidden="true"
+                                  focusable="false"
+                                >
+                                  <path
+                                    d="M20.828 9.154l-6.008-.528-2.36-5.545h-.92L9.18 8.626l-6.007.528-.284.876 4.548 3.954-1.353 5.871.744.541 5.172-3.1 5.172 3.1.744-.54-1.352-5.871 4.548-3.955-.284-.876z"
+                                  ></path>
+                                </svg>
+                              </span>
+                            </div>
+                          </span>
+                        </div>
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div class="tw-flex tw-items-center tw-flex-wrap tw-w-full">
+                    {% if block.settings.product %}
+                      {%- liquid
+                        assign product = block.settings.product
+                        assign product_price = product.price
+                        assign product_compare_at_price = product.compare_at_price
+                        assign discount_percentage = 0
+                        if product_compare_at_price > product_price
+                          assign discount_percentage = product_compare_at_price | minus: product_price | times: 100 | divided_by: product_compare_at_price | round
+                        endif
+                      -%}
+                      <p class="tw-text-[19px] tw-leading-[1.4] tw-font-bold tw-pr-1.5 tw-tracking-[.09505px] tw-text-[#0f743b]" {% if section.settings.sale_color %}style="color:{{ section.settings.sale_color | escape }}"{% endif %}>
+                        {{ product.price | money }}
+                      </p>
+                      {% if product_compare_at_price > product_price %}
+                        <p class="tw-tetx-xs md:tw-text-[13px] tw-leading-[1.4]">
+                          <del class="tw-text-[#595959]">{{ product_compare_at_price | money }}</del>
+                          <span>
+                            <span class="tw-py-[3px] tw-px-1.5 tw-min-w-4 tw-font-bold tw-bg-[#a0e193] tw-text-[#222] tw-text-[13px] tw-rounded-xl tw-leading-none tw-inline-block tw-ml-1.5" {% if section.settings.discount_color and section.settings.discount_size_color %}style="background-color:{{ section.settings.discount_color | escape }};color:{{ section.settings.discount_size_color | escape }}"{% endif %}>
+                              {{ discount_percentage | append: '%' }} off
+                            </span>
+                          </span>
+                        </p>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                  {% if block.settings.sale_note %}
+                    <div class="tw-mb-5">
+                      <span class="tw-text-[#222] tw-text-[13px] tw-font-medium tw-tracking-[.1299px]">
+                        {{ block.settings.sale_note | escape }}
+                      </span>
+                    </div>
+                  {% endif %}
+                  <div class="wt-mb-xs-1"></div>
+                </div>
+              {% if block.settings.link %}
+                </a>
+              {% else %}
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+ <script>
+    var product_swiper = new Swiper(".product_swiper", {
+            slidesPerView: '1.7',
+            spaceBetween: 16,
+            // 如果需要前进后退按钮
+            navigation: {
+                nextEl: '.tw-pro_swiper-right',
+                prevEl: '.tw-pro_swiper-left',
+            },       
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 160,
+                },
+                1024: { // 屏幕宽度 <= 640px
+                    slidesPerView: 4,
+                    spaceBetween: 16,
+                },
+                1366: { // 屏幕宽度 <= 640px
+                    slidesPerView: 5,
+                    spaceBetween: 20,
+                }
+
+            },
+        });
+
+    </script>
+{% schema %}
+{
+  "name": "Custom 产品活动板块",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Today's big deals"
+    }, 
+     {
+      "type": "header",
+      "content": "颜色 背景色 "
+    },
+    {
+          "type": "color",
+          "id": "discount_color",
+          "label": "badge 背景颜色 ",
+          "default": "#a0e193"
+        },
+        {
+          "type": "color",
+          "id": "discount_size_color",
+          "label": "badge 字体颜色 ",
+          "default": "#222"
+        },
+        {
+          "type": "color",
+          "id": "sale_color",
+          "label": "活动价格 颜色 ",
+          "default": "#0f743b"
+        },
+    {
+      "type": "header",
+      "content": "外边距"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "top",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "bottom",
+      "default": 0
+    }, {
+      "type": "header",
+      "content": "内边距"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "bottom",
+      "default": 48
+    }
+  ],
+  "blocks": [
+    {
+      "type": "deal_card",
+      "name": "Deal Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "image为空时，默认获取产品图片"
+        },
+         {
+          "type": "product",
+          "id": "product",
+          "label": "product"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+           "info": "Title为空时，默认获取产品标题"
+        },
+        {
+          "type": "text",
+          "id": "rating",
+          "label": "Rating",
+          "default": "4.9"
+        },     
+        {
+          "type": "text",
+          "id": "sale_note",
+          "label": "Sale Note",
+          "default": "Biggest sale in 60+ days"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom 产品活动板块",
+      "blocks": [
+        {
+          "type": "deal_card"
+        },
+        {
+          "type": "deal_card"
+        },
+        {
+          "type": "deal_card"
+        },
+        {
+          "type": "deal_card"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
