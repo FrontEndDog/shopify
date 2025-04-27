@@ -1,0 +1,142 @@
+<div class="main-product-20250427">
+  <div class="left-content">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        {% for image in product.images %}
+          <div class="swiper-slide">
+            {{ image | image_url: width: 400 | image_tag: class: 'swiper-slide-image' }}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+
+  <div class="right-content">
+    <div class="product-title">{{ product.title }}</div>
+    <div class="price">
+      {% if product.compare_at_price > product.price %}
+        <div class="compare-at-price">{{ product.compare_at_price | money }}</div>
+      {% endif %}
+      <div class="current-price">{{ product.price | money }}</div>
+      {% if product.compare_at_price > product.price %}
+        <div class="save">
+          Save
+          {{-
+            product.compare_at_price
+            | minus: product.price
+            | times: 100.0
+            | divided_by: product.compare_at_price
+            | round
+          -}}
+          %
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<script>
+  var mySwiper = new Swiper('.swiper', {
+    // 如果需要前进后退按钮
+    navigation: {
+      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next',
+    },
+    slidesPerView: 2,
+    spaceBetween: 2,
+  });
+</script>
+<style>
+  .main-product-20250427 {
+    width: 1380px;
+    margin: 40px auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .main-product-20250427 .left-content {
+    width: 800px;
+    background-color: #fff;
+    flex: 800;
+  }
+  .main-product-20250427 .swiper {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    user-select: none;
+  }
+  .main-product-20250427 .swiper-slide-image {
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  .main-product-20250427 .swiper-button-prev,
+  .main-product-20250427 .swiper-button-next {
+    position: absolute;
+    width: 20px;
+    height: 60px;
+    top: 50%;
+    display: block;
+    color: #1a1a1a;
+    background-color: #fff9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    transition: all 0.1s;
+    border: 1px solid #dbdbdb;
+  }
+  .main-product-20250427 .swiper-button-prev {
+    left: 10px;
+  }
+  .main-product-20250427 .swiper-button-next {
+    right: 10px;
+  }
+  .main-product-20250427 .swiper-button-prev:hover,
+  .main-product-20250427 .swiper-button-next:hover {
+    background-color: #fff;
+  }
+  .main-product-20250427 .swiper-button-prev:after,
+  .main-product-20250427 .swiper-button-next:after {
+    font-size: 13px;
+    color: #000;
+  }
+  .main-product-20250427 .right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 460;
+    align-items: stretch;
+  }
+  .main-product-20250427 .product-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+  .main-product-20250427 .price {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  .main-product-20250427 .price .compare-at-price {
+    text-decoration: line-through;
+    color: #667085;
+    margin-right: 10px;
+  }
+  .main-product-20250427 .price .current-price {
+    color: #0c0a09;
+  }
+  .main-product-20250427 .price .save {
+    background-color: #971b1b;
+    font-size: 12px;
+    color: #fefefe;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+</style>
