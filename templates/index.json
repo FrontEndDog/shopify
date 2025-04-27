@@ -1,1 +1,1647 @@
-{"sections":{"image_banner_x3yecT":{"type":"image-banner","blocks":{"large_img_C4kLiA":{"type":"largeImg","settings":{"image":"shopify:\/\/shop_images\/20250304181112.png","mobile_image":"shopify:\/\/shop_images\/GIFT_m8_638_x_870_px.jpg","enable_max_width_image":false,"custom_width_image":1170,"enable_scroll_down":false,"enable_custom_image":false,"image_behavior":"none","sub_title":"","border_sub_title":false,"font_size_sub_title":14,"font_size_sub_title_mb":14,"margin_bottom_sub_title":14,"sub_heading_font":"font_1","font_weight_sub_title":"700","sub_title_position":"sub_title_above","color_sub_title":"#232323","color_sub_title_mb":"#ffffff","heading":"","letter_spacing_heading":"","enable_style_italic":false,"font_size_heading":40,"font_size_heading_mb":24,"margin_bottom_heading":20,"font_weight_heading":"600","color_heading":"#232323","color_heading_mb":"#ffffff","border_title":"border_s1","border_color_title":"#232323","border_color_title_mobile":"#ffffff","text":"","font_size_des":12,"font_size_des_mb":12,"line_height_des":26,"margin_bottom_des":35,"color_des":"#232323","color_des_mb":"#ffffff","countdown":"","hide_countdown_fc":"countdown","countdown_style":"round","countdown_position":"countdown_below_desc","font_size_countdown_number":30,"font_size_countdown_text":14,"color_countdown":"#232323","color_countdown_mb":"#ffffff","countdown_margin_bottom":35,"content_width":475,"bg_color_content":"","align":"center","align_items":"center","position":"left","custom_horizontal":"","custom_vertical":"","btn_text":"","link":"","btn_icon":"","button_1_width":235,"enable_button_custom_border":false,"button_color":"#ffffff","button_border":"#d3948b","button_background":"#d3948b","button_background_gradient":"","button_color_hover":"#ffffff","button_border_hover":"#232323","button_background_hover":"#232323","button_background_gradient_hover":"","btn_text_2":"","link_2":"","btn_icon_2":"","button_color_2":"#ffffff","button_border_2":"#232323","button_background_2":"#232323","button_background_2_gradient":"","button_color_hover_2":"#ffffff","button_border_hover_2":"#232323","button_background_hover_2":"#232323","button_background_gradient_hover_2":"","video_link":"","adaptive_height_video":"56","icon_style":"style_1","color_icon":"#ffffff","bg_color_icon":"#000000","enable_custom_video_icon_position":false,"video_icon_horizontal_position":"","video_icon_vertical_position":"","video_icon_horizontal_position_mb":"","video_icon_vertical_position_mb":""}}},"block_order":["large_img_C4kLiA"],"disabled":true,"settings":{"id_section":"","container":"fullwidth","padding_full_width":0,"display_type":"slide","enable_arrows":false,"arrows_position":"","enable_dots":false,"enable_autoplay":false,"list_gap":0,"image_banner_title":"","enable_border_title":false,"color_title":"#202020","fontsize_title":24,"fontsize_title_mb":20,"margin_bottom_title":25,"image_banner_des":"","color_des":"#202020","fontsize_des":16,"title_align":"center","style_bg":"none","bg_color":"","bg_color_gradient":"","mg_top_desktop":0,"mg_top_tablet":0,"mg_top_mobile":0,"mg_bottom_desktop":0,"mg_bottom_tablet":0,"mg_bottom_mobile":0}},"brand_slider_X8YgT3":{"type":"brand-slider","blocks":{"image_4bg8Gd":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/add-_l1.jpg","title":"Love Gifts","color_text":"#000000","color_text_hover":"#c45c3e","description":"","color_des":"#3c3c3c","link":"shopify:\/\/collections\/discount-series"}},"image_Tcxacy":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/add-_l2.jpg","title":"Birthday Present","color_text":"#000000","color_text_hover":"#c45c3e","description":"","color_des":"#3c3c3c","link":"shopify:\/\/collections\/birthday-present"}},"image_cypLLY":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/add-_l3.jpg","title":"holiday gift","color_text":"#000000","color_text_hover":"#c45c3e","description":"","color_des":"#3c3c3c","link":"shopify:\/\/collections\/holiday-gift"}},"image_meNmnY":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/brand.jpg","title":"School","color_text":"#000000","color_text_hover":"#c45c3e","description":"","color_des":"#3c3c3c","link":"shopify:\/\/collections\/school"}},"image_6p9bXx":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/add-_l4.webp","title":"Corporate Activities","color_text":"#000000","color_text_hover":"#c45c3e","description":"","color_des":"#3c3c3c","link":"shopify:\/\/collections\/corporate-activities"}},"image_n8C3Fz":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/add-_l6.webp","title":"Customizable Gifts","color_text":"#000000","color_text_hover":"#c45c3e","description":"","color_des":"#3c3c3c","link":"shopify:\/\/collections\/define-your-personal-style"}}},"block_order":["image_4bg8Gd","image_Tcxacy","image_cypLLY","image_meNmnY","image_6p9bXx","image_n8C3Fz"],"disabled":true,"settings":{"container":"container","padding_full_width":0,"brands_block_style":"style_1","brand_layout":"slider","scroll_from":"ltr","brand_scroll_time":"20","display_brand_border":false,"brand_bg":"#f5f5f5","brand_bg_gradient":"","title_align":"center","brand_title":"","color_title":"#232323","fontsize_title":16,"fontsize_title_mb":16,"mg_bottom_title":12,"enable_border_title":false,"border_color_title":"#051c42","brand_des":"","color_des":"#3c3c3c","fontsize_des":16,"mg_bottom_des":0,"view_all":"","view_all_fs":12,"font_weight_view_all":"400","mg_bottom_view":0,"enable_border_view_all":false,"link_view_all":"","color_view_all":"#3c3c3c","icon_view_all":"","color_view_all_icon":"#eb492f","view_all_icon_side":"left","btn_text":"","fontsize_btn":12,"btn_spacing_top":15,"btn_color":"#828282","btn_link":"","enable_autoplay":false,"brand_speed":"3000","brand_rows":"6","enable_arrows":true,"enable_dots":false,"enable_center_mode":false,"style_position_arrows":"none","position_horizontal_arrow":15,"color_arrow":"","arrow_background":"","arrow_background_gradient":"","arrow_border":"","color_arrow_hover":"","arrow_background_hover":"","arrow_background_gradient_hover":"","arrow_border_hover":"","brand_rows_mb":"3","brand_image_ratio":"square","item_distance":24,"margin_bottom_image":10,"brand_item_border":"none","border_radius":50,"border_color":"#e2e5e7","border_color_hover":"#2d2d2d","hover_effect":"none","color_underline_image_hover":"#000000","fontsize_text":16,"fontsize_text_mb":13,"font_weight_title":"600","margin_bottom_title":0,"mg_top_desktop":50,"mg_top_tablet":50,"mg_top_mobile":50,"mg_bottom_desktop":50,"mg_bottom_tablet":50,"mg_bottom_mobile":50}},"product_block_NdkbBd":{"type":"product-block","disabled":true,"settings":{"container":"container","padding_full_width":0,"disable_padding_content":false,"enable_border_top":false,"enable_border_bottom":false,"border_height":1,"color_border_bottom":"#e8e8e8","enable_minus_mg_top":false,"minus_spacing_top":-100,"product_block_layout":"grid","product_bg":"#ffffff","product_bg_gradient":"","product_block_collection":"1","product_block_limit":8,"grid_gap":30,"pb_style":"style1","style_block_header":"style1","product_block_title":"Trending Now","enable_border_title":true,"enable_border_title_style2":true,"fontsize_title":16,"fontsize_title_mb":16,"pd_top_title":30,"mg_bottom_title":12,"mg_bottom_title_mb":12,"border_color_title":"#232323","color_title":"#232323","title_align":"center","title_align_mb":"center","view_all":"","view_all_align":"center","font_weight_view_all":"400","mg_bottom_view":30,"mg_bottom_view_mb":0,"enable_border_view_all":true,"link_view_all":"","color_view_all":"#3c3c3c","icon_view_all":"","color_view_all_icon":"#eb492f","button_text":"Show More","button_text_font_size":14,"button_text_font_weight":"500","button_text_text_transform":"uppercase","product_button_width":270,"pd_top_product_button":12,"pd_bottom_product_button":12,"button_icon":"","mg_bottom_button":55,"enable_button_shadow":false,"color_button":"#ffffff","border_color_button":"#232323","bg_color_button":"#232323","bg_color_gradient_button":"","color_button_hover":"","border_color_button_hover":"","bg_color_button_hover":"","bg_color_gradient_button_hover":"","style_countdown":"style_1","countdown":"","font_size_countdown_text":14,"color_countdown":"#f42b23","countdown_margin_left":15,"product_block_per_row":"4","product_block_infinite_scroll":true,"product_block_swipe_on_mobile":true,"enable_product_card_pd_bottom":false,"product_card_pd_bottom":40,"product_block_dots":false,"product_block_dots_mb":true,"spacing_top_dots":0,"product_block_arrows":true,"product_block_arrows_mb":false,"enable_hover_arrow":false,"product_block_progress_bar":false,"product_block_counter_number":false,"enable_infinite":true,"enable_autoplay":false,"product_block_arrows_custom_position":false,"position_vertical_arrow":"70px","use_special_arrow_position":false,"spacing_bottom":0,"spacing_right":0,"product_block_show":"5","button_text_slider":"","button_link_slider":"","button_width":280,"btn_spacing_top":49,"product_block_per_view":"4","show_half":true,"scroll_height":4,"scroll_track_bg":"#f1f1f1","scroll_thumb_color":"#000000","scroll_thumb_hover_color":"#444444","position":"left","width_banner":40,"enable_image_mb":true,"display_list_collection":false,"collection_color":"#202020","collection_color_hover":"#3e8cc4","collection_bg_color":"#ffffff","collection_bg_color_gradient":"","text_list":"View all categories","url_list":"","enable_layout_special":false,"bg_card":"#ffffff","padding_card":15,"border_radius_card":5,"border_layout_card":"full","border_width_card":5,"border_color_card":"#f0f1f4","mg_top_desktop":50,"mg_top_tablet":50,"mg_top_mobile":50,"mg_bottom_desktop":50,"mg_bottom_tablet":50,"mg_bottom_mobile":50}},"product_block_pyxWt3":{"type":"product-block","disabled":true,"settings":{"container":"container","padding_full_width":0,"disable_padding_content":false,"enable_border_top":false,"enable_border_bottom":false,"border_height":1,"color_border_bottom":"#e8e8e8","enable_minus_mg_top":false,"minus_spacing_top":-100,"product_block_layout":"grid","product_bg":"#ffffff","product_bg_gradient":"","product_block_collection":"adoption-anniversary","product_block_limit":8,"grid_gap":30,"pb_style":"style1","style_block_header":"style1","product_block_title":"Trending Now","enable_border_title":true,"enable_border_title_style2":true,"fontsize_title":16,"fontsize_title_mb":16,"pd_top_title":30,"mg_bottom_title":12,"mg_bottom_title_mb":12,"border_color_title":"#232323","color_title":"#232323","title_align":"center","title_align_mb":"center","view_all":"","view_all_align":"center","font_weight_view_all":"400","mg_bottom_view":30,"mg_bottom_view_mb":0,"enable_border_view_all":true,"link_view_all":"","color_view_all":"#3c3c3c","icon_view_all":"","color_view_all_icon":"#eb492f","button_text":"Show More","button_text_font_size":14,"button_text_font_weight":"500","button_text_text_transform":"uppercase","product_button_width":270,"pd_top_product_button":12,"pd_bottom_product_button":12,"button_icon":"","mg_bottom_button":55,"enable_button_shadow":false,"color_button":"#ffffff","border_color_button":"#232323","bg_color_button":"#232323","bg_color_gradient_button":"","color_button_hover":"","border_color_button_hover":"","bg_color_button_hover":"","bg_color_gradient_button_hover":"","style_countdown":"style_1","countdown":"","font_size_countdown_text":14,"color_countdown":"#f42b23","countdown_margin_left":15,"product_block_per_row":"4","product_block_infinite_scroll":true,"product_block_swipe_on_mobile":true,"enable_product_card_pd_bottom":false,"product_card_pd_bottom":40,"product_block_dots":false,"product_block_dots_mb":true,"spacing_top_dots":0,"product_block_arrows":true,"product_block_arrows_mb":false,"enable_hover_arrow":false,"product_block_progress_bar":false,"product_block_counter_number":false,"enable_infinite":true,"enable_autoplay":false,"product_block_arrows_custom_position":false,"position_vertical_arrow":"70px","use_special_arrow_position":false,"spacing_bottom":0,"spacing_right":0,"product_block_show":"4","button_text_slider":"","button_link_slider":"","button_width":280,"btn_spacing_top":49,"product_block_per_view":"4","show_half":true,"scroll_height":4,"scroll_track_bg":"#f1f1f1","scroll_thumb_color":"#000000","scroll_thumb_hover_color":"#444444","position":"left","width_banner":40,"enable_image_mb":true,"display_list_collection":false,"collection_color":"#202020","collection_color_hover":"#3e8cc4","collection_bg_color":"#ffffff","collection_bg_color_gradient":"","text_list":"View all categories","url_list":"","enable_layout_special":false,"bg_card":"#ffffff","padding_card":15,"border_radius_card":5,"border_layout_card":"full","border_width_card":5,"border_color_card":"#f0f1f4","mg_top_desktop":50,"mg_top_tablet":50,"mg_top_mobile":50,"mg_bottom_desktop":50,"mg_bottom_tablet":50,"mg_bottom_mobile":50}},"brand_slider_g3B9D4":{"type":"brand-slider","blocks":{"image_WB4y4P":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/add-p2.jpg","title":"Best-selling gifts","color_text":"#000000","color_text_hover":"#c45c3e","description":"Carefully selected to ensure their popularity and quality.","color_des":"#3c3c3c","link":""}},"image_A3DhQa":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/add-p5.jpg","title":"New arrivals","color_text":"#000000","color_text_hover":"#c45c3e","description":"Be the first to explore our latest additions, bringing you fresh and exciting products.","color_des":"#3c3c3c","link":""}},"image_XdEXje":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/add-p3.jpg","title":"Exclusive deals","color_text":"#000000","color_text_hover":"#c45c3e","description":"Special offer prepared just for you, providing exclusive pricing on selected items.","color_des":"#3c3c3c","link":""}},"image_RAwqnF":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/add-p1.jpg","title":"Fast local shipping","color_text":"#000000","color_text_hover":"#c45c3e","description":"Ensure your gift arrives safely and quickly within the shortest time frame.","color_des":"#3c3c3c","link":""}},"image_4qwr4P":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/add-p4.jpg","title":"Custom gift boxes","color_text":"#000000","color_text_hover":"#c45c3e","description":"Tailored gift boxes with personalized contents for your occasion.","color_des":"#3c3c3c","link":""}}},"block_order":["image_WB4y4P","image_A3DhQa","image_XdEXje","image_RAwqnF","image_4qwr4P"],"disabled":true,"settings":{"container":"container","padding_full_width":0,"brands_block_style":"style_1","brand_layout":"slider","scroll_from":"ltr","brand_scroll_time":"20","display_brand_border":true,"brand_bg":"#f5f5f5","brand_bg_gradient":"","title_align":"center","brand_title":"","color_title":"#232323","fontsize_title":16,"fontsize_title_mb":16,"mg_bottom_title":12,"enable_border_title":false,"border_color_title":"#051c42","brand_des":"","color_des":"#3c3c3c","fontsize_des":16,"mg_bottom_des":0,"view_all":"","view_all_fs":12,"font_weight_view_all":"400","mg_bottom_view":0,"enable_border_view_all":true,"link_view_all":"","color_view_all":"#3c3c3c","icon_view_all":"","color_view_all_icon":"#eb492f","view_all_icon_side":"left","btn_text":"","fontsize_btn":12,"btn_spacing_top":15,"btn_color":"#828282","btn_link":"","enable_autoplay":false,"brand_speed":"3000","brand_rows":"5","enable_arrows":true,"enable_dots":false,"enable_center_mode":false,"style_position_arrows":"none","position_horizontal_arrow":15,"color_arrow":"","arrow_background":"","arrow_background_gradient":"","arrow_border":"","color_arrow_hover":"","arrow_background_hover":"","arrow_background_gradient_hover":"","arrow_border_hover":"","brand_rows_mb":"1","brand_image_ratio":"square","item_distance":15,"margin_bottom_image":8,"brand_item_border":"none","border_radius":0,"border_color":"#e2e5e7","border_color_hover":"#2d2d2d","hover_effect":"zoom","color_underline_image_hover":"#000000","fontsize_text":16,"fontsize_text_mb":13,"font_weight_title":"400","margin_bottom_title":0,"mg_top_desktop":50,"mg_top_tablet":50,"mg_top_mobile":50,"mg_bottom_desktop":50,"mg_bottom_tablet":50,"mg_bottom_mobile":50}},"16393870238958f868":{"type":"custom-service-block","blocks":{"cbece3c5-69e7-4ac0-9014-0d3771d72d19":{"type":"Text","settings":{"bg_color_block":"#ffffff","border_block":"#ffffff","icon_type":"image","image":"shopify:\/\/shop_images\/FeefoIcon-min.webp","icon":"","width_icon":20,"height_icon":20,"mg_bottom_icon":10,"color_icon":"#3c3c3c","text":"Communicate order details","type_tab_font":"font_1","fontsize_title_block":18,"fontsize_title_block_mb":18,"title_block_font_weight":"700","mg_bottom_title":10,"mg_bottom_title_mb":0,"color_block":"#232323","description":"Tailored one-on-one guidance.\nhelps you choose the perfect gifts based on the information and details you provide about the recipient.","fontsize_des_block":16,"fontsize_des_block_mb":14,"lineheight_des_block":22,"mg_bottom_des":0,"color_des_block":"#3c3c3c","button":"","link":"","button_style":"style1","fontsize_button":14,"button_width":235,"fontweight_button":"500","enable_underline_button":false,"color_button":"#ba7a2d","button_border":"","button_background":"","button_background_gradient":"","button_color_hover":"#ba7a2d","button_border_hover":"","button_background_hover":"","button_background_gradient_hover":""}},"fa71b4aa-cce0-43b7-8f5d-12fb9b713fd2":{"type":"Text","settings":{"bg_color_block":"#ffffff","border_block":"#ffffff","icon_type":"image","image":"shopify:\/\/shop_images\/DeliveryIcon-min.webp","icon":"","width_icon":20,"height_icon":20,"mg_bottom_icon":10,"color_icon":"#3c3c3c","text":"Multiple shipping options available","type_tab_font":"font_1","fontsize_title_block":18,"fontsize_title_block_mb":18,"title_block_font_weight":"700","mg_bottom_title":10,"mg_bottom_title_mb":0,"color_block":"#232323","description":"Select your preferred shipping method. For some products, faster delivery may come with higher fees, but we offer a free, slower shipping option to help you save.","fontsize_des_block":16,"fontsize_des_block_mb":14,"lineheight_des_block":22,"mg_bottom_des":0,"color_des_block":"#3c3c3c","button":"","link":"","button_style":"style1","fontsize_button":14,"button_width":235,"fontweight_button":"500","enable_underline_button":false,"color_button":"#ba7a2d","button_border":"","button_background":"","button_background_gradient":"","button_color_hover":"#ba7a2d","button_border_hover":"","button_background_hover":"","button_background_gradient_hover":""}},"150cc01c-9394-4067-b3a3-4cbadd5f4083":{"type":"Text","settings":{"bg_color_block":"#ffffff","border_block":"#ffffff","icon_type":"image","image":"shopify:\/\/shop_images\/GiftsIcon-min.webp","icon":"","width_icon":20,"height_icon":20,"mg_bottom_icon":10,"color_icon":"#3c3c3c","text":"100% Secure Checkout","type_tab_font":"font_1","fontsize_title_block":18,"fontsize_title_block_mb":18,"title_block_font_weight":"700","mg_bottom_title":10,"mg_bottom_title_mb":0,"color_block":"#232323","description":"For products with longer production times, we’ll send progress photos, ensuring you’re confident while waiting.","fontsize_des_block":16,"fontsize_des_block_mb":14,"lineheight_des_block":22,"mg_bottom_des":0,"color_des_block":"#3c3c3c","button":"","link":"","button_style":"style1","fontsize_button":14,"button_width":235,"fontweight_button":"500","enable_underline_button":false,"color_button":"#ba7a2d","button_border":"","button_background":"","button_background_gradient":"","button_color_hover":"#ba7a2d","button_border_hover":"","button_background_hover":"","button_background_gradient_hover":""}},"text_axQqXC":{"type":"Text","settings":{"bg_color_block":"#ffffff","border_block":"#ffffff","icon_type":"image","image":"shopify:\/\/shop_images\/EventReminderIcon-min.webp","icon":"","width_icon":20,"height_icon":20,"mg_bottom_icon":10,"color_icon":"#3c3c3c","text":"24\/7 customer support","type_tab_font":"font_1","fontsize_title_block":18,"fontsize_title_block_mb":18,"title_block_font_weight":"700","mg_bottom_title":15,"mg_bottom_title_mb":0,"color_block":"#232323","description":"We ensure quality assurance and provide prompt after-sales service, addressing any concerns or issues as quickly as possible.","fontsize_des_block":16,"fontsize_des_block_mb":14,"lineheight_des_block":22,"mg_bottom_des":0,"color_des_block":"#3c3c3c","button":"","link":"","button_style":"style1","fontsize_button":14,"button_width":235,"fontweight_button":"500","enable_underline_button":false,"color_button":"#ba7a2d","button_border":"","button_background":"","button_background_gradient":"","button_color_hover":"#ba7a2d","button_border_hover":"","button_background_hover":"","button_background_gradient_hover":""}}},"block_order":["cbece3c5-69e7-4ac0-9014-0d3771d72d19","fa71b4aa-cce0-43b7-8f5d-12fb9b713fd2","150cc01c-9394-4067-b3a3-4cbadd5f4083","text_axQqXC"],"disabled":true,"settings":{"id_section":"","container":"container","padding_full_width":0,"display_border_top":false,"display_border_bottom":false,"border_color":"#d0d0d0","service_block_swipe_on_mobile":"slider","color_icon_slider":"#212121","service_block_style":"style_1","policies_bg":"#ffffff","policies_bg_gradient":"","service_block_title":"","enable_border_title":false,"color_title":"#000000","fontsize_title":30,"fontsize_title_mb":22,"mg_bottom_title_service_block":12,"mg_bottom_title_service_block_mb":12,"service_block_des":"","service_block_des_pos":"bottom","color_des":"#000000","fontsize_des":16,"mg_top_service_block_des":50,"mg_bottom_service_block_des":50,"view_all":"","view_all_align":"center","font_weight_view_all":"400","mg_top_view":0,"mg_bottom_view":30,"enable_border_view_all":true,"link_view_all":"","color_view_all":"#3c3c3c","icon_view_all":"","color_view_all_icon":"#eb492f","title_align":"center","item_width":"full_width","border_item":"none","enable_item_distance":true,"enable_hover_box_shadow":false,"enable_hover_effects_top":false,"item_padding_top":13,"item_padding_bottom":13,"item_padding_left_right":40,"item_radius":4,"grid_gap":30,"item_align":"center","enable_block_bottom":false,"bg_block_bottom":"#000000","btn_text_block_bottom":"Shop Now","button_link_block_bottom":"","button_1_width_block_bottom":235,"button_color_block_bottom":"#ffffff","button_border_block_bottom":"#232323","button_background_block_bottom":"#232323","button_background_gradient_block_bottom":"","button_color_hover_block_bottom":"#ffffff","button_border_hover_block_bottom":"#232323","button_background_hover_block_bottom":"#232323","button_background_gradient_hover_block_bottom":"","btn_2_text_block_bottom":"Shop Now","button_link_2_block_bottom":"","button_2_width_block_bottom":235,"button_2_color_block_bottom":"#ffffff","button_2_border_block_bottom":"#232323","button_2_background_block_bottom":"#232323","button_2_background_gradient_block_bottom":"","button_2_color_hover_block_bottom":"#ffffff","button_2_border_hover_block_bottom":"#232323","button_2_background_hover_block_bottom":"#232323","button_2_background_gradient_hover_block_bottom":"","mg_top_desktop":15,"mg_top_tablet":10,"mg_top_mobile":30,"mg_bottom_desktop":15,"mg_bottom_tablet":10,"mg_bottom_mobile":30}},"lookbook_with_collection_MKMYbR":{"type":"lookbook-with-collection","blocks":{"lookbook_image_MgPW7t":{"type":"lookbook_image","settings":{"lookbook_image":"shopify:\/\/shop_images\/616385084852822656___8_79d47580-24a3-41a2-9630-6c87bee4cd7b.jpg","lookbook_image_action":"popup_image","lookbook_image_link":"","product_1":"","horizontal_pos_1":0,"vertical_pos_1":0,"lookbook_pos_1":"right","product_2":"","horizontal_pos_2":0,"vertical_pos_2":0,"lookbook_pos_2":"right","product_3":"","horizontal_pos_3":0,"vertical_pos_3":0,"lookbook_pos_3":"right","product_4":"","horizontal_pos_4":0,"vertical_pos_4":0,"lookbook_pos_4":"right","link_text":"","link":"","link_underline":true,"link_color":"#3c3c3c","link_color_hover":"#2a6876","link_margin_top":18,"link_fs":16,"link_fs_mb":12,"text_align":"left","link_width":0}},"lookbook_image_qhh4JK":{"type":"lookbook_image","settings":{"lookbook_image_action":"popup_image","lookbook_image_link":"","product_1":"","horizontal_pos_1":0,"vertical_pos_1":0,"lookbook_pos_1":"right","product_2":"","horizontal_pos_2":0,"vertical_pos_2":0,"lookbook_pos_2":"right","product_3":"","horizontal_pos_3":0,"vertical_pos_3":0,"lookbook_pos_3":"right","product_4":"","horizontal_pos_4":0,"vertical_pos_4":0,"lookbook_pos_4":"right","link_text":"","link":"","link_underline":true,"link_color":"#3c3c3c","link_color_hover":"#2a6876","link_margin_top":18,"link_fs":16,"link_fs_mb":12,"text_align":"left","link_width":335}},"lookbook_image_fYXYNC":{"type":"lookbook_image","settings":{"lookbook_image_action":"popup_image","lookbook_image_link":"","product_1":"","horizontal_pos_1":0,"vertical_pos_1":0,"lookbook_pos_1":"right","product_2":"","horizontal_pos_2":0,"vertical_pos_2":0,"lookbook_pos_2":"right","product_3":"","horizontal_pos_3":0,"vertical_pos_3":0,"lookbook_pos_3":"right","product_4":"","horizontal_pos_4":0,"vertical_pos_4":0,"lookbook_pos_4":"right","link_text":"","link":"","link_underline":true,"link_color":"#3c3c3c","link_color_hover":"#2a6876","link_margin_top":18,"link_fs":16,"link_fs_mb":12,"text_align":"left","link_width":335}},"lookbook_image_hdCXMW":{"type":"lookbook_image","settings":{"lookbook_image_action":"popup_image","lookbook_image_link":"","product_1":"","horizontal_pos_1":0,"vertical_pos_1":0,"lookbook_pos_1":"right","product_2":"","horizontal_pos_2":0,"vertical_pos_2":0,"lookbook_pos_2":"right","product_3":"","horizontal_pos_3":0,"vertical_pos_3":0,"lookbook_pos_3":"right","product_4":"","horizontal_pos_4":0,"vertical_pos_4":0,"lookbook_pos_4":"right","link_text":"","link":"","link_underline":true,"link_color":"#3c3c3c","link_color_hover":"#2a6876","link_margin_top":18,"link_fs":16,"link_fs_mb":12,"text_align":"left","link_width":335}}},"block_order":["lookbook_image_MgPW7t","lookbook_image_qhh4JK","lookbook_image_fYXYNC","lookbook_image_hdCXMW"],"disabled":true,"settings":{"container":"1770","padding_full_width":50,"section_bg":"#ffffff","section_gradient":"","title":"Style & Design Inspirations","color_title":"#232323","mg_bottom_title":25,"fontsize_title":30,"fontsize_title_mb":24,"des":"Temporibus autem quibusdam et officiis debitis aut rerum necessitatibus saepe del eveniet ut deluxa voluptates repudiandae sint et molestiae.","color_des":"#3c3c3c","margin_bottom_des":35,"fontsize_des":16,"fontsize_des_mb":12,"title_align":"center","content_width":700,"view_more":"View More","view_all_link":"","view_all_color":"#2a6876","view_all_enable_border":true,"view_all_font_size":16,"view_all_font_weight":"400","view_all_pos":"right","view_more_mg_top":24,"image_behavior":"ambient","lookbook_style":"1","enable_lookbook_width":true,"lookbook_width":295,"dot_desktop_size":24,"dot_mobile_size":18,"dot_shadow_color":"#ffffff","dot_outer_color":"#ffffff","show_dot_number":true,"show_dot_number_mobile":false,"dot_inner_color":"#000000","number_desktop_size":12,"number_mobile_size":11,"lookbook_truncate":"1","show_text":"Show Products","hide_text":"Hide Products","show_btn_bg_color":"","show_btn_gradient":"rgba(0,0,0,0.5)","show_btn_text_color":"#ffffff","show_btn_height":30,"show_btn_width":135,"scroll_height":4,"scroll_track_bg":"#f1f1f1","scroll_thumb_color":"#000000","scroll_thumb_hover_color":"#444444","mg_top_desktop":30,"mg_top_tablet":25,"mg_top_mobile":20,"mg_bottom_desktop":75,"mg_bottom_tablet":60,"mg_bottom_mobile":10}},"collapsible_content_3VgFWL":{"type":"collapsible-content","blocks":{"content_m3LmmH":{"type":"content","settings":{"heading":"Collapsible Row","content":"<p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.<\/p>","page":""}},"content_gNHT4h":{"type":"content","settings":{"heading":"Collapsible Row","content":"<p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.<\/p><p><\/p>","page":""}},"content_yRjpeG":{"type":"content","settings":{"heading":"Collapsible Row","content":"<p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.<\/p>","page":""}}},"block_order":["content_m3LmmH","content_gNHT4h","content_yRjpeG"],"disabled":true,"settings":{"id_section":"","container":"1170","padding_full_width":0,"collapsible_bg":"#ffffff","collapsible_bg_gradient":"","collapsible_title":"Frequently Asked Questions","color_title":"#232323","fontsize_title":24,"fontsize_title_mb":16,"collapsible_des":"123123","color_des":"#3c3c3c","fontsize_des":16,"fontsize_des_mb":12,"max_width_des":700,"title_align":"center","enable_image_right":false,"bg_content_color":"#ffffff","content_color":"#232323","title_color":"#232323","icon_color":"#232323","border_color":"#232323","mg_top_desktop":50,"mg_top_tablet":50,"mg_top_mobile":50,"mg_bottom_desktop":50,"mg_bottom_tablet":50,"mg_bottom_mobile":50}},"tw_section_hero_pGXBLD":{"type":"tw-section-hero","settings":{"main_title":"Contact Us","main_description":"XVV HAPPY SUNSHY Q INC","main_image":"shopify:\/\/shop_images\/34356789igfdssa.jpg","main_button_text":"support@giftpersonalized.com","main_button_link":"shopify:\/\/pages\/about-giftpersonalizer","secondary_title":"Polymer Clay","secondary_button_text":"Shop Now","secondary_image":"shopify:\/\/shop_images\/d14397031c88422b9fbd81069daf2734_tplv-aphluv4xwc-resize-jpeg_800_800.jpg","secondary_link":"","bg_color":"#f7ae67","margin_top":24,"margin_bottom":0,"padding_top":0,"padding_bottom":48}},"tw_section_collection_kCbGX7":{"type":"tw-section-collection","blocks":{"category_card_XPHxqx":{"type":"category_card","settings":{"image":"shopify:\/\/shop_images\/1.jpg","title":"Marker Pen","link":"shopify:\/\/products\/dual-tip-art-markers-set-1-set-art-markers-set-for-drawingart-supplies-for-books-sketching-card-making-summer-giftsmarkers-coloring"}},"category_card_htzLpk":{"type":"category_card","settings":{"image":"shopify:\/\/shop_images\/webp_1_0c06af84-3f41-443e-8677-6a4226fae47e.jpg","title":"Polymer Clay Tools","link":"shopify:\/\/products\/air-drying-ultra-light-tools-suitable-for-gift-giving-tostudents-boys-and-girls-school-craft-making-polymer-clay"}},"category_card_WCQFCb":{"type":"category_card","settings":{"image":"shopify:\/\/shop_images\/678635569-_-_7.jpg","title":"T-Shirt","link":"shopify:\/\/products\/personalized-lgbtq-pride-t-shirt-crewneck-short-sleeve-t-shirt-with-text-gift-for-your-loved-one"}},"category_card_pHY4Kg":{"type":"category_card","settings":{"image":"shopify:\/\/shop_images\/8143543432b5415ba19eec367ef86a18-goods.jpg","title":"Local Warehouse","link":"shopify:\/\/products\/adjustable-satin-bonnet-and-shower-cap-double-layer-silk-hair-bonnet-for-women-and-men-reversible-night-cap-and-bath-cap-for-home-salon-spa-bathroom-use-ideal-gift-for-birthdays-and-holidays"}},"category_card_E9nHrx":{"type":"category_card","settings":{"image":"shopify:\/\/shop_images\/678635569-_-_1_077bb63d-e344-446a-815e-4769679d758e.jpg","title":"Best-selling gifts","link":""}}},"block_order":["category_card_XPHxqx","category_card_htzLpk","category_card_WCQFCb","category_card_pHY4Kg","category_card_E9nHrx"],"settings":{"title":"Best Seller","navigation":true,"margin_top":0,"margin_bottom":0,"padding_top":0,"padding_bottom":16}},"tw_section_scene_tc4TJF":{"type":"tw-section-scene","blocks":{"gift_card_eaKbm4":{"type":"gift_card","settings":{"image":"shopify:\/\/shop_images\/pexels-rdne-7764028_c93e224d-91c4-4c4a-b9db-007c01af8ce4.jpg","image_alt":"Gifts for Mom Mother's Day Gifts","title":"Gifts for Mom","link":"shopify:\/\/collections\/mothers-day-1"}},"gift_card_8wqk4M":{"type":"gift_card","settings":{"image":"shopify:\/\/shop_images\/no-revisions-eSLTfkRdW84-unsplash.jpg","image_alt":"Happy Birthday Gifts","title":"Happy Birthday","link":"shopify:\/\/collections\/birthday"}},"gift_card_FFYtHU":{"type":"gift_card","settings":{"image":"shopify:\/\/shop_images\/682827685-_-_3.jpg","image_alt":"Anniversary","title":"Anniversary","link":"shopify:\/\/collections\/anniversary"}},"gift_card_d7KfMX":{"type":"gift_card","settings":{"image":"shopify:\/\/shop_images\/11.webp","image_alt":"","title":"Gifts for Dad","link":"shopify:\/\/collections\/fathers-day"}},"gift_card_qtFEfC":{"type":"gift_card","settings":{"image":"shopify:\/\/shop_images\/682116310-_-_7.jpg","image_alt":"Graduation Gifts","title":"Graduation","link":"shopify:\/\/collections\/graduation-gifts"}},"gift_card_knDLFD":{"type":"gift_card","settings":{"image":"shopify:\/\/shop_images\/111111111111111111111111111111111111.png","image_alt":"Wedding","title":"Wedding","link":"shopify:\/\/products\/personalized-canvas-tote-bag-with-name-and-pattern-christmas-birthday-gift-for-women"}}},"block_order":["gift_card_eaKbm4","gift_card_8wqk4M","gift_card_FFYtHU","gift_card_d7KfMX","gift_card_qtFEfC","gift_card_knDLFD"],"settings":{"title":"Gifts for Every Occasion","margin_top":14,"margin_bottom":0,"padding_top":0,"padding_bottom":0}},"tw_section_product_sale_RiR6fr":{"type":"tw-section-product-sale","blocks":{"deal_card_gihcVz":{"type":"deal_card","settings":{"product":"personalized-kings-need-beer-too-mens-crewneck-short-sleeve-t-shirt-with-text-gift-for-boyfriend-and-father","title":"","rating":"4.9","sale_note":"Biggest sale in 60+ days","link":"shopify:\/\/products\/personalized-kings-need-beer-too-mens-crewneck-short-sleeve-t-shirt-with-text-gift-for-boyfriend-and-father"}},"deal_card_aJjiiq":{"type":"deal_card","settings":{"product":"10pcs-20pcs-30pcs-golden-sequin-latex-balloons-12-inches-perfect-for-graduation-wedding-birthday-and-party-decorations","title":"","rating":"4.9","sale_note":"Biggest sale in 60+ days","link":"shopify:\/\/products\/1-piece-clear-sounding-christmas-clock-ornament-stainless-steel-christmas-decoration-clock-christmas-angel-wing-bell-pendant-christmas-tree-small-bell-with-ribbon-perfect-for-christmas-tree-decoration-and-outdoor-hanging-铃铛"}},"deal_card_nFbPtC":{"type":"deal_card","settings":{"product":"12pcs-3d-butterfly-wall-decor-stickers-with-magnets-removable-reusable-for-party-room-home-office-theme-and-christmas-decor","title":"","rating":"4.9","sale_note":"Biggest sale in 60+ days","link":""}},"deal_card_EK9Gr7":{"type":"deal_card","settings":{"product":"100pcs-colorful-love-heart-sponge-petals-ideal-for-wedding-and-party-decorations-diy-crafts-table-scatters-in-red-pink-blue-and-more","title":"","rating":"4.9","sale_note":"Biggest sale in 60+ days","link":""}},"deal_card_LLaTcK":{"type":"deal_card","settings":{"product":"1-pair-of-simple-exquisite-designs-with-artificial-glass-inlay-for-womens-daily-leisure-earrings","title":"","rating":"4.9","sale_note":"Biggest sale in 60+ days","link":""}},"deal_card_htbN9Q":{"type":"deal_card","settings":{"product":"10-inch-light-pink-latex-balloons-50pcs-party-decorations-with-pink-ribbon-christmas-thanksgiving-birthday-graduation-bridal-gender-reveal-pink-princess-easter-gift-winter-new-year","title":"","rating":"4.9","sale_note":"Biggest sale in 60+ days","link":""}}},"block_order":["deal_card_gihcVz","deal_card_aJjiiq","deal_card_nFbPtC","deal_card_EK9Gr7","deal_card_LLaTcK","deal_card_htbN9Q"],"settings":{"title":"Today's Big Deals","discount_color":"#a0e193","discount_size_color":"#222222","sale_color":"#0f743b","margin_top":24,"margin_bottom":0,"padding_top":0,"padding_bottom":40}},"tw_section_new_erqHt8":{"type":"tw-section-new","blocks":{"product_card_BFCiwr":{"type":"product_card","settings":{"product":"2-in-1-crevice-and-floor-scrub-brush-durable-plastic-portable-design-for-bathroom-kitchen-living-room-cleaning"}},"product_card_RceAka":{"type":"product_card","settings":{"image":"shopify:\/\/shop_images\/678635569-_-_7_6fdb5315-fc30-484a-8c66-f6858c150480.jpg","product":"10-pieces-christmas-party-small-bags-christmas-party-bead-gift-bags-christmas-decoration-tote-bags-party-gift-bags"}},"product_card_y6jcgb":{"type":"product_card","settings":{"image":"shopify:\/\/shop_images\/678635569-_-_7.jpg","product":"1-piece-clear-sounding-christmas-clock-ornament-stainless-steel-christmas-decoration-clock-christmas-angel-wing-bell-pendant-christmas-tree-small-bell-with-ribbon-perfect-for-christmas-tree-decoration-and-outdoor-hanging-铃铛"}},"product_card_X7HmVF":{"type":"product_card","settings":{"image":"shopify:\/\/shop_images\/678635569-_-_7.jpg","product":"1-pair-of-simple-exquisite-designs-with-artificial-glass-inlay-for-womens-daily-leisure-earrings"}},"product_card_JN7fBX":{"type":"product_card","settings":{"image":"shopify:\/\/shop_images\/678635569-_-_7_6fdb5315-fc30-484a-8c66-f6858c150480.jpg","product":"10-20-30-40-50-60pcs-assorted-solid-color-butterfly-bow-hair-clips-for-girls-polyester-angel-theme-all-season-hair-accessories-random-colors"}},"product_card_UyDKFf":{"type":"product_card","settings":{"image":"shopify:\/\/shop_images\/678635569-_-_7.jpg","product":"10-inch-light-pink-latex-balloons-50pcs-party-decorations-with-pink-ribbon-christmas-thanksgiving-birthday-graduation-bridal-gender-reveal-pink-princess-easter-gift-winter-new-year"}}},"block_order":["product_card_BFCiwr","product_card_RceAka","product_card_y6jcgb","product_card_X7HmVF","product_card_JN7fBX","product_card_UyDKFf"],"settings":{"subtitle":"","title":"Fresh Off the Rack!","description":"Warning: May Cause Sudden Checkout Urges！","button_text":"Shop the Drop","button_link":"shopify:\/\/products\/1-pair-elegant-heart-shaped-stud-earrings-18k-gold-plated-stainless-steel-ideal-valentines-day-gift-for-her-cute-earrings","margin_top":24,"margin_bottom":0,"padding_top":0,"padding_bottom":48}},"tw_section_gift_XbqQxi":{"type":"tw-section-gift","blocks":{"occasion_card_LckG7X":{"type":"occasion_card","settings":{"title":"Mother's Day","date":"May 11","bg_color":"#fdd95c","badge_color":"#ccebff","image":"shopify:\/\/shop_images\/pexels-rdne-7764089_1_1.jpg","link":"shopify:\/\/collections\/mothers-day-1"}},"occasion_card_cK4xKB":{"type":"occasion_card","settings":{"title":"Birthday","date":"2025","bg_color":"#b15521","badge_color":"#ccebff","image":"shopify:\/\/shop_images\/pexels-cottonbro-4114731.jpg","link":"shopify:\/\/collections\/birthday"}},"occasion_card_XVBznc":{"type":"occasion_card","settings":{"title":"Father's Day","date":"Jun 15","bg_color":"#fdd95c","badge_color":"#ccebff","image":"shopify:\/\/shop_images\/tim-mossholder-m-ylhkTHv6Q-unsplash.jpg","link":"shopify:\/\/collections\/fathers-day"}},"occasion_card_NRUPXU":{"type":"occasion_card","settings":{"title":"Back to School","date":"2025","bg_color":"#fdd95c","badge_color":"#ccebff","image":"shopify:\/\/shop_images\/627370920125686400___3.jpg","link":"shopify:\/\/collections\/back-to-school"}},"occasion_card_3GbRPA":{"type":"occasion_card","settings":{"title":"Beach Days","date":"Summer","bg_color":"#2dbf4b","badge_color":"#ccebff","image":"shopify:\/\/shop_images\/pexels-rpnickson-2647973_3d5acf13-7801-4c5f-8af0-45eab200c5e4.jpg","link":"shopify:\/\/collections\/beach-days"}}},"block_order":["occasion_card_LckG7X","occasion_card_cK4xKB","occasion_card_XVBznc","occasion_card_NRUPXU","occasion_card_3GbRPA"],"settings":{"title":"Match Gifts To Moments","margin_top":24,"margin_bottom":0,"padding_top":0,"padding_bottom":48}},"tw_section_blog_CRRV4T":{"type":"tw-section-blog","blocks":{"card_HfA3pK":{"type":"card","settings":{"badge":"Shopping Guides","article":"新闻\/8-ways-to-dial-up-the-fun-for-a-joyful-birthday-bash"}},"card_NjMAzw":{"type":"card","settings":{"badge":"Shopping Guides","article":"新闻\/8-ways-to-dial-up-the-fun-for-a-joyful-birthday-bash"}},"card_Y9476t":{"type":"card","settings":{"badge":"Shopping Guides","article":"新闻\/8-ways-to-dial-up-the-fun-for-a-joyful-birthday-bash"}}},"block_order":["card_HfA3pK","card_NjMAzw","card_Y9476t"],"settings":{"title":"Fresh from the blog","margin_top":24,"margin_bottom":0,"padding_top":0,"padding_bottom":44}}},"order":["image_banner_x3yecT","brand_slider_X8YgT3","product_block_NdkbBd","product_block_pyxWt3","brand_slider_g3B9D4","16393870238958f868","lookbook_with_collection_MKMYbR","collapsible_content_3VgFWL","tw_section_hero_pGXBLD","tw_section_collection_kCbGX7","tw_section_scene_tc4TJF","tw_section_product_sale_RiR6fr","tw_section_new_erqHt8","tw_section_gift_XbqQxi","tw_section_blog_CRRV4T"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_x3yecT": {
+      "type": "image-banner",
+      "blocks": {
+        "large_img_C4kLiA": {
+          "type": "largeImg",
+          "settings": {
+            "image": "shopify://shop_images/20250304181112.png",
+            "mobile_image": "shopify://shop_images/GIFT_m8_638_x_870_px.jpg",
+            "enable_max_width_image": false,
+            "custom_width_image": 1170,
+            "enable_scroll_down": false,
+            "enable_custom_image": false,
+            "image_behavior": "none",
+            "sub_title": "",
+            "border_sub_title": false,
+            "font_size_sub_title": 14,
+            "font_size_sub_title_mb": 14,
+            "margin_bottom_sub_title": 14,
+            "sub_heading_font": "font_1",
+            "font_weight_sub_title": "700",
+            "sub_title_position": "sub_title_above",
+            "color_sub_title": "#232323",
+            "color_sub_title_mb": "#ffffff",
+            "heading": "",
+            "letter_spacing_heading": "",
+            "enable_style_italic": false,
+            "font_size_heading": 40,
+            "font_size_heading_mb": 24,
+            "margin_bottom_heading": 20,
+            "font_weight_heading": "600",
+            "color_heading": "#232323",
+            "color_heading_mb": "#ffffff",
+            "border_title": "border_s1",
+            "border_color_title": "#232323",
+            "border_color_title_mobile": "#ffffff",
+            "text": "",
+            "font_size_des": 12,
+            "font_size_des_mb": 12,
+            "line_height_des": 26,
+            "margin_bottom_des": 35,
+            "color_des": "#232323",
+            "color_des_mb": "#ffffff",
+            "countdown": "",
+            "hide_countdown_fc": "countdown",
+            "countdown_style": "round",
+            "countdown_position": "countdown_below_desc",
+            "font_size_countdown_number": 30,
+            "font_size_countdown_text": 14,
+            "color_countdown": "#232323",
+            "color_countdown_mb": "#ffffff",
+            "countdown_margin_bottom": 35,
+            "content_width": 475,
+            "bg_color_content": "",
+            "align": "center",
+            "align_items": "center",
+            "position": "left",
+            "custom_horizontal": "",
+            "custom_vertical": "",
+            "btn_text": "",
+            "link": "",
+            "btn_icon": "",
+            "button_1_width": 235,
+            "enable_button_custom_border": false,
+            "button_color": "#ffffff",
+            "button_border": "#d3948b",
+            "button_background": "#d3948b",
+            "button_background_gradient": "",
+            "button_color_hover": "#ffffff",
+            "button_border_hover": "#232323",
+            "button_background_hover": "#232323",
+            "button_background_gradient_hover": "",
+            "btn_text_2": "",
+            "link_2": "",
+            "btn_icon_2": "",
+            "button_color_2": "#ffffff",
+            "button_border_2": "#232323",
+            "button_background_2": "#232323",
+            "button_background_2_gradient": "",
+            "button_color_hover_2": "#ffffff",
+            "button_border_hover_2": "#232323",
+            "button_background_hover_2": "#232323",
+            "button_background_gradient_hover_2": "",
+            "video_link": "",
+            "adaptive_height_video": "56",
+            "icon_style": "style_1",
+            "color_icon": "#ffffff",
+            "bg_color_icon": "#000000",
+            "enable_custom_video_icon_position": false,
+            "video_icon_horizontal_position": "",
+            "video_icon_vertical_position": "",
+            "video_icon_horizontal_position_mb": "",
+            "video_icon_vertical_position_mb": ""
+          }
+        }
+      },
+      "block_order": [
+        "large_img_C4kLiA"
+      ],
+      "disabled": true,
+      "settings": {
+        "id_section": "",
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "display_type": "slide",
+        "enable_arrows": false,
+        "arrows_position": "",
+        "enable_dots": false,
+        "enable_autoplay": false,
+        "list_gap": 0,
+        "image_banner_title": "",
+        "enable_border_title": false,
+        "color_title": "#202020",
+        "fontsize_title": 24,
+        "fontsize_title_mb": 20,
+        "margin_bottom_title": 25,
+        "image_banner_des": "",
+        "color_des": "#202020",
+        "fontsize_des": 16,
+        "title_align": "center",
+        "style_bg": "none",
+        "bg_color": "",
+        "bg_color_gradient": "",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
+      }
+    },
+    "brand_slider_X8YgT3": {
+      "type": "brand-slider",
+      "blocks": {
+        "image_4bg8Gd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add-_l1.jpg",
+            "title": "Love Gifts",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "",
+            "color_des": "#3c3c3c",
+            "link": "shopify://collections/discount-series"
+          }
+        },
+        "image_Tcxacy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add-_l2.jpg",
+            "title": "Birthday Present",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "",
+            "color_des": "#3c3c3c",
+            "link": "shopify://collections/birthday-present"
+          }
+        },
+        "image_cypLLY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add-_l3.jpg",
+            "title": "holiday gift",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "",
+            "color_des": "#3c3c3c",
+            "link": "shopify://collections/holiday-gift"
+          }
+        },
+        "image_meNmnY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/brand.jpg",
+            "title": "School",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "",
+            "color_des": "#3c3c3c",
+            "link": "shopify://collections/school"
+          }
+        },
+        "image_6p9bXx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add-_l4.webp",
+            "title": "Corporate Activities",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "",
+            "color_des": "#3c3c3c",
+            "link": "shopify://collections/corporate-activities"
+          }
+        },
+        "image_n8C3Fz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add-_l6.webp",
+            "title": "Customizable Gifts",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "",
+            "color_des": "#3c3c3c",
+            "link": "shopify://collections/define-your-personal-style"
+          }
+        }
+      },
+      "block_order": [
+        "image_4bg8Gd",
+        "image_Tcxacy",
+        "image_cypLLY",
+        "image_meNmnY",
+        "image_6p9bXx",
+        "image_n8C3Fz"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "brands_block_style": "style_1",
+        "brand_layout": "slider",
+        "scroll_from": "ltr",
+        "brand_scroll_time": "20",
+        "display_brand_border": false,
+        "brand_bg": "#f5f5f5",
+        "brand_bg_gradient": "",
+        "title_align": "center",
+        "brand_title": "",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "mg_bottom_title": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "brand_des": "",
+        "color_des": "#3c3c3c",
+        "fontsize_des": 16,
+        "mg_bottom_des": 0,
+        "view_all": "",
+        "view_all_fs": 12,
+        "font_weight_view_all": "400",
+        "mg_bottom_view": 0,
+        "enable_border_view_all": false,
+        "link_view_all": "",
+        "color_view_all": "#3c3c3c",
+        "icon_view_all": "",
+        "color_view_all_icon": "#eb492f",
+        "view_all_icon_side": "left",
+        "btn_text": "",
+        "fontsize_btn": 12,
+        "btn_spacing_top": 15,
+        "btn_color": "#828282",
+        "btn_link": "",
+        "enable_autoplay": false,
+        "brand_speed": "3000",
+        "brand_rows": "6",
+        "enable_arrows": true,
+        "enable_dots": false,
+        "enable_center_mode": false,
+        "style_position_arrows": "none",
+        "position_horizontal_arrow": 15,
+        "color_arrow": "",
+        "arrow_background": "",
+        "arrow_background_gradient": "",
+        "arrow_border": "",
+        "color_arrow_hover": "",
+        "arrow_background_hover": "",
+        "arrow_background_gradient_hover": "",
+        "arrow_border_hover": "",
+        "brand_rows_mb": "3",
+        "brand_image_ratio": "square",
+        "item_distance": 24,
+        "margin_bottom_image": 10,
+        "brand_item_border": "none",
+        "border_radius": 50,
+        "border_color": "#e2e5e7",
+        "border_color_hover": "#2d2d2d",
+        "hover_effect": "none",
+        "color_underline_image_hover": "#000000",
+        "fontsize_text": 16,
+        "fontsize_text_mb": 13,
+        "font_weight_title": "600",
+        "margin_bottom_title": 0,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "product_block_NdkbBd": {
+      "type": "product-block",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "disable_padding_content": false,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "border_height": 1,
+        "color_border_bottom": "#e8e8e8",
+        "enable_minus_mg_top": false,
+        "minus_spacing_top": -100,
+        "product_block_layout": "grid",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "product_block_collection": "1",
+        "product_block_limit": 8,
+        "grid_gap": 30,
+        "pb_style": "style1",
+        "style_block_header": "style1",
+        "product_block_title": "Trending Now",
+        "enable_border_title": true,
+        "enable_border_title_style2": true,
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "pd_top_title": 30,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "title_align": "center",
+        "title_align_mb": "center",
+        "view_all": "",
+        "view_all_align": "center",
+        "font_weight_view_all": "400",
+        "mg_bottom_view": 30,
+        "mg_bottom_view_mb": 0,
+        "enable_border_view_all": true,
+        "link_view_all": "",
+        "color_view_all": "#3c3c3c",
+        "icon_view_all": "",
+        "color_view_all_icon": "#eb492f",
+        "button_text": "Show More",
+        "button_text_font_size": 14,
+        "button_text_font_weight": "500",
+        "button_text_text_transform": "uppercase",
+        "product_button_width": 270,
+        "pd_top_product_button": 12,
+        "pd_bottom_product_button": 12,
+        "button_icon": "",
+        "mg_bottom_button": 55,
+        "enable_button_shadow": false,
+        "color_button": "#ffffff",
+        "border_color_button": "#232323",
+        "bg_color_button": "#232323",
+        "bg_color_gradient_button": "",
+        "color_button_hover": "",
+        "border_color_button_hover": "",
+        "bg_color_button_hover": "",
+        "bg_color_gradient_button_hover": "",
+        "style_countdown": "style_1",
+        "countdown": "",
+        "font_size_countdown_text": 14,
+        "color_countdown": "#f42b23",
+        "countdown_margin_left": 15,
+        "product_block_per_row": "4",
+        "product_block_infinite_scroll": true,
+        "product_block_swipe_on_mobile": true,
+        "enable_product_card_pd_bottom": false,
+        "product_card_pd_bottom": 40,
+        "product_block_dots": false,
+        "product_block_dots_mb": true,
+        "spacing_top_dots": 0,
+        "product_block_arrows": true,
+        "product_block_arrows_mb": false,
+        "enable_hover_arrow": false,
+        "product_block_progress_bar": false,
+        "product_block_counter_number": false,
+        "enable_infinite": true,
+        "enable_autoplay": false,
+        "product_block_arrows_custom_position": false,
+        "position_vertical_arrow": "70px",
+        "use_special_arrow_position": false,
+        "spacing_bottom": 0,
+        "spacing_right": 0,
+        "product_block_show": "5",
+        "button_text_slider": "",
+        "button_link_slider": "",
+        "button_width": 280,
+        "btn_spacing_top": 49,
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "position": "left",
+        "width_banner": 40,
+        "enable_image_mb": true,
+        "display_list_collection": false,
+        "collection_color": "#202020",
+        "collection_color_hover": "#3e8cc4",
+        "collection_bg_color": "#ffffff",
+        "collection_bg_color_gradient": "",
+        "text_list": "View all categories",
+        "url_list": "",
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "product_block_pyxWt3": {
+      "type": "product-block",
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "disable_padding_content": false,
+        "enable_border_top": false,
+        "enable_border_bottom": false,
+        "border_height": 1,
+        "color_border_bottom": "#e8e8e8",
+        "enable_minus_mg_top": false,
+        "minus_spacing_top": -100,
+        "product_block_layout": "grid",
+        "product_bg": "#ffffff",
+        "product_bg_gradient": "",
+        "product_block_collection": "adoption-anniversary",
+        "product_block_limit": 8,
+        "grid_gap": 30,
+        "pb_style": "style1",
+        "style_block_header": "style1",
+        "product_block_title": "Trending Now",
+        "enable_border_title": true,
+        "enable_border_title_style2": true,
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "pd_top_title": 30,
+        "mg_bottom_title": 12,
+        "mg_bottom_title_mb": 12,
+        "border_color_title": "#232323",
+        "color_title": "#232323",
+        "title_align": "center",
+        "title_align_mb": "center",
+        "view_all": "",
+        "view_all_align": "center",
+        "font_weight_view_all": "400",
+        "mg_bottom_view": 30,
+        "mg_bottom_view_mb": 0,
+        "enable_border_view_all": true,
+        "link_view_all": "",
+        "color_view_all": "#3c3c3c",
+        "icon_view_all": "",
+        "color_view_all_icon": "#eb492f",
+        "button_text": "Show More",
+        "button_text_font_size": 14,
+        "button_text_font_weight": "500",
+        "button_text_text_transform": "uppercase",
+        "product_button_width": 270,
+        "pd_top_product_button": 12,
+        "pd_bottom_product_button": 12,
+        "button_icon": "",
+        "mg_bottom_button": 55,
+        "enable_button_shadow": false,
+        "color_button": "#ffffff",
+        "border_color_button": "#232323",
+        "bg_color_button": "#232323",
+        "bg_color_gradient_button": "",
+        "color_button_hover": "",
+        "border_color_button_hover": "",
+        "bg_color_button_hover": "",
+        "bg_color_gradient_button_hover": "",
+        "style_countdown": "style_1",
+        "countdown": "",
+        "font_size_countdown_text": 14,
+        "color_countdown": "#f42b23",
+        "countdown_margin_left": 15,
+        "product_block_per_row": "4",
+        "product_block_infinite_scroll": true,
+        "product_block_swipe_on_mobile": true,
+        "enable_product_card_pd_bottom": false,
+        "product_card_pd_bottom": 40,
+        "product_block_dots": false,
+        "product_block_dots_mb": true,
+        "spacing_top_dots": 0,
+        "product_block_arrows": true,
+        "product_block_arrows_mb": false,
+        "enable_hover_arrow": false,
+        "product_block_progress_bar": false,
+        "product_block_counter_number": false,
+        "enable_infinite": true,
+        "enable_autoplay": false,
+        "product_block_arrows_custom_position": false,
+        "position_vertical_arrow": "70px",
+        "use_special_arrow_position": false,
+        "spacing_bottom": 0,
+        "spacing_right": 0,
+        "product_block_show": "4",
+        "button_text_slider": "",
+        "button_link_slider": "",
+        "button_width": 280,
+        "btn_spacing_top": 49,
+        "product_block_per_view": "4",
+        "show_half": true,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "position": "left",
+        "width_banner": 40,
+        "enable_image_mb": true,
+        "display_list_collection": false,
+        "collection_color": "#202020",
+        "collection_color_hover": "#3e8cc4",
+        "collection_bg_color": "#ffffff",
+        "collection_bg_color_gradient": "",
+        "text_list": "View all categories",
+        "url_list": "",
+        "enable_layout_special": false,
+        "bg_card": "#ffffff",
+        "padding_card": 15,
+        "border_radius_card": 5,
+        "border_layout_card": "full",
+        "border_width_card": 5,
+        "border_color_card": "#f0f1f4",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "brand_slider_g3B9D4": {
+      "type": "brand-slider",
+      "blocks": {
+        "image_WB4y4P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add-p2.jpg",
+            "title": "Best-selling gifts",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "Carefully selected to ensure their popularity and quality.",
+            "color_des": "#3c3c3c",
+            "link": ""
+          }
+        },
+        "image_A3DhQa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add-p5.jpg",
+            "title": "New arrivals",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "Be the first to explore our latest additions, bringing you fresh and exciting products.",
+            "color_des": "#3c3c3c",
+            "link": ""
+          }
+        },
+        "image_XdEXje": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add-p3.jpg",
+            "title": "Exclusive deals",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "Special offer prepared just for you, providing exclusive pricing on selected items.",
+            "color_des": "#3c3c3c",
+            "link": ""
+          }
+        },
+        "image_RAwqnF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add-p1.jpg",
+            "title": "Fast local shipping",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "Ensure your gift arrives safely and quickly within the shortest time frame.",
+            "color_des": "#3c3c3c",
+            "link": ""
+          }
+        },
+        "image_4qwr4P": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/add-p4.jpg",
+            "title": "Custom gift boxes",
+            "color_text": "#000000",
+            "color_text_hover": "#c45c3e",
+            "description": "Tailored gift boxes with personalized contents for your occasion.",
+            "color_des": "#3c3c3c",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WB4y4P",
+        "image_A3DhQa",
+        "image_XdEXje",
+        "image_RAwqnF",
+        "image_4qwr4P"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "brands_block_style": "style_1",
+        "brand_layout": "slider",
+        "scroll_from": "ltr",
+        "brand_scroll_time": "20",
+        "display_brand_border": true,
+        "brand_bg": "#f5f5f5",
+        "brand_bg_gradient": "",
+        "title_align": "center",
+        "brand_title": "",
+        "color_title": "#232323",
+        "fontsize_title": 16,
+        "fontsize_title_mb": 16,
+        "mg_bottom_title": 12,
+        "enable_border_title": false,
+        "border_color_title": "#051c42",
+        "brand_des": "",
+        "color_des": "#3c3c3c",
+        "fontsize_des": 16,
+        "mg_bottom_des": 0,
+        "view_all": "",
+        "view_all_fs": 12,
+        "font_weight_view_all": "400",
+        "mg_bottom_view": 0,
+        "enable_border_view_all": true,
+        "link_view_all": "",
+        "color_view_all": "#3c3c3c",
+        "icon_view_all": "",
+        "color_view_all_icon": "#eb492f",
+        "view_all_icon_side": "left",
+        "btn_text": "",
+        "fontsize_btn": 12,
+        "btn_spacing_top": 15,
+        "btn_color": "#828282",
+        "btn_link": "",
+        "enable_autoplay": false,
+        "brand_speed": "3000",
+        "brand_rows": "5",
+        "enable_arrows": true,
+        "enable_dots": false,
+        "enable_center_mode": false,
+        "style_position_arrows": "none",
+        "position_horizontal_arrow": 15,
+        "color_arrow": "",
+        "arrow_background": "",
+        "arrow_background_gradient": "",
+        "arrow_border": "",
+        "color_arrow_hover": "",
+        "arrow_background_hover": "",
+        "arrow_background_gradient_hover": "",
+        "arrow_border_hover": "",
+        "brand_rows_mb": "1",
+        "brand_image_ratio": "square",
+        "item_distance": 15,
+        "margin_bottom_image": 8,
+        "brand_item_border": "none",
+        "border_radius": 0,
+        "border_color": "#e2e5e7",
+        "border_color_hover": "#2d2d2d",
+        "hover_effect": "zoom",
+        "color_underline_image_hover": "#000000",
+        "fontsize_text": 16,
+        "fontsize_text_mb": 13,
+        "font_weight_title": "400",
+        "margin_bottom_title": 0,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "16393870238958f868": {
+      "type": "custom-service-block",
+      "blocks": {
+        "cbece3c5-69e7-4ac0-9014-0d3771d72d19": {
+          "type": "Text",
+          "settings": {
+            "bg_color_block": "#ffffff",
+            "border_block": "#ffffff",
+            "icon_type": "image",
+            "image": "shopify://shop_images/FeefoIcon-min.webp",
+            "icon": "",
+            "width_icon": 20,
+            "height_icon": 20,
+            "mg_bottom_icon": 10,
+            "color_icon": "#3c3c3c",
+            "text": "Communicate order details",
+            "type_tab_font": "font_1",
+            "fontsize_title_block": 18,
+            "fontsize_title_block_mb": 18,
+            "title_block_font_weight": "700",
+            "mg_bottom_title": 10,
+            "mg_bottom_title_mb": 0,
+            "color_block": "#232323",
+            "description": "Tailored one-on-one guidance.\nhelps you choose the perfect gifts based on the information and details you provide about the recipient.",
+            "fontsize_des_block": 16,
+            "fontsize_des_block_mb": 14,
+            "lineheight_des_block": 22,
+            "mg_bottom_des": 0,
+            "color_des_block": "#3c3c3c",
+            "button": "",
+            "link": "",
+            "button_style": "style1",
+            "fontsize_button": 14,
+            "button_width": 235,
+            "fontweight_button": "500",
+            "enable_underline_button": false,
+            "color_button": "#ba7a2d",
+            "button_border": "",
+            "button_background": "",
+            "button_background_gradient": "",
+            "button_color_hover": "#ba7a2d",
+            "button_border_hover": "",
+            "button_background_hover": "",
+            "button_background_gradient_hover": ""
+          }
+        },
+        "fa71b4aa-cce0-43b7-8f5d-12fb9b713fd2": {
+          "type": "Text",
+          "settings": {
+            "bg_color_block": "#ffffff",
+            "border_block": "#ffffff",
+            "icon_type": "image",
+            "image": "shopify://shop_images/DeliveryIcon-min.webp",
+            "icon": "",
+            "width_icon": 20,
+            "height_icon": 20,
+            "mg_bottom_icon": 10,
+            "color_icon": "#3c3c3c",
+            "text": "Multiple shipping options available",
+            "type_tab_font": "font_1",
+            "fontsize_title_block": 18,
+            "fontsize_title_block_mb": 18,
+            "title_block_font_weight": "700",
+            "mg_bottom_title": 10,
+            "mg_bottom_title_mb": 0,
+            "color_block": "#232323",
+            "description": "Select your preferred shipping method. For some products, faster delivery may come with higher fees, but we offer a free, slower shipping option to help you save.",
+            "fontsize_des_block": 16,
+            "fontsize_des_block_mb": 14,
+            "lineheight_des_block": 22,
+            "mg_bottom_des": 0,
+            "color_des_block": "#3c3c3c",
+            "button": "",
+            "link": "",
+            "button_style": "style1",
+            "fontsize_button": 14,
+            "button_width": 235,
+            "fontweight_button": "500",
+            "enable_underline_button": false,
+            "color_button": "#ba7a2d",
+            "button_border": "",
+            "button_background": "",
+            "button_background_gradient": "",
+            "button_color_hover": "#ba7a2d",
+            "button_border_hover": "",
+            "button_background_hover": "",
+            "button_background_gradient_hover": ""
+          }
+        },
+        "150cc01c-9394-4067-b3a3-4cbadd5f4083": {
+          "type": "Text",
+          "settings": {
+            "bg_color_block": "#ffffff",
+            "border_block": "#ffffff",
+            "icon_type": "image",
+            "image": "shopify://shop_images/GiftsIcon-min.webp",
+            "icon": "",
+            "width_icon": 20,
+            "height_icon": 20,
+            "mg_bottom_icon": 10,
+            "color_icon": "#3c3c3c",
+            "text": "100% Secure Checkout",
+            "type_tab_font": "font_1",
+            "fontsize_title_block": 18,
+            "fontsize_title_block_mb": 18,
+            "title_block_font_weight": "700",
+            "mg_bottom_title": 10,
+            "mg_bottom_title_mb": 0,
+            "color_block": "#232323",
+            "description": "For products with longer production times, we’ll send progress photos, ensuring you’re confident while waiting.",
+            "fontsize_des_block": 16,
+            "fontsize_des_block_mb": 14,
+            "lineheight_des_block": 22,
+            "mg_bottom_des": 0,
+            "color_des_block": "#3c3c3c",
+            "button": "",
+            "link": "",
+            "button_style": "style1",
+            "fontsize_button": 14,
+            "button_width": 235,
+            "fontweight_button": "500",
+            "enable_underline_button": false,
+            "color_button": "#ba7a2d",
+            "button_border": "",
+            "button_background": "",
+            "button_background_gradient": "",
+            "button_color_hover": "#ba7a2d",
+            "button_border_hover": "",
+            "button_background_hover": "",
+            "button_background_gradient_hover": ""
+          }
+        },
+        "text_axQqXC": {
+          "type": "Text",
+          "settings": {
+            "bg_color_block": "#ffffff",
+            "border_block": "#ffffff",
+            "icon_type": "image",
+            "image": "shopify://shop_images/EventReminderIcon-min.webp",
+            "icon": "",
+            "width_icon": 20,
+            "height_icon": 20,
+            "mg_bottom_icon": 10,
+            "color_icon": "#3c3c3c",
+            "text": "24/7 customer support",
+            "type_tab_font": "font_1",
+            "fontsize_title_block": 18,
+            "fontsize_title_block_mb": 18,
+            "title_block_font_weight": "700",
+            "mg_bottom_title": 15,
+            "mg_bottom_title_mb": 0,
+            "color_block": "#232323",
+            "description": "We ensure quality assurance and provide prompt after-sales service, addressing any concerns or issues as quickly as possible.",
+            "fontsize_des_block": 16,
+            "fontsize_des_block_mb": 14,
+            "lineheight_des_block": 22,
+            "mg_bottom_des": 0,
+            "color_des_block": "#3c3c3c",
+            "button": "",
+            "link": "",
+            "button_style": "style1",
+            "fontsize_button": 14,
+            "button_width": 235,
+            "fontweight_button": "500",
+            "enable_underline_button": false,
+            "color_button": "#ba7a2d",
+            "button_border": "",
+            "button_background": "",
+            "button_background_gradient": "",
+            "button_color_hover": "#ba7a2d",
+            "button_border_hover": "",
+            "button_background_hover": "",
+            "button_background_gradient_hover": ""
+          }
+        }
+      },
+      "block_order": [
+        "cbece3c5-69e7-4ac0-9014-0d3771d72d19",
+        "fa71b4aa-cce0-43b7-8f5d-12fb9b713fd2",
+        "150cc01c-9394-4067-b3a3-4cbadd5f4083",
+        "text_axQqXC"
+      ],
+      "disabled": true,
+      "settings": {
+        "id_section": "",
+        "container": "container",
+        "padding_full_width": 0,
+        "display_border_top": false,
+        "display_border_bottom": false,
+        "border_color": "#d0d0d0",
+        "service_block_swipe_on_mobile": "slider",
+        "color_icon_slider": "#212121",
+        "service_block_style": "style_1",
+        "policies_bg": "#ffffff",
+        "policies_bg_gradient": "",
+        "service_block_title": "",
+        "enable_border_title": false,
+        "color_title": "#000000",
+        "fontsize_title": 30,
+        "fontsize_title_mb": 22,
+        "mg_bottom_title_service_block": 12,
+        "mg_bottom_title_service_block_mb": 12,
+        "service_block_des": "",
+        "service_block_des_pos": "bottom",
+        "color_des": "#000000",
+        "fontsize_des": 16,
+        "mg_top_service_block_des": 50,
+        "mg_bottom_service_block_des": 50,
+        "view_all": "",
+        "view_all_align": "center",
+        "font_weight_view_all": "400",
+        "mg_top_view": 0,
+        "mg_bottom_view": 30,
+        "enable_border_view_all": true,
+        "link_view_all": "",
+        "color_view_all": "#3c3c3c",
+        "icon_view_all": "",
+        "color_view_all_icon": "#eb492f",
+        "title_align": "center",
+        "item_width": "full_width",
+        "border_item": "none",
+        "enable_item_distance": true,
+        "enable_hover_box_shadow": false,
+        "enable_hover_effects_top": false,
+        "item_padding_top": 13,
+        "item_padding_bottom": 13,
+        "item_padding_left_right": 40,
+        "item_radius": 4,
+        "grid_gap": 30,
+        "item_align": "center",
+        "enable_block_bottom": false,
+        "bg_block_bottom": "#000000",
+        "btn_text_block_bottom": "Shop Now",
+        "button_link_block_bottom": "",
+        "button_1_width_block_bottom": 235,
+        "button_color_block_bottom": "#ffffff",
+        "button_border_block_bottom": "#232323",
+        "button_background_block_bottom": "#232323",
+        "button_background_gradient_block_bottom": "",
+        "button_color_hover_block_bottom": "#ffffff",
+        "button_border_hover_block_bottom": "#232323",
+        "button_background_hover_block_bottom": "#232323",
+        "button_background_gradient_hover_block_bottom": "",
+        "btn_2_text_block_bottom": "Shop Now",
+        "button_link_2_block_bottom": "",
+        "button_2_width_block_bottom": 235,
+        "button_2_color_block_bottom": "#ffffff",
+        "button_2_border_block_bottom": "#232323",
+        "button_2_background_block_bottom": "#232323",
+        "button_2_background_gradient_block_bottom": "",
+        "button_2_color_hover_block_bottom": "#ffffff",
+        "button_2_border_hover_block_bottom": "#232323",
+        "button_2_background_hover_block_bottom": "#232323",
+        "button_2_background_gradient_hover_block_bottom": "",
+        "mg_top_desktop": 15,
+        "mg_top_tablet": 10,
+        "mg_top_mobile": 30,
+        "mg_bottom_desktop": 15,
+        "mg_bottom_tablet": 10,
+        "mg_bottom_mobile": 30
+      }
+    },
+    "lookbook_with_collection_MKMYbR": {
+      "type": "lookbook-with-collection",
+      "blocks": {
+        "lookbook_image_MgPW7t": {
+          "type": "lookbook_image",
+          "settings": {
+            "lookbook_image": "shopify://shop_images/616385084852822656___8_79d47580-24a3-41a2-9630-6c87bee4cd7b.jpg",
+            "lookbook_image_action": "popup_image",
+            "lookbook_image_link": "",
+            "product_1": "",
+            "horizontal_pos_1": 0,
+            "vertical_pos_1": 0,
+            "lookbook_pos_1": "right",
+            "product_2": "",
+            "horizontal_pos_2": 0,
+            "vertical_pos_2": 0,
+            "lookbook_pos_2": "right",
+            "product_3": "",
+            "horizontal_pos_3": 0,
+            "vertical_pos_3": 0,
+            "lookbook_pos_3": "right",
+            "product_4": "",
+            "horizontal_pos_4": 0,
+            "vertical_pos_4": 0,
+            "lookbook_pos_4": "right",
+            "link_text": "",
+            "link": "",
+            "link_underline": true,
+            "link_color": "#3c3c3c",
+            "link_color_hover": "#2a6876",
+            "link_margin_top": 18,
+            "link_fs": 16,
+            "link_fs_mb": 12,
+            "text_align": "left",
+            "link_width": 0
+          }
+        },
+        "lookbook_image_qhh4JK": {
+          "type": "lookbook_image",
+          "settings": {
+            "lookbook_image_action": "popup_image",
+            "lookbook_image_link": "",
+            "product_1": "",
+            "horizontal_pos_1": 0,
+            "vertical_pos_1": 0,
+            "lookbook_pos_1": "right",
+            "product_2": "",
+            "horizontal_pos_2": 0,
+            "vertical_pos_2": 0,
+            "lookbook_pos_2": "right",
+            "product_3": "",
+            "horizontal_pos_3": 0,
+            "vertical_pos_3": 0,
+            "lookbook_pos_3": "right",
+            "product_4": "",
+            "horizontal_pos_4": 0,
+            "vertical_pos_4": 0,
+            "lookbook_pos_4": "right",
+            "link_text": "",
+            "link": "",
+            "link_underline": true,
+            "link_color": "#3c3c3c",
+            "link_color_hover": "#2a6876",
+            "link_margin_top": 18,
+            "link_fs": 16,
+            "link_fs_mb": 12,
+            "text_align": "left",
+            "link_width": 335
+          }
+        },
+        "lookbook_image_fYXYNC": {
+          "type": "lookbook_image",
+          "settings": {
+            "lookbook_image_action": "popup_image",
+            "lookbook_image_link": "",
+            "product_1": "",
+            "horizontal_pos_1": 0,
+            "vertical_pos_1": 0,
+            "lookbook_pos_1": "right",
+            "product_2": "",
+            "horizontal_pos_2": 0,
+            "vertical_pos_2": 0,
+            "lookbook_pos_2": "right",
+            "product_3": "",
+            "horizontal_pos_3": 0,
+            "vertical_pos_3": 0,
+            "lookbook_pos_3": "right",
+            "product_4": "",
+            "horizontal_pos_4": 0,
+            "vertical_pos_4": 0,
+            "lookbook_pos_4": "right",
+            "link_text": "",
+            "link": "",
+            "link_underline": true,
+            "link_color": "#3c3c3c",
+            "link_color_hover": "#2a6876",
+            "link_margin_top": 18,
+            "link_fs": 16,
+            "link_fs_mb": 12,
+            "text_align": "left",
+            "link_width": 335
+          }
+        },
+        "lookbook_image_hdCXMW": {
+          "type": "lookbook_image",
+          "settings": {
+            "lookbook_image_action": "popup_image",
+            "lookbook_image_link": "",
+            "product_1": "",
+            "horizontal_pos_1": 0,
+            "vertical_pos_1": 0,
+            "lookbook_pos_1": "right",
+            "product_2": "",
+            "horizontal_pos_2": 0,
+            "vertical_pos_2": 0,
+            "lookbook_pos_2": "right",
+            "product_3": "",
+            "horizontal_pos_3": 0,
+            "vertical_pos_3": 0,
+            "lookbook_pos_3": "right",
+            "product_4": "",
+            "horizontal_pos_4": 0,
+            "vertical_pos_4": 0,
+            "lookbook_pos_4": "right",
+            "link_text": "",
+            "link": "",
+            "link_underline": true,
+            "link_color": "#3c3c3c",
+            "link_color_hover": "#2a6876",
+            "link_margin_top": 18,
+            "link_fs": 16,
+            "link_fs_mb": 12,
+            "text_align": "left",
+            "link_width": 335
+          }
+        }
+      },
+      "block_order": [
+        "lookbook_image_MgPW7t",
+        "lookbook_image_qhh4JK",
+        "lookbook_image_fYXYNC",
+        "lookbook_image_hdCXMW"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "1770",
+        "padding_full_width": 50,
+        "section_bg": "#ffffff",
+        "section_gradient": "",
+        "title": "Style & Design Inspirations",
+        "color_title": "#232323",
+        "mg_bottom_title": 25,
+        "fontsize_title": 30,
+        "fontsize_title_mb": 24,
+        "des": "Temporibus autem quibusdam et officiis debitis aut rerum necessitatibus saepe del eveniet ut deluxa voluptates repudiandae sint et molestiae.",
+        "color_des": "#3c3c3c",
+        "margin_bottom_des": 35,
+        "fontsize_des": 16,
+        "fontsize_des_mb": 12,
+        "title_align": "center",
+        "content_width": 700,
+        "view_more": "View More",
+        "view_all_link": "",
+        "view_all_color": "#2a6876",
+        "view_all_enable_border": true,
+        "view_all_font_size": 16,
+        "view_all_font_weight": "400",
+        "view_all_pos": "right",
+        "view_more_mg_top": 24,
+        "image_behavior": "ambient",
+        "lookbook_style": "1",
+        "enable_lookbook_width": true,
+        "lookbook_width": 295,
+        "dot_desktop_size": 24,
+        "dot_mobile_size": 18,
+        "dot_shadow_color": "#ffffff",
+        "dot_outer_color": "#ffffff",
+        "show_dot_number": true,
+        "show_dot_number_mobile": false,
+        "dot_inner_color": "#000000",
+        "number_desktop_size": 12,
+        "number_mobile_size": 11,
+        "lookbook_truncate": "1",
+        "show_text": "Show Products",
+        "hide_text": "Hide Products",
+        "show_btn_bg_color": "",
+        "show_btn_gradient": "rgba(0,0,0,0.5)",
+        "show_btn_text_color": "#ffffff",
+        "show_btn_height": 30,
+        "show_btn_width": 135,
+        "scroll_height": 4,
+        "scroll_track_bg": "#f1f1f1",
+        "scroll_thumb_color": "#000000",
+        "scroll_thumb_hover_color": "#444444",
+        "mg_top_desktop": 30,
+        "mg_top_tablet": 25,
+        "mg_top_mobile": 20,
+        "mg_bottom_desktop": 75,
+        "mg_bottom_tablet": 60,
+        "mg_bottom_mobile": 10
+      }
+    },
+    "collapsible_content_3VgFWL": {
+      "type": "collapsible-content",
+      "blocks": {
+        "content_m3LmmH": {
+          "type": "content",
+          "settings": {
+            "heading": "Collapsible Row",
+            "content": "<p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.</p>",
+            "page": ""
+          }
+        },
+        "content_gNHT4h": {
+          "type": "content",
+          "settings": {
+            "heading": "Collapsible Row",
+            "content": "<p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.</p><p></p>",
+            "page": ""
+          }
+        },
+        "content_yRjpeG": {
+          "type": "content",
+          "settings": {
+            "heading": "Collapsible Row",
+            "content": "<p>Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras loremos.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "content_m3LmmH",
+        "content_gNHT4h",
+        "content_yRjpeG"
+      ],
+      "disabled": true,
+      "settings": {
+        "id_section": "",
+        "container": "1170",
+        "padding_full_width": 0,
+        "collapsible_bg": "#ffffff",
+        "collapsible_bg_gradient": "",
+        "collapsible_title": "Frequently Asked Questions",
+        "color_title": "#232323",
+        "fontsize_title": 24,
+        "fontsize_title_mb": 16,
+        "collapsible_des": "123123",
+        "color_des": "#3c3c3c",
+        "fontsize_des": 16,
+        "fontsize_des_mb": 12,
+        "max_width_des": 700,
+        "title_align": "center",
+        "enable_image_right": false,
+        "bg_content_color": "#ffffff",
+        "content_color": "#232323",
+        "title_color": "#232323",
+        "icon_color": "#232323",
+        "border_color": "#232323",
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
+    "tw_section_hero_pGXBLD": {
+      "type": "tw-section-hero",
+      "settings": {
+        "main_title": "Contact Us",
+        "main_description": "XVV HAPPY SUNSHY Q INC",
+        "main_image": "shopify://shop_images/34356789igfdssa.jpg",
+        "main_button_text": "support@giftpersonalized.com",
+        "main_button_link": "shopify://pages/about-giftpersonalizer",
+        "secondary_title": "Polymer Clay",
+        "secondary_button_text": "Shop Now",
+        "secondary_image": "shopify://shop_images/d14397031c88422b9fbd81069daf2734_tplv-aphluv4xwc-resize-jpeg_800_800.jpg",
+        "secondary_link": "",
+        "bg_color": "#f7ae67",
+        "margin_top": 24,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "tw_section_collection_kCbGX7": {
+      "type": "tw-section-collection",
+      "blocks": {
+        "category_card_XPHxqx": {
+          "type": "category_card",
+          "settings": {
+            "image": "shopify://shop_images/1.jpg",
+            "title": "Marker Pen",
+            "link": "shopify://products/dual-tip-art-markers-set-1-set-art-markers-set-for-drawingart-supplies-for-books-sketching-card-making-summer-giftsmarkers-coloring"
+          }
+        },
+        "category_card_htzLpk": {
+          "type": "category_card",
+          "settings": {
+            "image": "shopify://shop_images/webp_1_0c06af84-3f41-443e-8677-6a4226fae47e.jpg",
+            "title": "Polymer Clay Tools",
+            "link": "shopify://products/air-drying-ultra-light-tools-suitable-for-gift-giving-tostudents-boys-and-girls-school-craft-making-polymer-clay"
+          }
+        },
+        "category_card_WCQFCb": {
+          "type": "category_card",
+          "settings": {
+            "image": "shopify://shop_images/678635569-_-_7.jpg",
+            "title": "T-Shirt",
+            "link": "shopify://products/personalized-lgbtq-pride-t-shirt-crewneck-short-sleeve-t-shirt-with-text-gift-for-your-loved-one"
+          }
+        },
+        "category_card_pHY4Kg": {
+          "type": "category_card",
+          "settings": {
+            "image": "shopify://shop_images/8143543432b5415ba19eec367ef86a18-goods.jpg",
+            "title": "Local Warehouse",
+            "link": "shopify://products/adjustable-satin-bonnet-and-shower-cap-double-layer-silk-hair-bonnet-for-women-and-men-reversible-night-cap-and-bath-cap-for-home-salon-spa-bathroom-use-ideal-gift-for-birthdays-and-holidays"
+          }
+        },
+        "category_card_E9nHrx": {
+          "type": "category_card",
+          "settings": {
+            "image": "shopify://shop_images/678635569-_-_1_077bb63d-e344-446a-815e-4769679d758e.jpg",
+            "title": "Best-selling gifts",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "category_card_XPHxqx",
+        "category_card_htzLpk",
+        "category_card_WCQFCb",
+        "category_card_pHY4Kg",
+        "category_card_E9nHrx"
+      ],
+      "settings": {
+        "title": "Best Seller",
+        "navigation": true,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "tw_section_scene_tc4TJF": {
+      "type": "tw-section-scene",
+      "blocks": {
+        "gift_card_eaKbm4": {
+          "type": "gift_card",
+          "settings": {
+            "image": "shopify://shop_images/pexels-rdne-7764028_c93e224d-91c4-4c4a-b9db-007c01af8ce4.jpg",
+            "image_alt": "Gifts for Mom Mother's Day Gifts",
+            "title": "Gifts for Mom",
+            "link": "shopify://collections/mothers-day-1"
+          }
+        },
+        "gift_card_8wqk4M": {
+          "type": "gift_card",
+          "settings": {
+            "image": "shopify://shop_images/no-revisions-eSLTfkRdW84-unsplash.jpg",
+            "image_alt": "Happy Birthday Gifts",
+            "title": "Happy Birthday",
+            "link": "shopify://collections/birthday"
+          }
+        },
+        "gift_card_FFYtHU": {
+          "type": "gift_card",
+          "settings": {
+            "image": "shopify://shop_images/682827685-_-_3.jpg",
+            "image_alt": "Anniversary",
+            "title": "Anniversary",
+            "link": "shopify://collections/anniversary"
+          }
+        },
+        "gift_card_d7KfMX": {
+          "type": "gift_card",
+          "settings": {
+            "image": "shopify://shop_images/11.webp",
+            "image_alt": "",
+            "title": "Gifts for Dad",
+            "link": "shopify://collections/fathers-day"
+          }
+        },
+        "gift_card_qtFEfC": {
+          "type": "gift_card",
+          "settings": {
+            "image": "shopify://shop_images/682116310-_-_7.jpg",
+            "image_alt": "Graduation Gifts",
+            "title": "Graduation",
+            "link": "shopify://collections/graduation-gifts"
+          }
+        },
+        "gift_card_knDLFD": {
+          "type": "gift_card",
+          "settings": {
+            "image": "shopify://shop_images/111111111111111111111111111111111111.png",
+            "image_alt": "Wedding",
+            "title": "Wedding",
+            "link": "shopify://products/personalized-canvas-tote-bag-with-name-and-pattern-christmas-birthday-gift-for-women"
+          }
+        }
+      },
+      "block_order": [
+        "gift_card_eaKbm4",
+        "gift_card_8wqk4M",
+        "gift_card_FFYtHU",
+        "gift_card_d7KfMX",
+        "gift_card_qtFEfC",
+        "gift_card_knDLFD"
+      ],
+      "settings": {
+        "title": "Gifts for Every Occasion",
+        "margin_top": 14,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "tw_section_product_sale_RiR6fr": {
+      "type": "tw-section-product-sale",
+      "blocks": {
+        "deal_card_gihcVz": {
+          "type": "deal_card",
+          "settings": {
+            "product": "personalized-kings-need-beer-too-mens-crewneck-short-sleeve-t-shirt-with-text-gift-for-boyfriend-and-father",
+            "title": "",
+            "rating": "4.9",
+            "sale_note": "Biggest sale in 60+ days",
+            "link": "shopify://products/personalized-kings-need-beer-too-mens-crewneck-short-sleeve-t-shirt-with-text-gift-for-boyfriend-and-father"
+          }
+        },
+        "deal_card_aJjiiq": {
+          "type": "deal_card",
+          "settings": {
+            "product": "10pcs-20pcs-30pcs-golden-sequin-latex-balloons-12-inches-perfect-for-graduation-wedding-birthday-and-party-decorations",
+            "title": "",
+            "rating": "4.9",
+            "sale_note": "Biggest sale in 60+ days",
+            "link": "shopify://products/1-piece-clear-sounding-christmas-clock-ornament-stainless-steel-christmas-decoration-clock-christmas-angel-wing-bell-pendant-christmas-tree-small-bell-with-ribbon-perfect-for-christmas-tree-decoration-and-outdoor-hanging-铃铛"
+          }
+        },
+        "deal_card_nFbPtC": {
+          "type": "deal_card",
+          "settings": {
+            "product": "12pcs-3d-butterfly-wall-decor-stickers-with-magnets-removable-reusable-for-party-room-home-office-theme-and-christmas-decor",
+            "title": "",
+            "rating": "4.9",
+            "sale_note": "Biggest sale in 60+ days",
+            "link": ""
+          }
+        },
+        "deal_card_EK9Gr7": {
+          "type": "deal_card",
+          "settings": {
+            "product": "100pcs-colorful-love-heart-sponge-petals-ideal-for-wedding-and-party-decorations-diy-crafts-table-scatters-in-red-pink-blue-and-more",
+            "title": "",
+            "rating": "4.9",
+            "sale_note": "Biggest sale in 60+ days",
+            "link": ""
+          }
+        },
+        "deal_card_LLaTcK": {
+          "type": "deal_card",
+          "settings": {
+            "product": "1-pair-of-simple-exquisite-designs-with-artificial-glass-inlay-for-womens-daily-leisure-earrings",
+            "title": "",
+            "rating": "4.9",
+            "sale_note": "Biggest sale in 60+ days",
+            "link": ""
+          }
+        },
+        "deal_card_htbN9Q": {
+          "type": "deal_card",
+          "settings": {
+            "product": "10-inch-light-pink-latex-balloons-50pcs-party-decorations-with-pink-ribbon-christmas-thanksgiving-birthday-graduation-bridal-gender-reveal-pink-princess-easter-gift-winter-new-year",
+            "title": "",
+            "rating": "4.9",
+            "sale_note": "Biggest sale in 60+ days",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "deal_card_gihcVz",
+        "deal_card_aJjiiq",
+        "deal_card_nFbPtC",
+        "deal_card_EK9Gr7",
+        "deal_card_LLaTcK",
+        "deal_card_htbN9Q"
+      ],
+      "settings": {
+        "title": "Today's Big Deals",
+        "discount_color": "#a0e193",
+        "discount_size_color": "#222222",
+        "sale_color": "#0f743b",
+        "margin_top": 24,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "tw_section_new_erqHt8": {
+      "type": "tw-section-new",
+      "blocks": {
+        "product_card_BFCiwr": {
+          "type": "product_card",
+          "settings": {
+            "product": "personalized-kings-need-beer-too-mens-crewneck-short-sleeve-t-shirt-with-text-gift-for-boyfriend-and-father"
+          }
+        },
+        "product_card_RceAka": {
+          "type": "product_card",
+          "settings": {
+            "product": "personalized-mens-cotton-crewneck-short-sleeve-t-shirt-with-double-sided-pattern-design-gift-for-boyfriend-and-father-复制"
+          }
+        },
+        "product_card_y6jcgb": {
+          "type": "product_card",
+          "settings": {
+            "product": "vintage-washed-cotton-crew-neck-t-shirt-relaxed-fit-gift-for-boyfriend"
+          }
+        },
+        "product_card_X7HmVF": {
+          "type": "product_card",
+          "settings": {
+            "product": "personalized-beer-happy-with-text-womens-plus-size-cotton-short-sleeved-t-shirt-gift-for-her"
+          }
+        },
+        "product_card_JN7fBX": {
+          "type": "product_card",
+          "settings": {
+            "product": "personalized-vintage-washed-t-shirt-with-text-and-photo-funny-birthday-gift"
+          }
+        },
+        "product_card_UyDKFf": {
+          "type": "product_card",
+          "settings": {
+            "product": "personalized-lgbtq-pride-t-shirt-crewneck-short-sleeve-t-shirt-with-text-gift-for-your-loved-one"
+          }
+        }
+      },
+      "block_order": [
+        "product_card_BFCiwr",
+        "product_card_RceAka",
+        "product_card_y6jcgb",
+        "product_card_X7HmVF",
+        "product_card_JN7fBX",
+        "product_card_UyDKFf"
+      ],
+      "settings": {
+        "subtitle": "",
+        "title": "Your Wardrobe' s Next Obsession Has Arrived.",
+        "description": "Stock flies faster than a “Add to Cart” click.",
+        "button_text": "Shop the Drop",
+        "button_link": "shopify://products/1-pair-elegant-heart-shaped-stud-earrings-18k-gold-plated-stainless-steel-ideal-valentines-day-gift-for-her-cute-earrings",
+        "margin_top": 24,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "tw_section_gift_XbqQxi": {
+      "type": "tw-section-gift",
+      "blocks": {
+        "occasion_card_LckG7X": {
+          "type": "occasion_card",
+          "settings": {
+            "title": "Mother's Day",
+            "date": "May 11",
+            "bg_color": "#fdd95c",
+            "badge_color": "#ccebff",
+            "image": "shopify://shop_images/pexels-rdne-7764089_1_1.jpg",
+            "link": "shopify://collections/mothers-day-1"
+          }
+        },
+        "occasion_card_cK4xKB": {
+          "type": "occasion_card",
+          "settings": {
+            "title": "Birthday",
+            "date": "2025",
+            "bg_color": "#b15521",
+            "badge_color": "#ccebff",
+            "image": "shopify://shop_images/pexels-cottonbro-4114731.jpg",
+            "link": "shopify://collections/birthday"
+          }
+        },
+        "occasion_card_XVBznc": {
+          "type": "occasion_card",
+          "settings": {
+            "title": "Father's Day",
+            "date": "Jun 15",
+            "bg_color": "#fdd95c",
+            "badge_color": "#ccebff",
+            "image": "shopify://shop_images/tim-mossholder-m-ylhkTHv6Q-unsplash.jpg",
+            "link": "shopify://collections/fathers-day"
+          }
+        },
+        "occasion_card_NRUPXU": {
+          "type": "occasion_card",
+          "settings": {
+            "title": "Back to School",
+            "date": "2025",
+            "bg_color": "#fdd95c",
+            "badge_color": "#ccebff",
+            "image": "shopify://shop_images/627370920125686400___3.jpg",
+            "link": "shopify://collections/back-to-school"
+          }
+        },
+        "occasion_card_3GbRPA": {
+          "type": "occasion_card",
+          "settings": {
+            "title": "Beach Days",
+            "date": "Summer",
+            "bg_color": "#2dbf4b",
+            "badge_color": "#ccebff",
+            "image": "shopify://shop_images/pexels-rpnickson-2647973_3d5acf13-7801-4c5f-8af0-45eab200c5e4.jpg",
+            "link": "shopify://collections/beach-days"
+          }
+        }
+      },
+      "block_order": [
+        "occasion_card_LckG7X",
+        "occasion_card_cK4xKB",
+        "occasion_card_XVBznc",
+        "occasion_card_NRUPXU",
+        "occasion_card_3GbRPA"
+      ],
+      "settings": {
+        "title": "Match Gifts To Moments",
+        "margin_top": 24,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "tw_section_blog_CRRV4T": {
+      "type": "tw-section-blog",
+      "blocks": {
+        "card_HfA3pK": {
+          "type": "card",
+          "settings": {
+            "badge": "Shopping Guides",
+            "article": "news-1/4-unique-ideas-for-a-personalized-celebration"
+          }
+        },
+        "card_NjMAzw": {
+          "type": "card",
+          "settings": {
+            "badge": "Shopping Guides",
+            "article": "新闻/8-ways-to-dial-up-the-fun-for-a-joyful-birthday-bash"
+          }
+        },
+        "card_Y9476t": {
+          "type": "card",
+          "settings": {
+            "badge": "Shopping Guides",
+            "article": "新闻/8-ways-to-dial-up-the-fun-for-a-joyful-birthday-bash"
+          }
+        }
+      },
+      "block_order": [
+        "card_HfA3pK",
+        "card_NjMAzw",
+        "card_Y9476t"
+      ],
+      "settings": {
+        "title": "Fresh from the blog",
+        "margin_top": 24,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "image_banner_x3yecT",
+    "brand_slider_X8YgT3",
+    "product_block_NdkbBd",
+    "product_block_pyxWt3",
+    "brand_slider_g3B9D4",
+    "16393870238958f868",
+    "lookbook_with_collection_MKMYbR",
+    "collapsible_content_3VgFWL",
+    "tw_section_hero_pGXBLD",
+    "tw_section_collection_kCbGX7",
+    "tw_section_scene_tc4TJF",
+    "tw_section_product_sale_RiR6fr",
+    "tw_section_new_erqHt8",
+    "tw_section_gift_XbqQxi",
+    "tw_section_blog_CRRV4T"
+  ]
+}
