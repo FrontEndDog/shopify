@@ -1221,15 +1221,15 @@
     "tw_section_hero_pGXBLD": {
       "type": "tw-section-hero",
       "settings": {
-        "main_title": "Contact Us",
-        "main_description": "XVV HAPPY SUNSHY Q INC",
-        "main_image": "shopify://shop_images/34356789igfdssa.jpg",
-        "main_button_text": "support@giftpersonalized.com",
-        "main_button_link": "shopify://pages/about-giftpersonalizer",
-        "secondary_title": "Polymer Clay",
+        "main_title": "This Mother's Day",
+        "main_description": "Gift Her What Words Can't Say",
+        "main_image": "shopify://shop_images/ed5cb826d8e8739c768f6080bc88f97a.jpg",
+        "main_button_text": "Claim Mom's Smile",
+        "main_button_link": "shopify://collections/mothers-day",
+        "secondary_title": "2 Custom Tees $9.99",
         "secondary_button_text": "Shop Now",
-        "secondary_image": "shopify://shop_images/d14397031c88422b9fbd81069daf2734_tplv-aphluv4xwc-resize-jpeg_800_800.jpg",
-        "secondary_link": "",
+        "secondary_image": "shopify://shop_images/677544103-_-_7_32d9cfa0-1637-4fd4-b642-87d43a918084.jpg",
+        "secondary_link": "shopify://collections/9-99-for-2-tees",
         "bg_color": "#f7ae67",
         "margin_top": 24,
         "margin_bottom": 0,
@@ -1243,33 +1243,33 @@
         "category_card_XPHxqx": {
           "type": "category_card",
           "settings": {
-            "image": "shopify://shop_images/1.jpg",
-            "title": "Marker Pen",
-            "link": "shopify://products/dual-tip-art-markers-set-1-set-art-markers-set-for-drawingart-supplies-for-books-sketching-card-making-summer-giftsmarkers-coloring"
+            "image": "shopify://shop_images/2_bb5a34bf-7483-4f75-a231-93edb509a9c4.png",
+            "title": "90s Black Movies",
+            "link": "shopify://collections/90s-black-movies"
           }
         },
         "category_card_htzLpk": {
           "type": "category_card",
           "settings": {
-            "image": "shopify://shop_images/webp_1_0c06af84-3f41-443e-8677-6a4226fae47e.jpg",
-            "title": "Polymer Clay Tools",
-            "link": "shopify://products/air-drying-ultra-light-tools-suitable-for-gift-giving-tostudents-boys-and-girls-school-craft-making-polymer-clay"
+            "image": "shopify://shop_images/0_1df5c71f-d400-4779-95c0-9fd5ab2f6d18.jpg",
+            "title": "American Thriller T-Shirt",
+            "link": "shopify://collections/american-thriller"
           }
         },
         "category_card_WCQFCb": {
           "type": "category_card",
           "settings": {
-            "image": "shopify://shop_images/678635569-_-_7.jpg",
-            "title": "T-Shirt",
-            "link": "shopify://products/personalized-lgbtq-pride-t-shirt-crewneck-short-sleeve-t-shirt-with-text-gift-for-your-loved-one"
+            "image": "shopify://shop_images/1_af7e0b65-4761-43bd-8ed9-b344c315888b.jpg",
+            "title": "Vintage Washed T-Shirt",
+            "link": "shopify://collections/animal-and-plant-series"
           }
         },
         "category_card_pHY4Kg": {
           "type": "category_card",
           "settings": {
-            "image": "shopify://shop_images/8143543432b5415ba19eec367ef86a18-goods.jpg",
+            "image": "shopify://shop_images/678638238-_-_7.jpg",
             "title": "Local Warehouse",
-            "link": "shopify://products/adjustable-satin-bonnet-and-shower-cap-double-layer-silk-hair-bonnet-for-women-and-men-reversible-night-cap-and-bath-cap-for-home-salon-spa-bathroom-use-ideal-gift-for-birthdays-and-holidays"
+            "link": "shopify://collections/local-warehouse"
           }
         },
         "category_card_E9nHrx": {
@@ -1306,7 +1306,7 @@
             "image": "shopify://shop_images/pexels-rdne-7764028_c93e224d-91c4-4c4a-b9db-007c01af8ce4.jpg",
             "image_alt": "Gifts for Mom Mother's Day Gifts",
             "title": "Gifts for Mom",
-            "link": "shopify://collections/mothers-day-1"
+            "link": "shopify://collections/mothers-day"
           }
         },
         "gift_card_8wqk4M": {
@@ -1387,27 +1387,27 @@
         "deal_card_aJjiiq": {
           "type": "deal_card",
           "settings": {
-            "product": "10pcs-20pcs-30pcs-golden-sequin-latex-balloons-12-inches-perfect-for-graduation-wedding-birthday-and-party-decorations",
+            "product": "单层仿麻化妆包",
             "title": "",
             "rating": "4.9",
-            "sale_note": "Biggest sale in 60+ days",
+            "sale_note": "Biggest sale in 45+ days",
             "link": "shopify://products/1-piece-clear-sounding-christmas-clock-ornament-stainless-steel-christmas-decoration-clock-christmas-angel-wing-bell-pendant-christmas-tree-small-bell-with-ribbon-perfect-for-christmas-tree-decoration-and-outdoor-hanging-铃铛"
           }
         },
         "deal_card_nFbPtC": {
           "type": "deal_card",
           "settings": {
-            "product": "12pcs-3d-butterfly-wall-decor-stickers-with-magnets-removable-reusable-for-party-room-home-office-theme-and-christmas-decor",
+            "product": "personalized-monogrammed-initial-golf-ball-stamp-with-metal-storage-box-birthday-fathers-day-gift-for-golf-player",
             "title": "",
             "rating": "4.9",
-            "sale_note": "Biggest sale in 60+ days",
+            "sale_note": "Biggest sale in 30+ days",
             "link": ""
           }
         },
         "deal_card_EK9Gr7": {
           "type": "deal_card",
           "settings": {
-            "product": "100pcs-colorful-love-heart-sponge-petals-ideal-for-wedding-and-party-decorations-diy-crafts-table-scatters-in-red-pink-blue-and-more",
+            "product": "帆布拼接礼品手提袋-烫画",
             "title": "",
             "rating": "4.9",
             "sale_note": "Biggest sale in 60+ days",
@@ -1417,7 +1417,7 @@
         "deal_card_LLaTcK": {
           "type": "deal_card",
           "settings": {
-            "product": "1-pair-of-simple-exquisite-designs-with-artificial-glass-inlay-for-womens-daily-leisure-earrings",
+            "product": "personalized-mens-cotton-crewneck-short-sleeve-t-shirt-with-double-sided-pattern-design-gift-for-boyfriend-and-father-复制",
             "title": "",
             "rating": "4.9",
             "sale_note": "Biggest sale in 60+ days",
@@ -1427,7 +1427,7 @@
         "deal_card_htbN9Q": {
           "type": "deal_card",
           "settings": {
-            "product": "10-inch-light-pink-latex-balloons-50pcs-party-decorations-with-pink-ribbon-christmas-thanksgiving-birthday-graduation-bridal-gender-reveal-pink-princess-easter-gift-winter-new-year",
+            "product": "爱心亚克力灯",
             "title": "",
             "rating": "4.9",
             "sale_note": "Biggest sale in 60+ days",
@@ -1460,7 +1460,7 @@
         "product_card_BFCiwr": {
           "type": "product_card",
           "settings": {
-            "product": "personalized-kings-need-beer-too-mens-crewneck-short-sleeve-t-shirt-with-text-gift-for-boyfriend-and-father"
+            "product": "black-widow-crew-neck-short-sleeve-t-shirt-soft-breathable"
           }
         },
         "product_card_RceAka": {
@@ -1525,7 +1525,7 @@
             "bg_color": "#fdd95c",
             "badge_color": "#ccebff",
             "image": "shopify://shop_images/pexels-rdne-7764089_1_1.jpg",
-            "link": "shopify://collections/mothers-day-1"
+            "link": "shopify://collections/mothers-day"
           }
         },
         "occasion_card_cK4xKB": {
@@ -1602,14 +1602,14 @@
           "type": "card",
           "settings": {
             "badge": "Shopping Guides",
-            "article": "新闻/8-ways-to-dial-up-the-fun-for-a-joyful-birthday-bash"
+            "article": "news/why-custom-t-shirts-are-the-perfect-gift-personalization-meets-practicality"
           }
         },
         "card_Y9476t": {
           "type": "card",
           "settings": {
             "badge": "Shopping Guides",
-            "article": "新闻/8-ways-to-dial-up-the-fun-for-a-joyful-birthday-bash"
+            "article": "news/unbeatable-deals-2-custom-t-shirts-for-9-99-or-6-plain-tees-for-23"
           }
         }
       },
