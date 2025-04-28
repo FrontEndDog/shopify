@@ -525,10 +525,20 @@
       <div class="productView-top">
         <div class="swiper-20250428">
           <div class="swiper-wrapper">
-            {% for image in product.images %}
-              <div class="swiper-slide">
-                {{ image | image_url: width: 400 | image_tag: class: 'swiper-slide-image' }}
-              </div>
+            {% for media in product.media %}
+              {%- case media.media_type -%}
+                {%- when 'image' -%}
+                  <div class="swiper-slide">
+                    {{ media | image_url: width: 400 | image_tag: class: 'swiper-slide-image' }}
+                  </div>
+                {%- when 'video' -%}
+                  <div class="swiper-slide">
+                    {{
+                      media
+                      | video_tag: controls: false, class: 'swiper-slide-image', loop: true, autoplay: true, muted: true
+                    }}
+                  </div>
+              {%- endcase -%}
             {% endfor %}
           </div>
           <div class="swiper-button-prev"></div>
@@ -1852,7 +1862,7 @@
     border-radius: 8px;
     width: 60px;
     height: 40px;
-    line-height: 40px;
+    line-height: 38px;
     text-align: center;
     border: 1px solid #dbdbdb;
     font-weight: 700;
