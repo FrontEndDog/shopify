@@ -1107,7 +1107,8 @@
                     style="
                       --spacing-top: {{ spacing_top | append: 'px' }};
                       --spacing-bottom: {{ spacing_bottom | append: 'px' }};
-                      --fontsize-text: {{ fontsize_text | append: 'px' }}
+                      --fontsize-text: {{ fontsize_text | append: 'px' }};
+                      display: noe;
                     "
                   >
                     {% if has_product_combo %}
@@ -1140,6 +1141,27 @@
                       {%- endif -%}
                     {% endif %}
                   </div>
+                  <div class="price-20250428">
+                    {% if product.compare_at_price > product.price %}
+                      <div class="compare-at-price">{{ product.compare_at_price | money }}</div>
+                    {% endif %}
+
+                    <div class="current-price">{{ product.price | money }}</div>
+                    {% if product.compare_at_price > product.price %}
+                      <div class="save">
+                        Save
+                        {{-
+                          product.compare_at_price
+                          | minus: product.price
+                          | times: 100.0
+                          | divided_by: product.compare_at_price
+                          | round
+                        -}}
+                        %
+                      </div>
+                    {% endif %}
+                  </div>
+
                 {%- when 'countdown' -%}
                   {%- liquid
                     assign show_countdown = settings.show_countdown
@@ -1889,6 +1911,15 @@
     line-height: 40px;
   }
 
+  .productView-action .product-form__submit:hover {
+    opacity: 0.9;
+  }
+  @media (max-width: 550px) {
+    .productView-action .button {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+    }
+  }
   .swiper-20250428 {
     width: 800px;
     height: 500px;
@@ -1937,5 +1968,32 @@
   .swiper-20250428 .swiper-button-next:after {
     font-size: 13px;
     color: #000;
+  }
+
+  .price-20250428 {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    padding-bottom: 17px;
+  }
+  .price-20250428 .compare-at-price {
+    text-decoration: line-through;
+    color: #667085;
+    margin-right: 10px;
+  }
+  .price-20250428 .current-price {
+    color: #0c0a09;
+  }
+  .price-20250428 .save {
+    background-color: #971b1b;
+    font-size: 12px;
+    color: #fefefe;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-weight: 500;
   }
 </style>
