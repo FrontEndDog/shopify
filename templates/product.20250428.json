@@ -99,6 +99,7 @@
         },
         "faa2b3e6-c0a1-4269-baa6-d2605efe4c05": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
             "qty_style": "2",
             "qty_layout": "2",
@@ -452,9 +453,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "product-recommendations",
-    "product-recently-viewed"
-  ]
+  "order": ["main", "product-recommendations", "product-recently-viewed"]
 }

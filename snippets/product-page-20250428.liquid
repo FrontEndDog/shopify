@@ -1108,7 +1108,6 @@
                       --spacing-top: {{ spacing_top | append: 'px' }};
                       --spacing-bottom: {{ spacing_bottom | append: 'px' }};
                       --fontsize-text: {{ fontsize_text | append: 'px' }};
-                      display: none;
                     "
                   >
                     {% if has_product_combo %}
@@ -1141,7 +1140,8 @@
                       {%- endif -%}
                     {% endif %}
                   </div>
-                  <div class="price-20250428">
+
+                  <div class="price-20250428" style="display: none;">
                     {% if product.compare_at_price > product.price %}
                       <div class="compare-at-price">{{ product.compare_at_price | money }}</div>
                     {% endif %}
@@ -1202,7 +1202,7 @@
                         {% render 'combined-products-listing', product: product %}
                       {%- endif -%}
 
-                      {% render 'product-variant',
+                      {% render 'product-variant-20250428',
                         block: block,
                         product: product,
                         variantCount: variant_count,
@@ -1879,23 +1879,45 @@
       max-width: 1380px;
     }
   }
-
+  .product-form__swatch .product-form__label {
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+  }
   .product-form__label .text {
     border-radius: 8px;
-    width: 60px;
     height: 40px;
     line-height: 38px;
     text-align: center;
     border: 1px solid #dbdbdb;
     font-weight: 700;
     font-size: 14px;
+    padding: 0 14px;
   }
-
   .product-form__radio:checked + .product-form__label .text {
     background: #1a1a1a;
     border: 1px solid #1a1a1a;
     color: #fff;
   }
+
+  .product-form__swatch .product-form__label:has(.pattern) {
+    border: none;
+    padding: 0;
+  }
+
+  .product-form__label .pattern {
+    width: 60px;
+    height: 80px;
+    border-radius: 8px;
+  }
+  .product-form__radio:checked + .product-form__label .pattern {
+    background: #1a1a1a;
+    border: 2px solid #971b1b;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+  }
+
   .quantity__group--1 .quantity__input {
     min-height: 40px;
     padding-top: 5px;
