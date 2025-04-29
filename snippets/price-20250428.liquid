@@ -87,10 +87,13 @@
         {%- assign saved_price = compare_at_price | minus: price | money -%}
         <div class="price__saved">
           <span class="price-item price-item--saved">
-            {{- 'products.product.price.saved_price_html' | t: price: saved_price -}}
+            save {{ compare_at_price | minus: price | times: 100.0 | divided_by: compare_at_price | round -}}
+            %
           </span>
         </div>
       {%- endif -%}
+
+      <div class="price__local">Local Warehouse</div>
 
       {%- if settings.show_price_percent -%}
         <dd class="price__label_sale price__label_percent">
