@@ -1131,7 +1131,11 @@
                       </div>
                     {% else %}
                       <div class="productView-price no-js-hidden clearfix" id="product-price-{{ product.id }}">
-                        {%- render 'price', product: product, use_variant: true, price_class: 'price--medium' -%}
+                        {%- render 'price-20250428',
+                          product: product,
+                          use_variant: true,
+                          price_class: 'price--medium'
+                        -%}
                       </div>
                       {%- if product.quantity_price_breaks_configured? -%}
                         <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
@@ -1886,13 +1890,13 @@
   }
   .product-form__label .text {
     border-radius: 8px;
-    height: 40px;
-    line-height: 38px;
+    line-height: 14px;
     text-align: center;
     border: 1px solid #dbdbdb;
-    font-weight: 700;
-    font-size: 14px;
-    padding: 0 14px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 8px 14px;
+    height: unset;
   }
   .product-form__radio:checked + .product-form__label .text {
     background: #1a1a1a;
@@ -1990,6 +1994,33 @@
   .swiper-20250428 .swiper-button-next:after {
     font-size: 13px;
     color: #000;
+  }
+
+  .price__compare .price-item {
+    font-size: 15px !important;
+    text-decoration: line-through;
+    color: #667085;
+    font-weight: 400;
+  }
+  .price__last .price-item {
+    color: #0c0a09;
+    font-weight: 400;
+    font-size: 15px !important;
+  }
+  .productView-price .price__saved {
+    background-color: #971b1b;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+  }
+  .productView-price .price.price--medium .price-item--saved {
+    font-size: 12px;
+    color: #fefefe;
+    font-weight: 500;
   }
 
   .price-20250428 {
