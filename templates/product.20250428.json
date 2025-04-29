@@ -345,6 +345,9 @@
         "mg_bottom_mobile": 0
       }
     },
+    "describe": {
+      "type": "describe-20250428"
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -453,9 +456,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "product-recommendations",
-    "product-recently-viewed"
-  ]
+  "order": ["main", "describe", "product-recommendations", "product-recently-viewed"]
 }
