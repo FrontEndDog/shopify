@@ -35,7 +35,6 @@
               assign option_index = forloop.index0
             -%}
             <fieldset
-              1
               class="js product-form__input{% if is_swatch %} product-form__swatch{% endif %} clearfix"
               data-product-attribute="set-rectangle"
               data-option-index="{{ forloop.index0 }}"
@@ -124,7 +123,24 @@
                             endif
                           elsif variant.image
                             assign enable_variant_image = true
-                            assign background_image = variant.image.src | product_img_url: '130x'
+                            assign num = 0
+                            for variant2 in product.variants
+                              assign flag = true
+                              for option2 in variant2.options
+                                if option2.selected != true and forloop.index0 != option_index
+                                  assign flag = false
+                                endif
+                              endfor
+                              if flag == true
+                                assign num = num | plus: 1
+
+                                for option2 in variant2.options
+                                  if option2 == value
+                                    assign background_image = variant2.image.src | product_img_url: '130x'
+                                  endif
+                                endfor
+                              endif
+                            endfor
                           endif
                       endcase
                     -%}
