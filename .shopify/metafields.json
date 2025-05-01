@@ -310,6 +310,16 @@
         "name": "list.metaobject_reference",
         "category": "REFERENCE"
       }
+    },
+    {
+      "key": "ys",
+      "namespace": "custom",
+      "name": "ys",
+      "description": "",
+      "type": {
+        "name": "list.color",
+        "category": "COLOR"
+      }
     }
   ],
   "variant": [

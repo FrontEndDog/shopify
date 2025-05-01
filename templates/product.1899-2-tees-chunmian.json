@@ -37,7 +37,7 @@
             "spacing_bottom": 10
           }
         },
-        "custom_label_demH46": {
+        "custom_label_TYnmJn": {
           "type": "custom_label",
           "settings": {
             "icon": "",
@@ -47,14 +47,14 @@
             "color_bg": "#ffffff"
           }
         },
-        "custom_label_HLUwmb": {
+        "custom_label_crfD8Y": {
           "type": "custom_label",
           "settings": {
             "icon": "",
             "color_icon": "#e95144",
-            "text": "Any 2 Tees $9.99 — Auto-Applied in Cart",
+            "text": "Any 2 Tees $18.99 — Auto-Applied in Cart",
             "color_title": "#e95144",
-            "color_bg": "#fdfafa"
+            "color_bg": "#ffffff"
           }
         },
         "4f95b592-8369-4ab0-b30d-24e463fb6890": {
@@ -65,6 +65,16 @@
             "spacing_bottom": 17
           }
         },
+        "custom_label_r7N8pF": {
+          "type": "custom_label",
+          "settings": {
+            "icon": "",
+            "color_icon": "#232323",
+            "text": "Color reference images updating — coming soon!",
+            "color_title": "#232323",
+            "color_bg": "#ffffff"
+          }
+        },
         "d98e243b-3682-495a-965a-1c7f7d460880": {
           "type": "variant_picker",
           "settings": {
@@ -72,23 +82,24 @@
             "show_variant_image_group": false,
             "enable_border_top": false,
             "enable_border_bottom": false,
-            "color_border": "#ff8b21",
+            "color_border": "",
             "spacing_top": 0,
-            "spacing_bottom": 0
+            "spacing_bottom": 15
           }
         },
         "d97e417a-941b-4a5d-bef3-a651adb918d8": {
           "type": "variant_description",
+          "repeater": "{{ product.metafields.shopify[\"color-pattern\"].value }}",
           "settings": {
             "spacing_top": 0,
-            "spacing_bottom": 12
+            "spacing_bottom": 13
           }
         },
         "faa2b3e6-c0a1-4269-baa6-d2605efe4c05": {
           "type": "quantity_selector",
           "settings": {
-            "qty_style": "1",
-            "qty_layout": "1",
+            "qty_style": "2",
+            "qty_layout": "2",
             "spacing_top": 0,
             "spacing_bottom": 15
           }
@@ -113,7 +124,7 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false,
-            "atc_animation": "none",
+            "atc_animation": "tilt-shaking",
             "atc_color": "#f8f8f8",
             "atc_border_color": "#232323",
             "atc_bg_color": "#ff736b",
@@ -180,25 +191,11 @@
         },
         "b9d6eb19-10f4-41f8-bfdc-ea10e8b3182a": {
           "type": "custom",
-          "disabled": true,
-          "settings": {
-            "open_tab_mobile": true,
-            "title": "自定义标签",
-            "type": "all",
-            "content": "<table>\n    <tbody>\n        <tr>\n            <td class=\"tb-title\">Drostique</td>\n            <td>Nam tempus turpis at metus scelerisque placerat nulla deumantos</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Pharetro Lorem</td>\n            <td>Pellentesque diam dolor elementum etos lobortis des mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Milancelos</td>\n            <td>Donec pretium egestas sapien et mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Pellentesque</td>\n            <td>Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Proin Molestie</td>\n            <td>Pellentesque diam dolor elementum etos lobortis des mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Cosmopolis</td>\n            <td>Donec pretium egestas sapien et mollis</td>\n        </tr>\n    </tbody>\n</table>",
-            "product_custom_source": "dynamic",
-            "product_tab_key_metafield": "",
-            "enable_btn_show_more": false,
-            "maximum_des_to_show": 300
-          }
-        },
-        "custom_T7wJfd": {
-          "type": "custom",
           "settings": {
             "open_tab_mobile": false,
             "title": "Size Chart",
             "type": "all",
-            "content": "<img src=\"https://cdn.shopify.com/s/files/1/0688/3996/4812/files/aa97d1ff685e7a9e7c7df53fd47d49fb_237805e0-1480-4c7f-b54a-64854b1884d9.jpg?v=1746012780\">",
+            "content": "<img src=\"https://cdn.shopify.com/s/files/1/0688/3996/4812/files/T_1d316b69-0ab2-49ac-bf5b-72960570ba77.jpg?v=1746012638\">",
             "product_custom_source": "dynamic",
             "product_tab_key_metafield": "",
             "enable_btn_show_more": false,
@@ -207,6 +204,7 @@
         },
         "19ab1d9f-74b2-4c76-bf2e-1bc749e5c2a3": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "show_share": true,
             "share_layout": "1",
@@ -233,9 +231,10 @@
       "block_order": [
         "2e8c7c14-a0ad-4930-a1d8-3def05310426",
         "b0ea69b7-8a54-4a3c-9abd-0fcceeabaaa0",
-        "custom_label_demH46",
-        "custom_label_HLUwmb",
+        "custom_label_TYnmJn",
+        "custom_label_crfD8Y",
         "4f95b592-8369-4ab0-b30d-24e463fb6890",
+        "custom_label_r7N8pF",
         "d98e243b-3682-495a-965a-1c7f7d460880",
         "d97e417a-941b-4a5d-bef3-a651adb918d8",
         "faa2b3e6-c0a1-4269-baa6-d2605efe4c05",
@@ -246,11 +245,16 @@
         "87197f5f-be0e-4b89-9270-62bf6917ebe7",
         "3d9ea84d-5527-4bce-abe6-5debef3ec955",
         "b9d6eb19-10f4-41f8-bfdc-ea10e8b3182a",
-        "custom_T7wJfd",
         "19ab1d9f-74b2-4c76-bf2e-1bc749e5c2a3",
         "9630b233-8164-4dad-ab64-8830bedf328a"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".productView-tab .tabs-contents-horizontal .tab-content {border-top: none;}",
+        ".toggle-title {background-color: #f6f6f6; border-radius: 10px;}",
+        ".toggleLink {margin: 10px;}",
+        ".price-item--sale {font-size: 25px;}",
+        ".shopify-payment-button__more-options {display: none;}"
+      ],
       "settings": {
         "container": "default",
         "padding_full_width": 0,
@@ -265,13 +269,13 @@
         "icon_color": "#000000",
         "main_image_position": "left",
         "main_image_layout": "1",
-        "main_image_arrows_desktop": true,
+        "main_image_arrows_desktop": false,
         "main_image_arrows_mobile": true,
         "main_image_counter_mobile": false,
-        "main_image_enable_parallax_mb": false,
+        "main_image_enable_parallax_mb": true,
         "main_image_show_zoom_icon_mb": true,
         "show_thumbnail_mobile": true,
-        "thumnail_layout": "1",
+        "thumnail_layout": "3",
         "thumbnail_to_show": 6,
         "enable_sticky": false,
         "sidebar_layout": "layout_1",
@@ -284,10 +288,10 @@
         "sidebar_heading_text_transform": "uppercase",
         "show_badge": true,
         "show_subtotal": true,
-        "subtotal_style": "1",
+        "subtotal_style": "2",
         "show_sticky_add_to_cart": true,
         "sticky_atc_layout": "1",
-        "enable_sticky_add_to_cart_always_mobile": true,
+        "enable_sticky_add_to_cart_always_mobile": false,
         "show_sticky_vendor": false,
         "show_quick_order_list": false,
         "show_image": false,

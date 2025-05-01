@@ -1,0 +1,27 @@
+{%- liquid 
+    assign icon = block.settings.icon
+    assign text = block.settings.text
+    assign color_title = block.settings.color_title
+    assign color_bg = block.settings.color_bg
+-%}
+<div class="lableCase" style="border: 1px solid {{color_title}};background-color: {{color_bg}};color:{{color_title}}">
+      {{ icon }}
+      <span style="margin-left:5px">{{ text }}</span>
+    </div>
+<style>
+   .lableCase {
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding: 2px 5px;
+      font-size: 11px;
+     font-weight: bold;
+      border-radius: 5px;
+    }
+  .lableCase svg {
+    color:{{color_bg}}
+    width: 14px;
+    height: 14px;
+}
+</style>

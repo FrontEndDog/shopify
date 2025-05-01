@@ -8,10 +8,10 @@
     assign fontsize_text = block.settings.fontsize_text
     assign content_popup = block.settings.content_popup
 -%}
-<div class="product-customInformation text-left{%if content_popup == blank %} disabled{% endif %}" data-custom-information>
+<div class="product-customInformation text-left{%if content_popup == blank %} disabled{% endif %} " data-custom-information style="background-color: {{ color_des }};">
     {%- if icon != blank -%}
         <div class="product-customInformation__icon"
-            style="--color-icon: {{ color_icon }}"
+            style="--color-icon: {{ color_icon }};--size-icon:10px"
         >
             {{ icon }}
         </div>
@@ -21,7 +21,7 @@
             {%- if text != blank -%}
                 <div class="product__text title" {{ block.shopify_attributes }} 
                     style="--fontsize-text:{{ fontsize_text | append: 'px' }};
-                    --color-title: {{ color_title }}"
+                    --color-title: {{ color_title }};"
                 >
                     <h2 class="title">{{ text }}</h2>
                     {%- if content_popup != blank -%}
@@ -45,3 +45,13 @@
         </div>
     {%- endif -%}
 </div>
+
+<style>
+  .product-customInformation{
+    width:auto
+  }
+  .product-customInformation__icon svg {
+    width: 14px;
+    height: 14px;
+}
+</style>
